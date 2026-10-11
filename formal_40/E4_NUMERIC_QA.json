@@ -1,0 +1,46 @@
+{
+  "finite": true,
+  "independent_method": "float64 explicit einsum",
+  "results": {
+    "inner_product": {
+      "exact_parent100_agreement": 38,
+      "exact_parent10_agreement": 40,
+      "mean_ndcg10": 0.3561317206844131,
+      "differences": [
+        {
+          "topic": "F006",
+          "first_changed_rank": 58,
+          "ndcg10_delta": 0.0
+        },
+        {
+          "topic": "F023",
+          "first_changed_rank": 70,
+          "ndcg10_delta": 0.0
+        }
+      ]
+    },
+    "cosine": {
+      "exact_parent100_agreement": 37,
+      "exact_parent10_agreement": 40,
+      "mean_ndcg10": 0.23756081507062662,
+      "differences": [
+        {
+          "topic": "F001",
+          "first_changed_rank": 56,
+          "ndcg10_delta": 0.0
+        },
+        {
+          "topic": "F006",
+          "first_changed_rank": 18,
+          "ndcg10_delta": 0.0
+        },
+        {
+          "topic": "F011",
+          "first_changed_rank": 42,
+          "ndcg10_delta": 0.0
+        }
+      ]
+    }
+  },
+  "interpretation": "Lower-ranked order differs across numeric precision; compare top-ten order and nDCG separately. This check does not claim all ranks identical."
+}

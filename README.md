@@ -41,3 +41,14 @@ The released outputs are deterministic saved-output replay artifacts, not a full
 ## Large numerical run file
 
 The CLEF numerical output is stored as external_ip/eclef/RUNS.json.gz to stay within anonymous review mirror file-size limits. The replay script transparently decompresses it. COMPRESSED_INPUT_PROVENANCE.json records the exact SHA-256 of the original uncompressed byte sequence; no ranks or scores were changed.
+
+
+## Formal-40 numeric mechanism reproduction
+
+The formal_40 directory now contains frozen parent-level ranking identifiers, author-derived documentary silver reference IDs, derived metrics, and a deterministic script supporting the main representation/query interaction finding.
+
+Run:
+
+    python3 formal_40/reproduce_metrics.py
+
+As with E19/CLEF, this is saved-output evaluation replay, not independent rerunning of original biomedical corpus retrieval or verification of medical relevance. See formal_40/README.md for the sampling/reference limitations.

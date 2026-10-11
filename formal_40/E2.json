@@ -1,0 +1,60 @@
+{
+  "status": "VERIFIED_CONDITIONAL",
+  "exploratory": true,
+  "family": "four simple effects, separate from frozen factorial family",
+  "inference_assumption": "topic differences independent/exchangeable; not established by these calculations; E3 governs interpretation",
+  "comparisons": [
+    {
+      "contrast": "structure_flat",
+      "a": "G10",
+      "b": "G00",
+      "delta": -0.006223623346186801,
+      "ci95_percentile": [
+        -0.022304235189799283,
+        0.004790459250691817
+      ],
+      "p_signflip": 0.4971502849715029,
+      "n": 40,
+      "p_holm": 0.5173482651734826
+    },
+    {
+      "contrast": "structure_role_query",
+      "a": "G11",
+      "b": "G01",
+      "delta": 0.13816288298779195,
+      "ci95_percentile": [
+        0.09905358219181228,
+        0.17757012227581934
+      ],
+      "p_signflip": 9.999000099990002e-05,
+      "n": 40,
+      "p_holm": 0.00039996000399960006
+    },
+    {
+      "contrast": "query_raw",
+      "a": "G01",
+      "b": "G00",
+      "delta": -0.11811165498939424,
+      "ci95_percentile": [
+        -0.16043466467023992,
+        -0.0734998785609323
+      ],
+      "p_signflip": 9.999000099990002e-05,
+      "n": 40,
+      "p_holm": 0.00039996000399960006
+    },
+    {
+      "contrast": "query_structured",
+      "a": "G11",
+      "b": "G10",
+      "delta": 0.02627485134458451,
+      "ci95_percentile": [
+        -0.019096410471285668,
+        0.0715836807884462
+      ],
+      "p_signflip": 0.2586741325867413,
+      "n": 40,
+      "p_holm": 0.5173482651734826
+    }
+  ]
+}

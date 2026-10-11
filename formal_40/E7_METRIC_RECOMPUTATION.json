@@ -1,0 +1,4379 @@
+{
+  "status": "VERIFIED_DOCUMENTARY_ONLY",
+  "rows_checked": 360,
+  "archived_primary_rows_checked": 320,
+  "mismatches": [],
+  "aggregate": {
+    "BGE": {
+      "ndcg10": 0.5396629650929209,
+      "mean_outside_known_reference_at10": 5.05
+    },
+    "BM25": {
+      "ndcg10": 0.2603364304545467,
+      "mean_outside_known_reference_at10": 7.2
+    },
+    "G00": {
+      "ndcg10": 0.29078183146621317,
+      "mean_outside_known_reference_at10": 7.55
+    },
+    "G01": {
+      "ndcg10": 0.17267017647681895,
+      "mean_outside_known_reference_at10": 8.325
+    },
+    "G10": {
+      "ndcg10": 0.2845582081200264,
+      "mean_outside_known_reference_at10": 7.525
+    },
+    "G11": {
+      "ndcg10": 0.3108330594646109,
+      "mean_outside_known_reference_at10": 7.425
+    },
+    "MedCPT": {
+      "ndcg10": 0.23756081507062662,
+      "mean_outside_known_reference_at10": 7.775
+    },
+    "MedCPT_IP": {
+      "ndcg10": 0.3561317206844131,
+      "mean_outside_known_reference_at10": 6.525
+    },
+    "RRF": {
+      "ndcg10": 0.4848112769084975,
+      "mean_outside_known_reference_at10": 5.425
+    }
+  },
+  "per_topic": [
+    {
+      "topic_id": "F001",
+      "method": "BGE",
+      "ndcg10": 1.0,
+      "known_positive_at10": 10,
+      "outside_known_reference_at10": 0,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F001",
+      "method": "BM25",
+      "ndcg10": 0.20483424751859086,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 1,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F001",
+      "method": "G00",
+      "ndcg10": 0.4198523768135526,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F001",
+      "method": "G01",
+      "ndcg10": 0.21501812929496175,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F001",
+      "method": "G10",
+      "ndcg10": 0.4346298575932762,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F001",
+      "method": "G11",
+      "ndcg10": 0.5135081645717172,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F001",
+      "method": "MedCPT",
+      "ndcg10": 0.15850703974098102,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F001",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.2940945979596688,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F001",
+      "method": "RRF",
+      "ndcg10": 0.5618918191694954,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 1,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "BGE",
+      "ndcg10": 0.718342412090308,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "BM25",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "G00",
+      "ndcg10": 0.40002324830925196,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "G01",
+      "ndcg10": 0.22979561007468535,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "G10",
+      "ndcg10": 0.40002324830925196,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "G11",
+      "ndcg10": 0.44988737637276544,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "MedCPT",
+      "ndcg10": 0.07336392209936005,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 2,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.1736666713479918,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F002",
+      "method": "RRF",
+      "ndcg10": 0.4322788421471916,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "BGE",
+      "ndcg10": 0.37850091886658266,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "BM25",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "G00",
+      "ndcg10": 0.31488013066763093,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "G01",
+      "ndcg10": 0.1487639058405727,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "G10",
+      "ndcg10": 0.38113435412201996,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "G11",
+      "ndcg10": 0.22009176629808017,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.2583297509898471,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F003",
+      "method": "RRF",
+      "ndcg10": 0.1478294909154526,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "BGE",
+      "ndcg10": 0.23944085680261515,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 1,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "BM25",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "G00",
+      "ndcg10": 0.38113435412201996,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "G01",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "G10",
+      "ndcg10": 0.38113435412201996,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "G11",
+      "ndcg10": 0.44988737637276544,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "MedCPT",
+      "ndcg10": 0.20248323207250624,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.3430184917061137,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F004",
+      "method": "RRF",
+      "ndcg10": 0.21726071285222986,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "BGE",
+      "ndcg10": 0.4760705018418427,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "case_report": 4
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "BM25",
+      "ndcg10": 0.07839826897867533,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "G00",
+      "ndcg10": 0.31488013066763093,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "G01",
+      "ndcg10": 0.15139734109601002,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "G10",
+      "ndcg10": 0.17993148201117176,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "G11",
+      "ndcg10": 0.30523488393970116,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "MedCPT",
+      "ndcg10": 0.2781981696179509,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.31954962756492084,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F005",
+      "method": "RRF",
+      "ndcg10": 0.4329570418332233,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "BGE",
+      "ndcg10": 0.6421867266689009,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "case_report": 2,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "BM25",
+      "ndcg10": 0.6004311286161025,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 4,
+        "drug_label": 6
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "G00",
+      "ndcg10": 0.27770450256879337,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "G01",
+      "ndcg10": 0.1884441521277154,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "G10",
+      "ndcg10": 0.27770450256879337,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "G11",
+      "ndcg10": 0.3125291152215463,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "MedCPT",
+      "ndcg10": 0.4885468020156227,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 2,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.5834330535576521,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 2,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F006",
+      "method": "RRF",
+      "ndcg10": 0.8263333286520081,
+      "known_positive_at10": 8,
+      "outside_known_reference_at10": 2,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "drug_label": 4
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "BGE",
+      "ndcg10": 0.06943122193677727,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "drug_label": 8,
+        "clinical_trial": 2
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "BM25",
+      "ndcg10": 0.19518900079066107,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "drug_label": 4
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "G00",
+      "ndcg10": 0.33480714634441017,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "G01",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "G10",
+      "ndcg10": 0.33480714634441017,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "G11",
+      "ndcg10": 0.2984900352767555,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 3
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 3
+      }
+    },
+    {
+      "topic_id": "F007",
+      "method": "RRF",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "BGE",
+      "ndcg10": 0.47338717040861195,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 1,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "BM25",
+      "ndcg10": 0.2735872697693364,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 1,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "G00",
+      "ndcg10": 0.2984900352767555,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "G01",
+      "ndcg10": 0.15139734109601002,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "G10",
+      "ndcg10": 0.2984900352767555,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "G11",
+      "ndcg10": 0.4472539411173282,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 3
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.06625422345438903,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F008",
+      "method": "RRF",
+      "ndcg10": 0.533722528236359,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "BGE",
+      "ndcg10": 0.6366824387328317,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "BM25",
+      "ndcg10": 0.3080351663449861,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "case_report": 3,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "G00",
+      "ndcg10": 0.6469523342593044,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "G01",
+      "ndcg10": 0.6207412960974641,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "G10",
+      "ndcg10": 0.407591902495008,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "G11",
+      "ndcg10": 0.9052181617170639,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "MedCPT",
+      "ndcg10": 0.36331756126716835,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "case_report": 2,
+        "clinical_trial": 6,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.36331756126716835,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "case_report": 1,
+        "clinical_trial": 8,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F009",
+      "method": "RRF",
+      "ndcg10": 0.787702056960637,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "guideline": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "BGE",
+      "ndcg10": 0.8072467605676945,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 3,
+        "drug_label": 4,
+        "guideline": 3
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "BM25",
+      "ndcg10": 0.15642624200758548,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 1,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "G00",
+      "ndcg10": 0.6508205185601091,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "G01",
+      "ndcg10": 0.46927872602275644,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "G10",
+      "ndcg10": 0.6508205185601091,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "G11",
+      "ndcg10": 0.6508205185601091,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 1,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F010",
+      "method": "RRF",
+      "ndcg10": 0.46927872602275644,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 1,
+        "clinical_trial": 9
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "BGE",
+      "ndcg10": 0.6745711375739728,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 1,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "BM25",
+      "ndcg10": 0.3183191637810562,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "G00",
+      "ndcg10": 0.24703059344735182,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "G01",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "G10",
+      "ndcg10": 0.24703059344735182,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "G11",
+      "ndcg10": 0.13886244387355454,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "MedCPT",
+      "ndcg10": 0.6421867266689009,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 1,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.6275071330616558,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F011",
+      "method": "RRF",
+      "ndcg10": 0.6136525857537392,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "BGE",
+      "ndcg10": 0.5357086937004182,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "BM25",
+      "ndcg10": 0.3785988060390612,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "case_report": 3,
+        "clinical_trial": 6,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "G00",
+      "ndcg10": 0.6547216238913564,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "G01",
+      "ndcg10": 0.4341754806679218,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "G10",
+      "ndcg10": 0.6547216238913564,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "G11",
+      "ndcg10": 0.7682269253321374,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "MedCPT",
+      "ndcg10": 0.36284762021041433,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.199306233590118,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F012",
+      "method": "RRF",
+      "ndcg10": 0.22716217481924803,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "BGE",
+      "ndcg10": 0.5302442049991306,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "BM25",
+      "ndcg10": 0.6212166613240645,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "G00",
+      "ndcg10": 0.48882922182497546,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "G01",
+      "ndcg10": 0.20248323207250624,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "G10",
+      "ndcg10": 0.5036067026046991,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "G11",
+      "ndcg10": 0.4322788421471916,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "MedCPT",
+      "ndcg10": 0.6719377023185354,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.6145870006788592,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F013",
+      "method": "RRF",
+      "ndcg10": 0.7479350596733328,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "BGE",
+      "ndcg10": 0.4662774717636409,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "case_report": 3
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "BM25",
+      "ndcg10": 0.5743371894486218,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "drug_label": 5,
+        "clinical_trial": 5
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "G00",
+      "ndcg10": 0.40350157154648025,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 3
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "G01",
+      "ndcg10": 0.2685529228900211,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "G10",
+      "ndcg10": 0.40350157154648025,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 3
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "G11",
+      "ndcg10": 0.6772733739526908,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "MedCPT",
+      "ndcg10": 0.07839826897867533,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 1,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F014",
+      "method": "RRF",
+      "ndcg10": 0.41939799988819815,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "drug_label": 3,
+        "clinical_trial": 5,
+        "guideline": 1,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "BGE",
+      "ndcg10": 0.06625422345438903,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 1,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "BM25",
+      "ndcg10": 0.26462022272743835,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 1,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "G00",
+      "ndcg10": 0.11004588314904008,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "G01",
+      "ndcg10": 0.06362078819895171,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "G10",
+      "ndcg10": 0.11004588314904008,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "G11",
+      "ndcg10": 0.1736666713479918,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.23365080824310533,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F015",
+      "method": "RRF",
+      "ndcg10": 0.3222722491219547,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 3
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "BGE",
+      "ndcg10": 0.3529461582433962,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "case_report": 2,
+        "clinical_trial": 8
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "BM25",
+      "ndcg10": 0.4775044032080689,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "case_report": 3,
+        "clinical_trial": 5,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "G00",
+      "ndcg10": 0.6870165078530992,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "G01",
+      "ndcg10": 0.5743371894486218,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "G10",
+      "ndcg10": 0.6870165078530992,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "G11",
+      "ndcg10": 0.5730379245414764,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.06625422345438903,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F016",
+      "method": "RRF",
+      "ndcg10": 0.5333576782543337,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "case_report": 4,
+        "clinical_trial": 5,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "BGE",
+      "ndcg10": 0.17993148201117176,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "case_report": 3,
+        "clinical_trial": 7
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "BM25",
+      "ndcg10": 0.23758350840568812,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 1,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "G00",
+      "ndcg10": 0.30523488393970116,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "G01",
+      "ndcg10": 0.22009176629808017,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "G10",
+      "ndcg10": 0.30523488393970116,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "G11",
+      "ndcg10": 0.30523488393970116,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "MedCPT",
+      "ndcg10": 0.21726071285222986,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 1,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.42520843362602373,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 3
+      }
+    },
+    {
+      "topic_id": "F017",
+      "method": "RRF",
+      "ndcg10": 0.43231813227099475,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "BGE",
+      "ndcg10": 0.20210734650054757,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "case_report": 2,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "BM25",
+      "ndcg10": 0.5307212739772434,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 5,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "G00",
+      "ndcg10": 0.3228087653971817,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "G01",
+      "ndcg10": 0.46927872602275644,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "G10",
+      "ndcg10": 0.3228087653971817,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "G11",
+      "ndcg10": 0.6105456988825855,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 3
+      }
+    },
+    {
+      "topic_id": "F018",
+      "method": "RRF",
+      "ndcg10": 0.23463936301137822,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 5,
+        "clinical_trial": 5
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "BGE",
+      "ndcg10": 0.4409203293308675,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 5,
+        "case_report": 5
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "BM25",
+      "ndcg10": 0.4092727151605027,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "case_report": 3,
+        "clinical_trial": 7
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "G00",
+      "ndcg10": 0.4472539411173282,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "G01",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "G10",
+      "ndcg10": 0.4472539411173282,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "G11",
+      "ndcg10": 0.5009732673492617,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "MedCPT",
+      "ndcg10": 0.4440973278132557,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.6300426811446146,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F019",
+      "method": "RRF",
+      "ndcg10": 0.7788065869851872,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "BGE",
+      "ndcg10": 0.5206888446176334,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "case_report": 6,
+        "clinical_trial": 4
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "BM25",
+      "ndcg10": 0.09785159463516042,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "case_report": 2,
+        "clinical_trial": 6,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "G00",
+      "ndcg10": 0.33273724133010535,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "G01",
+      "ndcg10": 0.07979453856244818,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "G10",
+      "ndcg10": 0.33273724133010535,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "G11",
+      "ndcg10": 0.33273724133010535,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "MedCPT",
+      "ndcg10": 0.07979453856244818,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 1,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.07614334071738352,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "case_report": 2,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F020",
+      "method": "RRF",
+      "ndcg10": 0.41340027774092636,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "case_report": 4,
+        "guideline": 2,
+        "clinical_trial": 4
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "BGE",
+      "ndcg10": 0.33013764944712026,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 1,
+        "drug_label": 8,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "BM25",
+      "ndcg10": 0.06943122193677727,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 1,
+        "drug_label": 9
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "G00",
+      "ndcg10": 0.17993148201117176,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "G01",
+      "ndcg10": 0.06943122193677727,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "G10",
+      "ndcg10": 0.17993148201117176,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "G11",
+      "ndcg10": 0.1478294909154526,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "case_report": 2,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F021",
+      "method": "RRF",
+      "ndcg10": 0.13886244387355454,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "drug_label": 8,
+        "case_report": 1,
+        "clinical_trial": 1
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "BGE",
+      "ndcg10": 0.4690000933206748,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "case_report": 3,
+        "guideline": 1,
+        "drug_label": 2,
+        "clinical_trial": 4
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "BM25",
+      "ndcg10": 0.1681522864689108,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 4,
+        "drug_label": 5,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "G00",
+      "ndcg10": 0.31488013066763093,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "G01",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "G10",
+      "ndcg10": 0.31488013066763093,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "G11",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "MedCPT",
+      "ndcg10": 0.28952298823485745,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 7,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.11004588314904008,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 1,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F022",
+      "method": "RRF",
+      "ndcg10": 0.2051166673279436,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 5,
+        "case_report": 2,
+        "drug_label": 2,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "BGE",
+      "ndcg10": 0.2973694836145356,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "case_report": 2,
+        "guideline": 2
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "BM25",
+      "ndcg10": 0.3214961622634444,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "case_report": 1,
+        "guideline": 3
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "G00",
+      "ndcg10": 0.4662774717636409,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "G01",
+      "ndcg10": 0.17993148201117176,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "G10",
+      "ndcg10": 0.4662774717636409,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "G11",
+      "ndcg10": 0.4662774717636409,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "MedCPT",
+      "ndcg10": 0.33013764944712026,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 7
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.31488013066763093,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 8
+      }
+    },
+    {
+      "topic_id": "F023",
+      "method": "RRF",
+      "ndcg10": 0.522495596791931,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "guideline": 4,
+        "clinical_trial": 5,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "BGE",
+      "ndcg10": 0.9266360779006398,
+      "known_positive_at10": 9,
+      "outside_known_reference_at10": 1,
+      "source_counts_at10": {
+        "case_report": 1,
+        "clinical_trial": 7,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "BM25",
+      "ndcg10": 0.6402900881481707,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 4,
+        "drug_label": 6
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "G00",
+      "ndcg10": 0.24703059344735182,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "G01",
+      "ndcg10": 0.1884441521277154,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "G10",
+      "ndcg10": 0.24703059344735182,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "G11",
+      "ndcg10": 0.2520649403266671,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "MedCPT",
+      "ndcg10": 0.6332971816211657,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 1,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.8482378089219645,
+      "known_positive_at10": 8,
+      "outside_known_reference_at10": 2,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 3
+      }
+    },
+    {
+      "topic_id": "F024",
+      "method": "RRF",
+      "ndcg10": 1.0,
+      "known_positive_at10": 10,
+      "outside_known_reference_at10": 0,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 3
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "BGE",
+      "ndcg10": 0.685119869332369,
+      "known_positive_at10": 8,
+      "outside_known_reference_at10": 2,
+      "source_counts_at10": {
+        "case_report": 2,
+        "clinical_trial": 8
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "BM25",
+      "ndcg10": 0.07336392209936005,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 3,
+        "drug_label": 7
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "G00",
+      "ndcg10": 0.06362078819895171,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "G01",
+      "ndcg10": 0.07839826897867533,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "G10",
+      "ndcg10": 0.07839826897867533,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "G11",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "MedCPT",
+      "ndcg10": 0.933745776545611,
+      "known_positive_at10": 9,
+      "outside_known_reference_at10": 1,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 2,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "MedCPT_IP",
+      "ndcg10": 1.0,
+      "known_positive_at10": 10,
+      "outside_known_reference_at10": 0,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F025",
+      "method": "RRF",
+      "ndcg10": 0.8899541168509599,
+      "known_positive_at10": 9,
+      "outside_known_reference_at10": 1,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "BGE",
+      "ndcg10": 0.6457545768494583,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "case_report": 4
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "BM25",
+      "ndcg10": 0.3098064936645125,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "case_report": 5,
+        "clinical_trial": 5
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "G00",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "G01",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "G10",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "G11",
+      "ndcg10": 0.21726071285222986,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "MedCPT",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "case_report": 5,
+        "guideline": 1,
+        "clinical_trial": 4
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.523153411299647,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "guideline": 1,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F026",
+      "method": "RRF",
+      "ndcg10": 0.4092727151605027,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "case_report": 5,
+        "clinical_trial": 5
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "BGE",
+      "ndcg10": 0.5017100640839688,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "BM25",
+      "ndcg10": 0.06625422345438903,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "G00",
+      "ndcg10": 0.22009176629808017,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "G01",
+      "ndcg10": 0.1635413866202963,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "G10",
+      "ndcg10": 0.22009176629808017,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 2,
+        "clinical_trial": 3,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "G11",
+      "ndcg10": 0.22009176629808017,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.06943122193677727,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F027",
+      "method": "RRF",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "BGE",
+      "ndcg10": 0.5357086937004182,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "case_report": 2,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "BM25",
+      "ndcg10": 0.606241562353928,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 3,
+        "drug_label": 7
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "G00",
+      "ndcg10": 0.18340980524840012,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "G01",
+      "ndcg10": 0.07839826897867533,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "G10",
+      "ndcg10": 0.18340980524840012,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "G11",
+      "ndcg10": 0.07839826897867533,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "MedCPT",
+      "ndcg10": 0.5836175861945262,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.5173633627401372,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F028",
+      "method": "RRF",
+      "ndcg10": 0.8482378089219645,
+      "known_positive_at10": 8,
+      "outside_known_reference_at10": 2,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 1,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "BGE",
+      "ndcg10": 1.0,
+      "known_positive_at10": 10,
+      "outside_known_reference_at10": 0,
+      "source_counts_at10": {
+        "clinical_trial": 5,
+        "drug_label": 5
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "BM25",
+      "ndcg10": 0.6468562235661908,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 5,
+        "drug_label": 5
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "G00",
+      "ndcg10": 0.5455206287241073,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "G01",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "G10",
+      "ndcg10": 0.5455206287241073,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "G11",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "MedCPT",
+      "ndcg10": 0.642923523403608,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "guideline": 1,
+        "drug_label": 2,
+        "clinical_trial": 7
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.7564477297898764,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "guideline": 1,
+        "drug_label": 3
+      }
+    },
+    {
+      "topic_id": "F029",
+      "method": "RRF",
+      "ndcg10": 0.9305687780632227,
+      "known_positive_at10": 9,
+      "outside_known_reference_at10": 1,
+      "source_counts_at10": {
+        "drug_label": 4,
+        "clinical_trial": 6
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "BGE",
+      "ndcg10": 0.39449523438077905,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "BM25",
+      "ndcg10": 0.17630010660342912,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "G00",
+      "ndcg10": 0.06362078819895171,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "G01",
+      "ndcg10": 0.06362078819895171,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "G10",
+      "ndcg10": 0.07839826897867533,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "G11",
+      "ndcg10": 0.13886244387355454,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "MedCPT",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.3647442587311445,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F030",
+      "method": "RRF",
+      "ndcg10": 0.7682269253321374,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "BGE",
+      "ndcg10": 0.5658245193320781,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 5,
+        "drug_label": 3,
+        "case_report": 1,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "BM25",
+      "ndcg10": 0.06362078819895171,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 3
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "G00",
+      "ndcg10": 0.2863459897524692,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "G01",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "G10",
+      "ndcg10": 0.2863459897524692,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "G11",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "MedCPT",
+      "ndcg10": 0.06625422345438903,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.3183191637810562,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "drug_label": 4
+      }
+    },
+    {
+      "topic_id": "F031",
+      "method": "RRF",
+      "ndcg10": 0.2051166673279436,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 1,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "BGE",
+      "ndcg10": 0.8482378089219645,
+      "known_positive_at10": 8,
+      "outside_known_reference_at10": 2,
+      "source_counts_at10": {
+        "clinical_trial": 3,
+        "drug_label": 7
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "BM25",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "G00",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "G01",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "G10",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "G11",
+      "ndcg10": 0.06362078819895171,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "MedCPT",
+      "ndcg10": 0.14279514403613733,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 2,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.34695119186869644,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 3,
+        "drug_label": 7
+      }
+    },
+    {
+      "topic_id": "F032",
+      "method": "RRF",
+      "ndcg10": 0.5462574254588144,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 4,
+        "drug_label": 6
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "BGE",
+      "ndcg10": 1.0,
+      "known_positive_at10": 10,
+      "outside_known_reference_at10": 0,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "case_report": 1,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "BM25",
+      "ndcg10": 0.46156868474254786,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 3,
+        "drug_label": 7
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "G00",
+      "ndcg10": 0.2114502791144043,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "G01",
+      "ndcg10": 0.48964844873235525,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 2,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "G10",
+      "ndcg10": 0.2114502791144043,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "G11",
+      "ndcg10": 0.3796025655833151,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "MedCPT",
+      "ndcg10": 0.4288398090337664,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "drug_label": 7,
+        "clinical_trial": 3
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.7951657524814091,
+      "known_positive_at10": 8,
+      "outside_known_reference_at10": 2,
+      "source_counts_at10": {
+        "drug_label": 6,
+        "clinical_trial": 4
+      }
+    },
+    {
+      "topic_id": "F033",
+      "method": "RRF",
+      "ndcg10": 0.6316243658611127,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "drug_label": 10
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "BGE",
+      "ndcg10": 0.6772733739526908,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "BM25",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "G00",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "G01",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "G10",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "G11",
+      "ndcg10": 0.07839826897867533,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.37326895379685443,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F034",
+      "method": "RRF",
+      "ndcg10": 0.40853591842579556,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "BGE",
+      "ndcg10": 0.4642913062995817,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "case_report": 4,
+        "drug_label": 5,
+        "clinical_trial": 1
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "BM25",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "G00",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "G01",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "G10",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "G11",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "case_report": 5,
+        "clinical_trial": 5
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.40030566811860463,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "case_report": 3,
+        "drug_label": 4,
+        "clinical_trial": 3
+      }
+    },
+    {
+      "topic_id": "F035",
+      "method": "RRF",
+      "ndcg10": 0.17947710508581735,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 4,
+        "drug_label": 2,
+        "case_report": 3,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "BGE",
+      "ndcg10": 0.7605591431973847,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "drug_label": 4,
+        "clinical_trial": 4,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "BM25",
+      "ndcg10": 0.31298349214690074,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "drug_label": 4,
+        "clinical_trial": 5,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "G00",
+      "ndcg10": 0.13305201013572898,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "G01",
+      "ndcg10": 0.13305201013572898,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "G10",
+      "ndcg10": 0.13305201013572898,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "G11",
+      "ndcg10": 0.2114502791144043,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "MedCPT",
+      "ndcg10": 0.7682269253321374,
+      "known_positive_at10": 7,
+      "outside_known_reference_at10": 3,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.8415908474314974,
+      "known_positive_at10": 8,
+      "outside_known_reference_at10": 2,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F036",
+      "method": "RRF",
+      "ndcg10": 0.5501126236272345,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "clinical_trial": 6,
+        "drug_label": 3,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "BGE",
+      "ndcg10": 0.6141069626790936,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "case_report": 4,
+        "drug_label": 5,
+        "clinical_trial": 1
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "BM25",
+      "ndcg10": 0.06362078819895171,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 7,
+        "drug_label": 2,
+        "case_report": 1
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "G00",
+      "ndcg10": 0.09478836436955078,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "G01",
+      "ndcg10": 0.09478836436955078,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "G10",
+      "ndcg10": 0.09478836436955078,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "G11",
+      "ndcg10": 0.09478836436955078,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "MedCPT",
+      "ndcg10": 0.2435522702101235,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "case_report": 4,
+        "drug_label": 2,
+        "clinical_trial": 4
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.5478527392247046,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "drug_label": 5,
+        "case_report": 2,
+        "clinical_trial": 3
+      }
+    },
+    {
+      "topic_id": "F037",
+      "method": "RRF",
+      "ndcg10": 0.3499667779514209,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "case_report": 3,
+        "clinical_trial": 3,
+        "drug_label": 4
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "BGE",
+      "ndcg10": 0.11004588314904008,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "case_report": 4,
+        "clinical_trial": 6
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "BM25",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "G00",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "G01",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "G10",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "G11",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "MedCPT",
+      "ndcg10": 0.06943122193677727,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "case_report": 3,
+        "guideline": 1,
+        "clinical_trial": 5,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.4673791184803734,
+      "known_positive_at10": 6,
+      "outside_known_reference_at10": 4,
+      "source_counts_at10": {
+        "guideline": 1,
+        "case_report": 1,
+        "clinical_trial": 2,
+        "drug_label": 6
+      }
+    },
+    {
+      "topic_id": "F038",
+      "method": "RRF",
+      "ndcg10": 0.3889808495016981,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 3,
+        "case_report": 2,
+        "drug_label": 4,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "BGE",
+      "ndcg10": 0.4440973278132557,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "guideline": 1,
+        "drug_label": 1
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "BM25",
+      "ndcg10": 0.3724928669383441,
+      "known_positive_at10": 5,
+      "outside_known_reference_at10": 5,
+      "source_counts_at10": {
+        "clinical_trial": 4,
+        "drug_label": 5,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "G00",
+      "ndcg10": 0.2984900352767555,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "G01",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 2,
+        "drug_label": 3,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "G10",
+      "ndcg10": 0.2984900352767555,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "G11",
+      "ndcg10": 0.36211082347570717,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "MedCPT",
+      "ndcg10": 0.0,
+      "known_positive_at10": 0,
+      "outside_known_reference_at10": 10,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.08514311764162098,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F039",
+      "method": "RRF",
+      "ndcg10": 0.2874476364692017,
+      "known_positive_at10": 4,
+      "outside_known_reference_at10": 6,
+      "source_counts_at10": {
+        "drug_label": 4,
+        "clinical_trial": 5,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "BGE",
+      "ndcg10": 0.905211635630449,
+      "known_positive_at10": 9,
+      "outside_known_reference_at10": 1,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "BM25",
+      "ndcg10": 0.2489083270225946,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "clinical_trial": 8,
+        "drug_label": 2
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "G00",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "G01",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "G10",
+      "ndcg10": 0.14201905717762703,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "G11",
+      "ndcg10": 0.20248323207250624,
+      "known_positive_at10": 2,
+      "outside_known_reference_at10": 8,
+      "source_counts_at10": {
+        "guideline": 3,
+        "clinical_trial": 3,
+        "drug_label": 2,
+        "case_report": 2
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "MedCPT",
+      "ndcg10": 0.13886244387355454,
+      "known_positive_at10": 1,
+      "outside_known_reference_at10": 9,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "MedCPT_IP",
+      "ndcg10": 0.29062463495158997,
+      "known_positive_at10": 3,
+      "outside_known_reference_at10": 7,
+      "source_counts_at10": {
+        "clinical_trial": 10
+      }
+    },
+    {
+      "topic_id": "F040",
+      "method": "RRF",
+      "ndcg10": 0.914856882358379,
+      "known_positive_at10": 9,
+      "outside_known_reference_at10": 1,
+      "source_counts_at10": {
+        "clinical_trial": 9,
+        "guideline": 1
+      }
+    }
+  ],
+  "caution": "outside reference is not independently adjudicated irrelevant; no clinical validity claim"
+}

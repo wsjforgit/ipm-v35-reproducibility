@@ -1,0 +1,297 @@
+{
+  "status": "VERIFIED_NUMERIC_CASE_REVIEW_PENDING",
+  "E19_directions": {
+    "ndcg10": 0.013989119449809517,
+    "infNDCG": -0.01200000000000001,
+    "infAP": -0.008099999999999996
+  },
+  "E19_standard": {
+    "x00raw": {
+      "ndcg10": 0.534099627630804,
+      "P10": 0.4421052631578947,
+      "Rprec": 0.3759995090814923,
+      "recall100": 0.5628012564106754
+    },
+    "x01rawq": {
+      "ndcg10": 0.5498432272364631,
+      "P10": 0.45526315789473687,
+      "Rprec": 0.36877222282691285,
+      "recall100": 0.5606250129498322
+    },
+    "x10field": {
+      "ndcg10": 0.5341536165336092,
+      "P10": 0.44473684210526315,
+      "Rprec": 0.3748259355976952,
+      "recall100": 0.5641731221480782
+    },
+    "x11fieldq": {
+      "ndcg10": 0.5480887470806135,
+      "P10": 0.45263157894736844,
+      "Rprec": 0.36754655591991936,
+      "recall100": 0.5624283210531607
+    },
+    "medcptrr": {
+      "ndcg10": 0.4086755154803961,
+      "P10": 0.3736842105263158,
+      "Rprec": 0.30043192962030424,
+      "recall100": 0.5180685640433647
+    },
+    "rrfmed": {
+      "ndcg10": 0.5616660939209169,
+      "P10": 0.5,
+      "Rprec": 0.4076840783367673,
+      "recall100": 0.5930914647000927
+    },
+    "bgerr": {
+      "ndcg10": 0.41540647918231327,
+      "P10": 0.37105263157894736,
+      "Rprec": 0.3148137159149295,
+      "recall100": 0.47254603781446464
+    }
+  },
+  "E19_inferred": {
+    "x00raw": {
+      "infAP": 0.2891,
+      "infNDCG": 0.5401,
+      "iprec@rec0.00": 0.8425,
+      "iprec@rec0.10": 0.6365,
+      "iprec@rec0.20": 0.5118,
+      "iprec@rec0.30": 0.4257,
+      "iprec@rec0.40": 0.335,
+      "iprec@rec0.50": 0.2526,
+      "iprec@rec0.60": 0.1857,
+      "iprec@rec0.70": 0.1306,
+      "iprec@rec0.80": 0.0863,
+      "iprec@rec0.90": 0.0573,
+      "iprec@rec1.00": 0.0378,
+      "iP10": 0.4632,
+      "iP50": 0.3266,
+      "iP100": 0.2584,
+      "inum_rel_ret": 982.0526,
+      "inum_rel": 3930.7432,
+      "num_ret": 3800.0
+    },
+    "x01rawq": {
+      "infAP": 0.2801,
+      "infNDCG": 0.5284,
+      "iprec@rec0.00": 0.8411,
+      "iprec@rec0.10": 0.6254,
+      "iprec@rec0.20": 0.448,
+      "iprec@rec0.30": 0.3903,
+      "iprec@rec0.40": 0.3006,
+      "iprec@rec0.50": 0.2347,
+      "iprec@rec0.60": 0.1994,
+      "iprec@rec0.70": 0.1173,
+      "iprec@rec0.80": 0.0881,
+      "iprec@rec0.90": 0.0808,
+      "iprec@rec1.00": 0.0558,
+      "iP10": 0.4754,
+      "iP50": 0.316,
+      "iP100": 0.2486,
+      "inum_rel_ret": 944.8213,
+      "inum_rel": 3930.7432,
+      "num_ret": 3800.0
+    },
+    "x10field": {
+      "infAP": 0.2902,
+      "infNDCG": 0.5416,
+      "iprec@rec0.00": 0.8427,
+      "iprec@rec0.10": 0.6383,
+      "iprec@rec0.20": 0.5104,
+      "iprec@rec0.30": 0.4266,
+      "iprec@rec0.40": 0.3383,
+      "iprec@rec0.50": 0.2538,
+      "iprec@rec0.60": 0.195,
+      "iprec@rec0.70": 0.1296,
+      "iprec@rec0.80": 0.0865,
+      "iprec@rec0.90": 0.0587,
+      "iprec@rec1.00": 0.0378,
+      "iP10": 0.4667,
+      "iP50": 0.3268,
+      "iP100": 0.2603,
+      "inum_rel_ret": 988.9974,
+      "inum_rel": 3930.7432,
+      "num_ret": 3800.0
+    },
+    "x11fieldq": {
+      "infAP": 0.281,
+      "infNDCG": 0.5281,
+      "iprec@rec0.00": 0.8414,
+      "iprec@rec0.10": 0.625,
+      "iprec@rec0.20": 0.448,
+      "iprec@rec0.30": 0.3898,
+      "iprec@rec0.40": 0.3012,
+      "iprec@rec0.50": 0.2304,
+      "iprec@rec0.60": 0.1971,
+      "iprec@rec0.70": 0.1163,
+      "iprec@rec0.80": 0.0878,
+      "iprec@rec0.90": 0.0807,
+      "iprec@rec1.00": 0.0551,
+      "iP10": 0.4746,
+      "iP50": 0.3168,
+      "iP100": 0.2492,
+      "inum_rel_ret": 947.0654,
+      "inum_rel": 3930.7432,
+      "num_ret": 3800.0
+    },
+    "medcptrr": {
+      "infAP": 0.2269,
+      "infNDCG": 0.4679,
+      "iprec@rec0.00": 0.7567,
+      "iprec@rec0.10": 0.5387,
+      "iprec@rec0.20": 0.4393,
+      "iprec@rec0.30": 0.3042,
+      "iprec@rec0.40": 0.2112,
+      "iprec@rec0.50": 0.177,
+      "iprec@rec0.60": 0.1207,
+      "iprec@rec0.70": 0.073,
+      "iprec@rec0.80": 0.0591,
+      "iprec@rec0.90": 0.0358,
+      "iprec@rec1.00": 0.0226,
+      "iP10": 0.4246,
+      "iP50": 0.2969,
+      "iP100": 0.2286,
+      "inum_rel_ret": 868.6852,
+      "inum_rel": 3930.7432,
+      "num_ret": 3800.0
+    },
+    "rrfmed": {
+      "infAP": 0.2988,
+      "infNDCG": 0.5561,
+      "iprec@rec0.00": 0.8357,
+      "iprec@rec0.10": 0.6725,
+      "iprec@rec0.20": 0.4947,
+      "iprec@rec0.30": 0.4268,
+      "iprec@rec0.40": 0.2882,
+      "iprec@rec0.50": 0.2499,
+      "iprec@rec0.60": 0.1997,
+      "iprec@rec0.70": 0.1792,
+      "iprec@rec0.80": 0.0998,
+      "iprec@rec0.90": 0.0622,
+      "iprec@rec1.00": 0.0477,
+      "iP10": 0.5211,
+      "iP50": 0.3451,
+      "iP100": 0.2717,
+      "inum_rel_ret": 1032.3543,
+      "inum_rel": 3930.7432,
+      "num_ret": 3800.0
+    },
+    "bgerr": {
+      "infAP": 0.227,
+      "infNDCG": 0.4544,
+      "iprec@rec0.00": 0.7238,
+      "iprec@rec0.10": 0.5271,
+      "iprec@rec0.20": 0.4048,
+      "iprec@rec0.30": 0.3042,
+      "iprec@rec0.40": 0.2408,
+      "iprec@rec0.50": 0.1833,
+      "iprec@rec0.60": 0.1429,
+      "iprec@rec0.70": 0.0777,
+      "iprec@rec0.80": 0.07,
+      "iprec@rec0.90": 0.045,
+      "iprec@rec1.00": 0.0256,
+      "iP10": 0.4189,
+      "iP50": 0.2974,
+      "iP100": 0.2355,
+      "inum_rel_ret": 894.8469,
+      "inum_rel": 3930.7432,
+      "num_ret": 3800.0
+    }
+  },
+  "category_breakdown": {
+    "therapy": {
+      "n": 10,
+      "ndcg10": {
+        "G00": 0.4039544777589459,
+        "G01": 0.22599796192917967,
+        "G10": 0.37462674014028163,
+        "G11": 0.45529213394478324,
+        "BM25": 0.19020444416675586,
+        "MedCPT": 0.15644167268135892,
+        "RRF": 0.44092545467893535,
+        "BGE": 0.5441289007916165
+      }
+    },
+    "biomarker_disease": {
+      "n": 10,
+      "ndcg10": {
+        "G00": 0.399918023349662,
+        "G01": 0.24543537013389344,
+        "G10": 0.40139577142763433,
+        "G11": 0.45128372726966964,
+        "BM25": 0.3910025538706906,
+        "MedCPT": 0.24965228974044598,
+        "RRF": 0.47229421075192934,
+        "BGE": 0.3969649892195168
+      }
+    },
+    "eligibility_population": {
+      "n": 10,
+      "ndcg10": {
+        "G00": 0.24264025117359134,
+        "G01": 0.11058036832075172,
+        "G10": 0.24559574732953607,
+        "G11": 0.18899663270051756,
+        "BM25": 0.3078192290559113,
+        "MedCPT": 0.3583530940730131,
+        "RRF": 0.5797878169963837,
+        "BGE": 0.5785931742629964
+      }
+    },
+    "toxicity_restriction": {
+      "n": 10,
+      "ndcg10": {
+        "G00": 0.11661457358265358,
+        "G01": 0.108667005523451,
+        "G10": 0.11661457358265358,
+        "G11": 0.14775974394347316,
+        "BM25": 0.15231949472482909,
+        "MedCPT": 0.18579620378768855,
+        "RRF": 0.44623762520674176,
+        "BGE": 0.638964796097554
+      }
+    }
+  },
+  "synonym_paired_population": 18,
+  "synonym_G11_mean": 0.23357822964182184,
+  "synonym_changed_query_mean": 0.11853023657165057,
+  "case_candidates": [
+    {
+      "topic_id": "F033",
+      "topic": "myocardial infarction",
+      "delta_structure_role_query": -0.11004588314904018,
+      "note": "candidate for source-grounded inspection, not an adjudicated clinical case"
+    },
+    {
+      "topic_id": "F016",
+      "topic": "central nervous system",
+      "delta_structure_role_query": -0.001299264907145492,
+      "note": "candidate for source-grounded inspection, not an adjudicated clinical case"
+    },
+    {
+      "topic_id": "F028",
+      "topic": "platelet count",
+      "delta_structure_role_query": 0.0,
+      "note": "candidate for source-grounded inspection, not an adjudicated clinical case"
+    },
+    {
+      "topic_id": "F019",
+      "topic": "ductal carcinoma",
+      "delta_structure_role_query": 0.3589542101716346,
+      "note": "candidate for source-grounded inspection, not an adjudicated clinical case"
+    },
+    {
+      "topic_id": "F014",
+      "topic": "growth factor receptor",
+      "delta_structure_role_query": 0.40872045106266996,
+      "note": "candidate for source-grounded inspection, not an adjudicated clinical case"
+    },
+    {
+      "topic_id": "F004",
+      "topic": "neoadjuvant",
+      "delta_structure_role_query": 0.44988737637276544,
+      "note": "candidate for source-grounded inspection, not an adjudicated clinical case"
+    }
+  ],
+  "case_selection_rule": "three lowest and three highest structure-under-role-query deltas; inspect frozen source evidence before narrative inclusion"
+}

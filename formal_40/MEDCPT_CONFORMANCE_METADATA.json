@@ -1,0 +1,30 @@
+{
+  "analysis_class": "post-freeze implementation-conformance sensitivity",
+  "device": "mps",
+  "batch": 8,
+  "models": {
+    "MedCPT-Query-Encoder": {
+      "repo": "ncbi/MedCPT-Query-Encoder",
+      "revision": "d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc",
+      "weight_sha256": "19d78c0d5eaee2f81e6c47c5425bbadcc0c6af016cbb5da4a000d64e59d6e342"
+    },
+    "MedCPT-Article-Encoder": {
+      "repo": "ncbi/MedCPT-Article-Encoder",
+      "revision": "d05a736da4bb84ee4057b7f7999485be6ed85465",
+      "weight_sha256": "a5d5ffe4d8666c1d0aa15f371b94fc3492ca8f927e5621abd4b3ee9fc845b0f3"
+    }
+  },
+  "pooling": "CLS",
+  "l2_normalized": false,
+  "query_max_length": 64,
+  "document_max_length": 512,
+  "tie_break": "stable corpus input order, identical to archived numpy argsort stable",
+  "packages": {
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "numpy": "2.2.6",
+    "huggingface-hub": "0.36.2"
+  },
+  "script_sha256": "4523738c052881c897045e0720706678975ab3855aec69d8f59cc5074fda8247"
+}

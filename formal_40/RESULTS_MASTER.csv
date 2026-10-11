@@ -1,0 +1,57 @@
+evaluation,method,metric,value,scope
+Formal40,BGE,nDCG10,0.5396629650929209,documentary reference; different baseline candidate access
+Formal40,BM25,nDCG10,0.2603364304545467,documentary reference; different baseline candidate access
+Formal40,G00,nDCG10,0.29078183146621317,documentary reference; different baseline candidate access
+Formal40,G01,nDCG10,0.17267017647681895,documentary reference; different baseline candidate access
+Formal40,G10,nDCG10,0.2845582081200264,documentary reference; different baseline candidate access
+Formal40,G11,nDCG10,0.3108330594646109,documentary reference; different baseline candidate access
+Formal40,MedCPT,nDCG10,0.23756081507062662,documentary reference; different baseline candidate access
+Formal40,MedCPT_IP,nDCG10,0.3561317206844131,documentary reference; different baseline candidate access
+Formal40,RRF,nDCG10,0.4848112769084975,documentary reference; different baseline candidate access
+CLEF31,bge,micro NCG at floor10%,0.41200951248513673,positive candidates; corrected evaluator
+CLEF31,bm25_expert,micro NCG at floor10%,0.31212841854934603,positive candidates; corrected evaluator
+CLEF31,bm25_title,micro NCG at floor10%,0.30499405469678953,positive candidates; corrected evaluator
+CLEF31,medcpt,micro NCG at floor10%,0.3644470868014269,positive candidates; corrected evaluator
+CLEF31,rrf,micro NCG at floor10%,0.3555291319857313,positive candidates; corrected evaluator
+TREC_PM2019,x00raw,ndcg10,0.534099627630804,task-specific
+TREC_PM2019,x00raw,P10,0.4421052631578947,task-specific
+TREC_PM2019,x00raw,Rprec,0.3759995090814923,task-specific
+TREC_PM2019,x00raw,recall100,0.5628012564106754,task-specific
+TREC_PM2019,x00raw,infNDCG,0.5401,inferred judgement estimand
+TREC_PM2019,x00raw,infAP,0.2891,inferred judgement estimand
+TREC_PM2019,x01rawq,ndcg10,0.5498432272364631,task-specific
+TREC_PM2019,x01rawq,P10,0.45526315789473687,task-specific
+TREC_PM2019,x01rawq,Rprec,0.36877222282691285,task-specific
+TREC_PM2019,x01rawq,recall100,0.5606250129498322,task-specific
+TREC_PM2019,x01rawq,infNDCG,0.5284,inferred judgement estimand
+TREC_PM2019,x01rawq,infAP,0.2801,inferred judgement estimand
+TREC_PM2019,x10field,ndcg10,0.5341536165336092,task-specific
+TREC_PM2019,x10field,P10,0.44473684210526315,task-specific
+TREC_PM2019,x10field,Rprec,0.3748259355976952,task-specific
+TREC_PM2019,x10field,recall100,0.5641731221480782,task-specific
+TREC_PM2019,x10field,infNDCG,0.5416,inferred judgement estimand
+TREC_PM2019,x10field,infAP,0.2902,inferred judgement estimand
+TREC_PM2019,x11fieldq,ndcg10,0.5480887470806135,task-specific
+TREC_PM2019,x11fieldq,P10,0.45263157894736844,task-specific
+TREC_PM2019,x11fieldq,Rprec,0.36754655591991936,task-specific
+TREC_PM2019,x11fieldq,recall100,0.5624283210531607,task-specific
+TREC_PM2019,x11fieldq,infNDCG,0.5281,inferred judgement estimand
+TREC_PM2019,x11fieldq,infAP,0.281,inferred judgement estimand
+TREC_PM2019,medcptrr,ndcg10,0.4086755154803961,task-specific
+TREC_PM2019,medcptrr,P10,0.3736842105263158,task-specific
+TREC_PM2019,medcptrr,Rprec,0.30043192962030424,task-specific
+TREC_PM2019,medcptrr,recall100,0.5180685640433647,task-specific
+TREC_PM2019,medcptrr,infNDCG,0.4679,inferred judgement estimand
+TREC_PM2019,medcptrr,infAP,0.2269,inferred judgement estimand
+TREC_PM2019,rrfmed,ndcg10,0.5616660939209169,task-specific
+TREC_PM2019,rrfmed,P10,0.5,task-specific
+TREC_PM2019,rrfmed,Rprec,0.4076840783367673,task-specific
+TREC_PM2019,rrfmed,recall100,0.5930914647000927,task-specific
+TREC_PM2019,rrfmed,infNDCG,0.5561,inferred judgement estimand
+TREC_PM2019,rrfmed,infAP,0.2988,inferred judgement estimand
+TREC_PM2019,bgerr,ndcg10,0.41540647918231327,task-specific
+TREC_PM2019,bgerr,P10,0.37105263157894736,task-specific
+TREC_PM2019,bgerr,Rprec,0.3148137159149295,task-specific
+TREC_PM2019,bgerr,recall100,0.47254603781446464,task-specific
+TREC_PM2019,bgerr,infNDCG,0.4544,inferred judgement estimand
+TREC_PM2019,bgerr,infAP,0.227,inferred judgement estimand
