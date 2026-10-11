@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "dataset": "eclef",
+  "topics": 31,
+  "ranking_outputs_reconstructed": 62,
+  "RRF_score_values_checked": 82412,
+  "numerical_check": {
+    "float64_score_values_checked": 82412,
+    "maximum_absolute_error": 1.7280716889445102e-05,
+    "non_tie_order_inversions": 0,
+    "exact_float64_top10_topics": 31,
+    "total_topics": 31,
+    "all_embeddings_finite": true,
+    "scope": "Independent arithmetic comparison against frozen float32 scores; float64 is not a new ranking experiment"
+  },
+  "RUNS_sha256": "cfe7e79b7f9a98c1cd6e87dc946249bfc80f408562c6d789684020d9fbec51f8",
+  "rank_inputs_sha256": "146e15e9a75317e57ca4c64b0ca33bd88e03e7194a90cca7bc24322b9fd32db6",
+  "new_neural_inference": false
+}

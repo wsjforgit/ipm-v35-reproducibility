@@ -1,0 +1,10 @@
+{
+  "file": "external_ip/eclef/RUNS.json.gz",
+  "original_name": "external_ip/eclef/RUNS.json",
+  "original_bytes": 8699160,
+  "original_sha256": "cfe7e79b7f9a98c1cd6e87dc946249bfc80f408562c6d789684020d9fbec51f8",
+  "compression": "gzip level 9 fixed timestamp",
+  "compressed_bytes": 2096335,
+  "compressed_sha256": "752ffb954b27faab0918c8eac11f2637eeaf7c6fae749bedc03045b164cd2bcd",
+  "content_equivalent_after_decompression": true
+}

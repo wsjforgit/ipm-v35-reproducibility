@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "dataset": "e19",
+  "topics": 40,
+  "ranking_outputs_reconstructed": 80,
+  "RRF_score_values_checked": 55604,
+  "numerical_check": {
+    "float64_score_values_checked": 55604,
+    "maximum_absolute_error": 1.6601829742057816e-05,
+    "non_tie_order_inversions": 0,
+    "exact_float64_top10_topics": 40,
+    "total_topics": 40,
+    "all_embeddings_finite": true,
+    "scope": "Independent arithmetic comparison against frozen float32 scores; float64 is not a new ranking experiment"
+  },
+  "RUNS_sha256": "67c5d3f3d5ab14057fb159d0a506fa27f1ed22fe333b4216c0890c9eaac9ad02",
+  "rank_inputs_sha256": "c6575a2b10813484cd017bbfabf16f40acce6ecbe817b764caf21cbd30c3ffd7",
+  "new_neural_inference": false
+}

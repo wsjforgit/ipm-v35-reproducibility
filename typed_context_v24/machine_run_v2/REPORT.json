@@ -1,0 +1,81 @@
+{
+  "status": "DEVELOPMENT_EXECUTED_NOT_FORMAL_VALIDATION",
+  "corpus_chunks": 4269,
+  "source_records": 280,
+  "reconstructed_parents": 1521,
+  "excluded_parents": 19,
+  "source_typed_frames": 6558,
+  "frame_source_types": {
+    "clinical_trial": 484,
+    "guideline": 197,
+    "case_report": 70,
+    "drug_label": 5807
+  },
+  "frame_document_functions": {
+    "TRIAL_EXCLUSION": 32,
+    "TRIAL_DESCRIPTION": 334,
+    "TRIAL_ELIGIBILITY_SCOPE_UNRESOLVED": 51,
+    "TRIAL_INCLUSION": 67,
+    "GUIDELINE_RECOMMENDATION_CONTEXT": 197,
+    "CASE_OBSERVATION_CONTEXT": 70,
+    "LABEL_OTHER": 4841,
+    "LABEL_INDICATION": 256,
+    "LABEL_WARNING": 677,
+    "LABEL_CONTRAINDICATION": 33
+  },
+  "direct_assertions": 83,
+  "all_corpus_frame_guard_reasons": {
+    "context_frame_not_direct_assertion": 6475,
+    "missing_biomarker": 6206,
+    "missing_formulation": 4882,
+    "missing_population": 3360,
+    "missing_prior_therapy": 6010,
+    "missing_time_scope": 5816,
+    "eligibility_heading_unknown": 51,
+    "incomplete_sentence": 131,
+    "unsupported_conditional_or_disjunctive_scope": 2211,
+    "missing_setting": 5464,
+    "multi_entity_or_regimen_scope": 1785,
+    "unparsed_assertion_prefix": 65
+  },
+  "exposed_needs": 12,
+  "methods": 4,
+  "rankings": 48,
+  "bounded_pair_comparisons": 326,
+  "bounded_relation_statuses": {
+    "UNKNOWN": 326
+  },
+  "bounded_guard_reasons": {
+    "context_frame_not_direct_assertion": 323,
+    "different_conditions": 241,
+    "different_document_function": 206,
+    "different_predicate": 212,
+    "missing_biomarker": 324,
+    "missing_formulation": 326,
+    "missing_population": 299,
+    "missing_prior_therapy": 324,
+    "missing_setting": 308,
+    "missing_time_scope": 311,
+    "multi_entity_or_regimen_scope": 186,
+    "unsupported_conditional_or_disjunctive_scope": 194,
+    "incomplete_sentence": 75,
+    "duplicate_text_not_independent_corroboration": 7,
+    "different_assertion_object": 17,
+    "different_assertion_preposition": 15,
+    "unparsed_assertion_prefix": 11
+  },
+  "structural_chain_candidates": 0,
+  "cross_role_review_items": 7,
+  "typed_R_changed_final_outputs": 0,
+  "actual_author_scores": 0,
+  "actual_AI_scores": 0,
+  "AI_model_calls": 0,
+  "formal_new_test_tasks": 0,
+  "limits": [
+    "Frames and proposed targets are unvalidated machine extraction, not gold labels.",
+    "Broader context coverage does not establish safe decisions, relation correctness or reasoning benefit.",
+    "All-corpus diagnostic processing is separate from per-need extra reads; no equal total budget claim.",
+    "Repeated frames, pairs and needs sharing source records are dependent, not independent sample units.",
+    "No author or AI scores and no judgment-based effectiveness metrics."
+  ]
+}

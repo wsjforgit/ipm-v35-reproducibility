@@ -1,0 +1,2438 @@
+{
+  "external_ip/PER_TOPIC_METRICS.json": [
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "1",
+      "ndcg10": 0.24309789328476902,
+      "P10": 0.3,
+      "Rprec": 0.42028985507246375,
+      "recall100": 0.34057971014492755
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "2",
+      "ndcg10": 0.2999050316974944,
+      "P10": 0.3,
+      "Rprec": 0.2383177570093458,
+      "recall100": 0.11214953271028037
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "3",
+      "ndcg10": 0.318020972360178,
+      "P10": 0.3,
+      "Rprec": 0.3,
+      "recall100": 0.9
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "4",
+      "ndcg10": 0.3137470237540585,
+      "P10": 0.4,
+      "Rprec": 0.3146067415730337,
+      "recall100": 0.3258426966292135
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "5",
+      "ndcg10": 0.22009176629808017,
+      "P10": 0.1,
+      "Rprec": 0.1346153846153846,
+      "recall100": 0.15384615384615385
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "6",
+      "ndcg10": 0.30215600509033613,
+      "P10": 0.4,
+      "Rprec": 0.3322884012539185,
+      "recall100": 0.11285266457680251
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "7",
+      "ndcg10": 0.6274092458891772,
+      "P10": 0.6,
+      "Rprec": 0.363013698630137,
+      "recall100": 0.15753424657534246
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "8",
+      "ndcg10": 0.28838205139432177,
+      "P10": 0.4,
+      "Rprec": 0.30434782608695654,
+      "recall100": 0.34782608695652173
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "9",
+      "ndcg10": 0.7640118053602019,
+      "P10": 0.7,
+      "Rprec": 0.6231884057971014,
+      "recall100": 0.7536231884057971
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "10",
+      "ndcg10": 0.933745776545611,
+      "P10": 0.9,
+      "Rprec": 0.6,
+      "recall100": 0.6571428571428571
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "11",
+      "ndcg10": 0.7079735922044323,
+      "P10": 0.7,
+      "Rprec": 0.5333333333333333,
+      "recall100": 0.7111111111111111
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "12",
+      "ndcg10": 0.09092803061897885,
+      "P10": 0.1,
+      "Rprec": 0.1111111111111111,
+      "recall100": 0.3333333333333333
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "13",
+      "ndcg10": 0.6717589890736099,
+      "P10": 0.6,
+      "Rprec": 0.325,
+      "recall100": 0.575
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "14",
+      "ndcg10": 0.07336392209936005,
+      "P10": 0.1,
+      "Rprec": 0.07692307692307693,
+      "recall100": 0.38461538461538464
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "15",
+      "ndcg10": 0.47890182703561945,
+      "P10": 0.8,
+      "Rprec": 0.3114754098360656,
+      "recall100": 0.22404371584699453
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "16",
+      "ndcg10": 0.8545616211215568,
+      "P10": 0.9,
+      "Rprec": 0.38095238095238093,
+      "recall100": 0.40476190476190477
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "17",
+      "ndcg10": 0.4000907142391546,
+      "P10": 0.6,
+      "Rprec": 0.5,
+      "recall100": 0.6111111111111112
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "18",
+      "ndcg10": 0.17947710508581735,
+      "P10": 0.2,
+      "Rprec": 0.16666666666666666,
+      "recall100": 0.21212121212121213
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "19",
+      "ndcg10": 0.2492767253899482,
+      "P10": 0.4,
+      "Rprec": 0.2,
+      "recall100": 0.34285714285714286
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "20",
+      "ndcg10": 0.32849841092194887,
+      "P10": 0.2,
+      "Rprec": 0.1,
+      "recall100": 0.4
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "21",
+      "ndcg10": 0.8240777442366681,
+      "P10": 0.9,
+      "Rprec": 0.6282051282051282,
+      "recall100": 0.717948717948718
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "22",
+      "ndcg10": 0.7496121754205756,
+      "P10": 0.8,
+      "Rprec": 0.35,
+      "recall100": 0.4166666666666667
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "23",
+      "ndcg10": 0.17385461051511916,
+      "P10": 0.1,
+      "Rprec": 0.125,
+      "recall100": 0.125
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "24",
+      "ndcg10": 0.07839826897867533,
+      "P10": 0.1,
+      "Rprec": 0.0625,
+      "recall100": 0.15625
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "25",
+      "ndcg10": 0.6122496142821665,
+      "P10": 0.5,
+      "Rprec": 0.45454545454545453,
+      "recall100": 0.696969696969697
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "26",
+      "ndcg10": 0.7246078065685068,
+      "P10": 0.4,
+      "Rprec": 0.5714285714285714,
+      "recall100": 0.8571428571428571
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "27",
+      "ndcg10": 0.6807351507646947,
+      "P10": 1.0,
+      "Rprec": 0.3804347826086957,
+      "recall100": 0.391304347826087
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "28",
+      "ndcg10": 0.3206151612326197,
+      "P10": 0.6,
+      "Rprec": 0.3669724770642202,
+      "recall100": 0.3394495412844037
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "29",
+      "ndcg10": 0.531129221783428,
+      "P10": 0.2,
+      "Rprec": 0.25,
+      "recall100": 0.75
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "30",
+      "ndcg10": 0.23537653116186527,
+      "P10": 0.1,
+      "Rprec": 0.2,
+      "recall100": 0.4666666666666667
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "31",
+      "ndcg10": 0.49320831104542096,
+      "P10": 0.2,
+      "Rprec": 0.5,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "34",
+      "ndcg10": 0.2940806813328203,
+      "P10": 0.1,
+      "Rprec": 0.0,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "35",
+      "ndcg10": 0.34658761311083547,
+      "P10": 0.3,
+      "Rprec": 0.36363636363636365,
+      "recall100": 0.9090909090909091
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "36",
+      "ndcg10": 0.7412387271465288,
+      "P10": 0.4,
+      "Rprec": 0.6666666666666666,
+      "recall100": 0.8333333333333334
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "37",
+      "ndcg10": 0.49752626558899254,
+      "P10": 0.4,
+      "Rprec": 0.4,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "38",
+      "ndcg10": 1.0,
+      "P10": 0.1,
+      "Rprec": 1.0,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "39",
+      "ndcg10": 0.0,
+      "P10": 0.0,
+      "Rprec": 0.0,
+      "recall100": 0.5
+    },
+    {
+      "dataset": "TREC",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "40",
+      "ndcg10": 0.23719771276929622,
+      "P10": 0.1,
+      "Rprec": 0.0,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "1",
+      "ndcg10": 0.41057198006764817,
+      "P10": 0.5,
+      "Rprec": 0.5579710144927537,
+      "recall100": 0.42028985507246375
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "2",
+      "ndcg10": 0.7877736340270853,
+      "P10": 0.8,
+      "Rprec": 0.3925233644859813,
+      "recall100": 0.24766355140186916
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "3",
+      "ndcg10": 0.404575419325978,
+      "P10": 0.4,
+      "Rprec": 0.4,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "4",
+      "ndcg10": 0.5721540138146773,
+      "P10": 0.7,
+      "Rprec": 0.2247191011235955,
+      "recall100": 0.25842696629213485
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "5",
+      "ndcg10": 0.20483424751859086,
+      "P10": 0.2,
+      "Rprec": 0.09615384615384616,
+      "recall100": 0.1346153846153846
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "6",
+      "ndcg10": 0.4754950727572664,
+      "P10": 0.5,
+      "Rprec": 0.36363636363636365,
+      "recall100": 0.109717868338558
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "7",
+      "ndcg10": 0.76008775562025,
+      "P10": 0.8,
+      "Rprec": 0.4657534246575342,
+      "recall100": 0.22945205479452055
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "8",
+      "ndcg10": 0.642923523403608,
+      "P10": 0.7,
+      "Rprec": 0.391304347826087,
+      "recall100": 0.5652173913043478
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "9",
+      "ndcg10": 0.8523030685665928,
+      "P10": 0.9,
+      "Rprec": 0.7536231884057971,
+      "recall100": 0.8260869565217391
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "10",
+      "ndcg10": 1.0,
+      "P10": 1.0,
+      "Rprec": 0.6285714285714286,
+      "recall100": 0.6571428571428571
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "11",
+      "ndcg10": 0.8465408326464715,
+      "P10": 0.9,
+      "Rprec": 0.6444444444444445,
+      "recall100": 0.7777777777777778
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "12",
+      "ndcg10": 0.26919108962472693,
+      "P10": 0.3,
+      "Rprec": 0.2222222222222222,
+      "recall100": 0.5555555555555556
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "13",
+      "ndcg10": 0.8579809428223729,
+      "P10": 0.8,
+      "Rprec": 0.5,
+      "recall100": 0.75
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "14",
+      "ndcg10": 0.22009176629808017,
+      "P10": 0.1,
+      "Rprec": 0.15384615384615385,
+      "recall100": 0.6153846153846154
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "15",
+      "ndcg10": 0.3361195135366878,
+      "P10": 0.6,
+      "Rprec": 0.3879781420765027,
+      "recall100": 0.273224043715847
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "16",
+      "ndcg10": 0.8707661565670631,
+      "P10": 0.8,
+      "Rprec": 0.42857142857142855,
+      "recall100": 0.47619047619047616
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "17",
+      "ndcg10": 0.44288910275258875,
+      "P10": 0.6,
+      "Rprec": 0.5,
+      "recall100": 0.6666666666666666
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "18",
+      "ndcg10": 0.576323354912681,
+      "P10": 0.5,
+      "Rprec": 0.24242424242424243,
+      "recall100": 0.3333333333333333
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "19",
+      "ndcg10": 0.3882285878196642,
+      "P10": 0.4,
+      "Rprec": 0.2571428571428571,
+      "recall100": 0.34285714285714286
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "20",
+      "ndcg10": 0.2010810754182416,
+      "P10": 0.2,
+      "Rprec": 0.2,
+      "recall100": 0.4
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "21",
+      "ndcg10": 0.8899541168509599,
+      "P10": 0.9,
+      "Rprec": 0.717948717948718,
+      "recall100": 0.782051282051282
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "22",
+      "ndcg10": 0.8293271620269694,
+      "P10": 0.9,
+      "Rprec": 0.43333333333333335,
+      "recall100": 0.5166666666666667
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "23",
+      "ndcg10": 0.27555303824394584,
+      "P10": 0.1,
+      "Rprec": 0.125,
+      "recall100": 0.125
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "24",
+      "ndcg10": 0.28952298823485745,
+      "P10": 0.2,
+      "Rprec": 0.125,
+      "recall100": 0.1875
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "25",
+      "ndcg10": 0.9363792118010481,
+      "P10": 0.9,
+      "Rprec": 0.6060606060606061,
+      "recall100": 0.9090909090909091
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "26",
+      "ndcg10": 0.6410526592807015,
+      "P10": 0.4,
+      "Rprec": 0.5714285714285714,
+      "recall100": 0.8571428571428571
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "27",
+      "ndcg10": 0.6953195217035424,
+      "P10": 0.9,
+      "Rprec": 0.5,
+      "recall100": 0.5108695652173914
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "28",
+      "ndcg10": 0.4691182800989876,
+      "P10": 0.7,
+      "Rprec": 0.42201834862385323,
+      "recall100": 0.41284403669724773
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "29",
+      "ndcg10": 0.403757813041132,
+      "P10": 0.2,
+      "Rprec": 0.25,
+      "recall100": 0.75
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "30",
+      "ndcg10": 0.4852537422563723,
+      "P10": 0.3,
+      "Rprec": 0.2,
+      "recall100": 0.4
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "31",
+      "ndcg10": 0.38009376671593426,
+      "P10": 0.1,
+      "Rprec": 0.5,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "34",
+      "ndcg10": 0.626665273802673,
+      "P10": 0.2,
+      "Rprec": 0.5,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "35",
+      "ndcg10": 0.5668388048959083,
+      "P10": 0.4,
+      "Rprec": 0.36363636363636365,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "36",
+      "ndcg10": 0.6713360037092465,
+      "P10": 0.5,
+      "Rprec": 0.6666666666666666,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "37",
+      "ndcg10": 0.7072362909106182,
+      "P10": 0.4,
+      "Rprec": 0.8,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "38",
+      "ndcg10": 1.0,
+      "P10": 0.1,
+      "Rprec": 1.0,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "39",
+      "ndcg10": 0.27078426295835145,
+      "P10": 0.1,
+      "Rprec": 0.0,
+      "recall100": 0.5
+    },
+    {
+      "dataset": "TREC",
+      "method": "RRF_RAW_IP",
+      "topic_id": "40",
+      "ndcg10": 0.46845052016107697,
+      "P10": 0.2,
+      "Rprec": 0.0,
+      "recall100": 1.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD008874",
+      "n": 2382,
+      "cutoff": 238,
+      "hits": 63,
+      "positive_denominator": 118,
+      "ncg": 0.5338983050847458
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD009044",
+      "n": 3169,
+      "cutoff": 316,
+      "hits": 11,
+      "positive_denominator": 11,
+      "ncg": 1.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD011686",
+      "n": 9729,
+      "cutoff": 972,
+      "hits": 63,
+      "positive_denominator": 64,
+      "ncg": 0.984375
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012080",
+      "n": 6643,
+      "cutoff": 664,
+      "hits": 38,
+      "positive_denominator": 77,
+      "ncg": 0.4935064935064935
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012233",
+      "n": 472,
+      "cutoff": 47,
+      "hits": 14,
+      "positive_denominator": 43,
+      "ncg": 0.32558139534883723
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012567",
+      "n": 6735,
+      "cutoff": 673,
+      "hits": 11,
+      "positive_denominator": 11,
+      "ncg": 1.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012669",
+      "n": 1260,
+      "cutoff": 126,
+      "hits": 26,
+      "positive_denominator": 71,
+      "ncg": 0.36619718309859156
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012768",
+      "n": 131,
+      "cutoff": 13,
+      "hits": 2,
+      "positive_denominator": 45,
+      "ncg": 0.044444444444444446
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD000996",
+      "n": 281,
+      "cutoff": 28,
+      "hits": 6,
+      "positive_denominator": 9,
+      "ncg": 0.6666666666666666
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD001261",
+      "n": 571,
+      "cutoff": 57,
+      "hits": 18,
+      "positive_denominator": 72,
+      "ncg": 0.25
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD004414",
+      "n": 336,
+      "cutoff": 33,
+      "hits": 10,
+      "positive_denominator": 16,
+      "ncg": 0.625
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD006468",
+      "n": 3873,
+      "cutoff": 387,
+      "hits": 26,
+      "positive_denominator": 52,
+      "ncg": 0.5
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD007867",
+      "n": 943,
+      "cutoff": 94,
+      "hits": 11,
+      "positive_denominator": 17,
+      "ncg": 0.6470588235294118
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD009069",
+      "n": 1757,
+      "cutoff": 175,
+      "hits": 15,
+      "positive_denominator": 78,
+      "ncg": 0.19230769230769232
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD009642",
+      "n": 1922,
+      "cutoff": 192,
+      "hits": 53,
+      "positive_denominator": 62,
+      "ncg": 0.8548387096774194
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD010038",
+      "n": 8867,
+      "cutoff": 886,
+      "hits": 19,
+      "positive_denominator": 23,
+      "ncg": 0.8260869565217391
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD010239",
+      "n": 224,
+      "cutoff": 22,
+      "hits": 10,
+      "positive_denominator": 12,
+      "ncg": 0.8333333333333334
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD010558",
+      "n": 2814,
+      "cutoff": 281,
+      "hits": 21,
+      "positive_denominator": 37,
+      "ncg": 0.5675675675675675
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD010753",
+      "n": 2538,
+      "cutoff": 253,
+      "hits": 16,
+      "positive_denominator": 29,
+      "ncg": 0.5517241379310345
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD011140",
+      "n": 289,
+      "cutoff": 28,
+      "hits": 4,
+      "positive_denominator": 4,
+      "ncg": 1.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD011571",
+      "n": 146,
+      "cutoff": 14,
+      "hits": 9,
+      "positive_denominator": 15,
+      "ncg": 0.6
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD011768",
+      "n": 9159,
+      "cutoff": 915,
+      "hits": 46,
+      "positive_denominator": 54,
+      "ncg": 0.8518518518518519
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD011977",
+      "n": 195,
+      "cutoff": 19,
+      "hits": 10,
+      "positive_denominator": 49,
+      "ncg": 0.20408163265306123
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012069",
+      "n": 3476,
+      "cutoff": 347,
+      "hits": 75,
+      "positive_denominator": 320,
+      "ncg": 0.234375
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012164",
+      "n": 61,
+      "cutoff": 6,
+      "hits": 4,
+      "positive_denominator": 7,
+      "ncg": 0.5714285714285714
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012342",
+      "n": 2353,
+      "cutoff": 235,
+      "hits": 4,
+      "positive_denominator": 6,
+      "ncg": 0.6666666666666666
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012455",
+      "n": 1593,
+      "cutoff": 159,
+      "hits": 7,
+      "positive_denominator": 7,
+      "ncg": 1.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012551",
+      "n": 591,
+      "cutoff": 59,
+      "hits": 16,
+      "positive_denominator": 68,
+      "ncg": 0.23529411764705882
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD012661",
+      "n": 3367,
+      "cutoff": 336,
+      "hits": 69,
+      "positive_denominator": 192,
+      "ncg": 0.359375
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD011558",
+      "n": 2166,
+      "cutoff": 216,
+      "hits": 0,
+      "positive_denominator": 2,
+      "ncg": 0.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "MEDCPT_RAW_IP",
+      "topic_id": "CD011787",
+      "n": 4369,
+      "cutoff": 436,
+      "hits": 80,
+      "positive_denominator": 111,
+      "ncg": 0.7207207207207207
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD008874",
+      "n": 2382,
+      "cutoff": 238,
+      "hits": 51,
+      "positive_denominator": 118,
+      "ncg": 0.4322033898305085
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD009044",
+      "n": 3169,
+      "cutoff": 316,
+      "hits": 10,
+      "positive_denominator": 11,
+      "ncg": 0.9090909090909091
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD011686",
+      "n": 9729,
+      "cutoff": 972,
+      "hits": 63,
+      "positive_denominator": 64,
+      "ncg": 0.984375
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012080",
+      "n": 6643,
+      "cutoff": 664,
+      "hits": 36,
+      "positive_denominator": 77,
+      "ncg": 0.4675324675324675
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012233",
+      "n": 472,
+      "cutoff": 47,
+      "hits": 8,
+      "positive_denominator": 43,
+      "ncg": 0.18604651162790697
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012567",
+      "n": 6735,
+      "cutoff": 673,
+      "hits": 9,
+      "positive_denominator": 11,
+      "ncg": 0.8181818181818182
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012669",
+      "n": 1260,
+      "cutoff": 126,
+      "hits": 21,
+      "positive_denominator": 71,
+      "ncg": 0.29577464788732394
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012768",
+      "n": 131,
+      "cutoff": 13,
+      "hits": 5,
+      "positive_denominator": 45,
+      "ncg": 0.1111111111111111
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD000996",
+      "n": 281,
+      "cutoff": 28,
+      "hits": 5,
+      "positive_denominator": 9,
+      "ncg": 0.5555555555555556
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD001261",
+      "n": 571,
+      "cutoff": 57,
+      "hits": 10,
+      "positive_denominator": 72,
+      "ncg": 0.1388888888888889
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD004414",
+      "n": 336,
+      "cutoff": 33,
+      "hits": 5,
+      "positive_denominator": 16,
+      "ncg": 0.3125
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD006468",
+      "n": 3873,
+      "cutoff": 387,
+      "hits": 25,
+      "positive_denominator": 52,
+      "ncg": 0.4807692307692308
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD007867",
+      "n": 943,
+      "cutoff": 94,
+      "hits": 13,
+      "positive_denominator": 17,
+      "ncg": 0.7647058823529411
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD009069",
+      "n": 1757,
+      "cutoff": 175,
+      "hits": 11,
+      "positive_denominator": 78,
+      "ncg": 0.14102564102564102
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD009642",
+      "n": 1922,
+      "cutoff": 192,
+      "hits": 54,
+      "positive_denominator": 62,
+      "ncg": 0.8709677419354839
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD010038",
+      "n": 8867,
+      "cutoff": 886,
+      "hits": 18,
+      "positive_denominator": 23,
+      "ncg": 0.782608695652174
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD010239",
+      "n": 224,
+      "cutoff": 22,
+      "hits": 12,
+      "positive_denominator": 12,
+      "ncg": 1.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD010558",
+      "n": 2814,
+      "cutoff": 281,
+      "hits": 21,
+      "positive_denominator": 37,
+      "ncg": 0.5675675675675675
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD010753",
+      "n": 2538,
+      "cutoff": 253,
+      "hits": 13,
+      "positive_denominator": 29,
+      "ncg": 0.4482758620689655
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD011140",
+      "n": 289,
+      "cutoff": 28,
+      "hits": 4,
+      "positive_denominator": 4,
+      "ncg": 1.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD011571",
+      "n": 146,
+      "cutoff": 14,
+      "hits": 8,
+      "positive_denominator": 15,
+      "ncg": 0.5333333333333333
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD011768",
+      "n": 9159,
+      "cutoff": 915,
+      "hits": 45,
+      "positive_denominator": 54,
+      "ncg": 0.8333333333333334
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD011977",
+      "n": 195,
+      "cutoff": 19,
+      "hits": 9,
+      "positive_denominator": 49,
+      "ncg": 0.1836734693877551
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012069",
+      "n": 3476,
+      "cutoff": 347,
+      "hits": 69,
+      "positive_denominator": 320,
+      "ncg": 0.215625
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012164",
+      "n": 61,
+      "cutoff": 6,
+      "hits": 3,
+      "positive_denominator": 7,
+      "ncg": 0.42857142857142855
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012342",
+      "n": 2353,
+      "cutoff": 235,
+      "hits": 4,
+      "positive_denominator": 6,
+      "ncg": 0.6666666666666666
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012455",
+      "n": 1593,
+      "cutoff": 159,
+      "hits": 7,
+      "positive_denominator": 7,
+      "ncg": 1.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012551",
+      "n": 591,
+      "cutoff": 59,
+      "hits": 17,
+      "positive_denominator": 68,
+      "ncg": 0.25
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD012661",
+      "n": 3367,
+      "cutoff": 336,
+      "hits": 48,
+      "positive_denominator": 192,
+      "ncg": 0.25
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD011558",
+      "n": 2166,
+      "cutoff": 216,
+      "hits": 0,
+      "positive_denominator": 2,
+      "ncg": 0.0
+    },
+    {
+      "dataset": "CLEF",
+      "method": "RRF_RAW_IP",
+      "topic_id": "CD011787",
+      "n": 4369,
+      "cutoff": 436,
+      "hits": 79,
+      "positive_denominator": 111,
+      "ncg": 0.7117117117117117
+    }
+  ],
+  "nli4ct/INDEPENDENT_REPLAY.json": {
+    "status": "PASS",
+    "metric_values_checked": 224,
+    "predictions_checked": 4000,
+    "evidence_bindings_checked": 29888,
+    "metric_replay": {
+      "I0_S0_R0": {
+        "all": {
+          "n": 500,
+          "binary_accuracy": 0.558,
+          "entailment_F1": 0.4872389791183295,
+          "decisions": 44,
+          "coverage": 0.088,
+          "selective_accuracy": 0.6136363636363636,
+          "UNKNOWN": 456
+        },
+        "Comparison": {
+          "n": 271,
+          "binary_accuracy": 0.5498154981549815,
+          "entailment_F1": 0.45535714285714285,
+          "decisions": 21,
+          "coverage": 0.07749077490774908,
+          "selective_accuracy": 0.5714285714285714,
+          "UNKNOWN": 250
+        },
+        "Single": {
+          "n": 229,
+          "binary_accuracy": 0.5676855895196506,
+          "entailment_F1": 0.5217391304347826,
+          "decisions": 23,
+          "coverage": 0.10043668122270742,
+          "selective_accuracy": 0.6521739130434783,
+          "UNKNOWN": 206
+        },
+        "Eligibility": {
+          "n": 132,
+          "binary_accuracy": 0.5757575757575758,
+          "entailment_F1": 0.5,
+          "decisions": 12,
+          "coverage": 0.09090909090909091,
+          "selective_accuracy": 0.75,
+          "UNKNOWN": 120
+        }
+      },
+      "I0_S0_R1": {
+        "all": {
+          "n": 500,
+          "binary_accuracy": 0.59,
+          "entailment_F1": 0.5372460496613995,
+          "decisions": 146,
+          "coverage": 0.292,
+          "selective_accuracy": 0.636986301369863,
+          "UNKNOWN": 354
+        },
+        "Comparison": {
+          "n": 271,
+          "binary_accuracy": 0.6051660516605166,
+          "entailment_F1": 0.5596707818930041,
+          "decisions": 75,
+          "coverage": 0.2767527675276753,
+          "selective_accuracy": 0.6,
+          "UNKNOWN": 196
+        },
+        "Single": {
+          "n": 229,
+          "binary_accuracy": 0.5720524017467249,
+          "entailment_F1": 0.51,
+          "decisions": 71,
+          "coverage": 0.31004366812227074,
+          "selective_accuracy": 0.676056338028169,
+          "UNKNOWN": 158
+        },
+        "Eligibility": {
+          "n": 132,
+          "binary_accuracy": 0.5984848484848485,
+          "entailment_F1": 0.5954198473282443,
+          "decisions": 31,
+          "coverage": 0.23484848484848486,
+          "selective_accuracy": 0.6451612903225806,
+          "UNKNOWN": 101
+        }
+      },
+      "I0_S1_R0": {
+        "all": {
+          "n": 500,
+          "binary_accuracy": 0.558,
+          "entailment_F1": 0.48484848484848486,
+          "decisions": 46,
+          "coverage": 0.092,
+          "selective_accuracy": 0.6304347826086957,
+          "UNKNOWN": 454
+        },
+        "Comparison": {
+          "n": 271,
+          "binary_accuracy": 0.5498154981549815,
+          "entailment_F1": 0.45045045045045046,
+          "decisions": 23,
+          "coverage": 0.08487084870848709,
+          "selective_accuracy": 0.6086956521739131,
+          "UNKNOWN": 248
+        },
+        "Single": {
+          "n": 229,
+          "binary_accuracy": 0.5676855895196506,
+          "entailment_F1": 0.5217391304347826,
+          "decisions": 23,
+          "coverage": 0.10043668122270742,
+          "selective_accuracy": 0.6521739130434783,
+          "UNKNOWN": 206
+        },
+        "Eligibility": {
+          "n": 132,
+          "binary_accuracy": 0.5757575757575758,
+          "entailment_F1": 0.4909090909090909,
+          "decisions": 14,
+          "coverage": 0.10606060606060606,
+          "selective_accuracy": 0.7857142857142857,
+          "UNKNOWN": 118
+        }
+      },
+      "I0_S1_R1": {
+        "all": {
+          "n": 500,
+          "binary_accuracy": 0.586,
+          "entailment_F1": 0.5219399538106235,
+          "decisions": 164,
+          "coverage": 0.328,
+          "selective_accuracy": 0.6341463414634146,
+          "UNKNOWN": 336
+        },
+        "Comparison": {
+          "n": 271,
+          "binary_accuracy": 0.6014760147601476,
+          "entailment_F1": 0.5384615384615384,
+          "decisions": 85,
+          "coverage": 0.31365313653136534,
+          "selective_accuracy": 0.611764705882353,
+          "UNKNOWN": 186
+        },
+        "Single": {
+          "n": 229,
+          "binary_accuracy": 0.5676855895196506,
+          "entailment_F1": 0.5025125628140703,
+          "decisions": 79,
+          "coverage": 0.34497816593886466,
+          "selective_accuracy": 0.6582278481012658,
+          "UNKNOWN": 150
+        },
+        "Eligibility": {
+          "n": 132,
+          "binary_accuracy": 0.5984848484848485,
+          "entailment_F1": 0.5691056910569106,
+          "decisions": 44,
+          "coverage": 0.3333333333333333,
+          "selective_accuracy": 0.7045454545454546,
+          "UNKNOWN": 88
+        }
+      },
+      "I1_S0_R0": {
+        "all": {
+          "n": 500,
+          "binary_accuracy": 0.558,
+          "entailment_F1": 0.4872389791183295,
+          "decisions": 44,
+          "coverage": 0.088,
+          "selective_accuracy": 0.6136363636363636,
+          "UNKNOWN": 456
+        },
+        "Comparison": {
+          "n": 271,
+          "binary_accuracy": 0.5498154981549815,
+          "entailment_F1": 0.45535714285714285,
+          "decisions": 21,
+          "coverage": 0.07749077490774908,
+          "selective_accuracy": 0.5714285714285714,
+          "UNKNOWN": 250
+        },
+        "Single": {
+          "n": 229,
+          "binary_accuracy": 0.5676855895196506,
+          "entailment_F1": 0.5217391304347826,
+          "decisions": 23,
+          "coverage": 0.10043668122270742,
+          "selective_accuracy": 0.6521739130434783,
+          "UNKNOWN": 206
+        },
+        "Eligibility": {
+          "n": 132,
+          "binary_accuracy": 0.5757575757575758,
+          "entailment_F1": 0.5,
+          "decisions": 12,
+          "coverage": 0.09090909090909091,
+          "selective_accuracy": 0.75,
+          "UNKNOWN": 120
+        }
+      },
+      "I1_S0_R1": {
+        "all": {
+          "n": 500,
+          "binary_accuracy": 0.586,
+          "entailment_F1": 0.5219399538106235,
+          "decisions": 152,
+          "coverage": 0.304,
+          "selective_accuracy": 0.631578947368421,
+          "UNKNOWN": 348
+        },
+        "Comparison": {
+          "n": 271,
+          "binary_accuracy": 0.5977859778597786,
+          "entailment_F1": 0.5321888412017167,
+          "decisions": 81,
+          "coverage": 0.2988929889298893,
+          "selective_accuracy": 0.5925925925925926,
+          "UNKNOWN": 190
+        },
+        "Single": {
+          "n": 229,
+          "binary_accuracy": 0.5720524017467249,
+          "entailment_F1": 0.51,
+          "decisions": 71,
+          "coverage": 0.31004366812227074,
+          "selective_accuracy": 0.676056338028169,
+          "UNKNOWN": 158
+        },
+        "Eligibility": {
+          "n": 132,
+          "binary_accuracy": 0.6060606060606061,
+          "entailment_F1": 0.5806451612903226,
+          "decisions": 32,
+          "coverage": 0.24242424242424243,
+          "selective_accuracy": 0.65625,
+          "UNKNOWN": 100
+        }
+      },
+      "I1_S1_R0": {
+        "all": {
+          "n": 500,
+          "binary_accuracy": 0.56,
+          "entailment_F1": 0.4883720930232558,
+          "decisions": 44,
+          "coverage": 0.088,
+          "selective_accuracy": 0.6136363636363636,
+          "UNKNOWN": 456
+        },
+        "Comparison": {
+          "n": 271,
+          "binary_accuracy": 0.5535055350553506,
+          "entailment_F1": 0.45739910313901344,
+          "decisions": 21,
+          "coverage": 0.07749077490774908,
+          "selective_accuracy": 0.5714285714285714,
+          "UNKNOWN": 250
+        },
+        "Single": {
+          "n": 229,
+          "binary_accuracy": 0.5676855895196506,
+          "entailment_F1": 0.5217391304347826,
+          "decisions": 23,
+          "coverage": 0.10043668122270742,
+          "selective_accuracy": 0.6521739130434783,
+          "UNKNOWN": 206
+        },
+        "Eligibility": {
+          "n": 132,
+          "binary_accuracy": 0.5833333333333334,
+          "entailment_F1": 0.5045045045045045,
+          "decisions": 12,
+          "coverage": 0.09090909090909091,
+          "selective_accuracy": 0.75,
+          "UNKNOWN": 120
+        }
+      },
+      "I1_S1_R1": {
+        "all": {
+          "n": 500,
+          "binary_accuracy": 0.586,
+          "entailment_F1": 0.5197215777262181,
+          "decisions": 168,
+          "coverage": 0.336,
+          "selective_accuracy": 0.6369047619047619,
+          "UNKNOWN": 332
+        },
+        "Comparison": {
+          "n": 271,
+          "binary_accuracy": 0.6014760147601476,
+          "entailment_F1": 0.5344827586206896,
+          "decisions": 89,
+          "coverage": 0.3284132841328413,
+          "selective_accuracy": 0.6179775280898876,
+          "UNKNOWN": 182
+        },
+        "Single": {
+          "n": 229,
+          "binary_accuracy": 0.5676855895196506,
+          "entailment_F1": 0.5025125628140703,
+          "decisions": 79,
+          "coverage": 0.34497816593886466,
+          "selective_accuracy": 0.6582278481012658,
+          "UNKNOWN": 150
+        },
+        "Eligibility": {
+          "n": 132,
+          "binary_accuracy": 0.5909090909090909,
+          "entailment_F1": 0.5573770491803278,
+          "decisions": 44,
+          "coverage": 0.3333333333333333,
+          "selective_accuracy": 0.7272727272727273,
+          "UNKNOWN": 88
+        }
+      }
+    },
+    "secondary_evidence_audit": {
+      "I0_S0_R0": {
+        "micro_evidence_precision": 0.7482758620689656,
+        "micro_evidence_recall": 0.4668211153400629,
+        "macro_evidence_recall": 0.6265239414321162,
+        "all_reference_lines_selected": 151,
+        "gold_lines": 6043,
+        "selected_lines": 3770,
+        "hit_lines": 2821,
+        "scope": "Selected source lines before word/model truncation; not token attribution or clinical safety accuracy",
+        "registration": "Post-outcome secondary source-grounding audit; not prespecified in original prediction lock"
+      },
+      "I0_S0_R1": {
+        "micro_evidence_precision": 0.7482758620689656,
+        "micro_evidence_recall": 0.4668211153400629,
+        "macro_evidence_recall": 0.6265239414321162,
+        "all_reference_lines_selected": 151,
+        "gold_lines": 6043,
+        "selected_lines": 3770,
+        "hit_lines": 2821,
+        "scope": "Selected source lines before word/model truncation; not token attribution or clinical safety accuracy",
+        "registration": "Post-outcome secondary source-grounding audit; not prespecified in original prediction lock"
+      },
+      "I0_S1_R0": {
+        "micro_evidence_precision": 0.7453580901856764,
+        "micro_evidence_recall": 0.4650008274036075,
+        "macro_evidence_recall": 0.6195126568833316,
+        "all_reference_lines_selected": 148,
+        "gold_lines": 6043,
+        "selected_lines": 3770,
+        "hit_lines": 2810,
+        "scope": "Selected source lines before word/model truncation; not token attribution or clinical safety accuracy",
+        "registration": "Post-outcome secondary source-grounding audit; not prespecified in original prediction lock"
+      },
+      "I0_S1_R1": {
+        "micro_evidence_precision": 0.7453580901856764,
+        "micro_evidence_recall": 0.4650008274036075,
+        "macro_evidence_recall": 0.6195126568833316,
+        "all_reference_lines_selected": 148,
+        "gold_lines": 6043,
+        "selected_lines": 3770,
+        "hit_lines": 2810,
+        "scope": "Selected source lines before word/model truncation; not token attribution or clinical safety accuracy",
+        "registration": "Post-outcome secondary source-grounding audit; not prespecified in original prediction lock"
+      },
+      "I1_S0_R0": {
+        "micro_evidence_precision": 0.7590491626148028,
+        "micro_evidence_recall": 0.4650008274036075,
+        "macro_evidence_recall": 0.6264112388089393,
+        "all_reference_lines_selected": 149,
+        "gold_lines": 6043,
+        "selected_lines": 3702,
+        "hit_lines": 2810,
+        "scope": "Selected source lines before word/model truncation; not token attribution or clinical safety accuracy",
+        "registration": "Post-outcome secondary source-grounding audit; not prespecified in original prediction lock"
+      },
+      "I1_S0_R1": {
+        "micro_evidence_precision": 0.7590491626148028,
+        "micro_evidence_recall": 0.4650008274036075,
+        "macro_evidence_recall": 0.6264112388089393,
+        "all_reference_lines_selected": 149,
+        "gold_lines": 6043,
+        "selected_lines": 3702,
+        "hit_lines": 2810,
+        "scope": "Selected source lines before word/model truncation; not token attribution or clinical safety accuracy",
+        "registration": "Post-outcome secondary source-grounding audit; not prespecified in original prediction lock"
+      },
+      "I1_S1_R0": {
+        "micro_evidence_precision": 0.757428417071853,
+        "micro_evidence_recall": 0.4640079430746318,
+        "macro_evidence_recall": 0.6261611741676981,
+        "all_reference_lines_selected": 151,
+        "gold_lines": 6043,
+        "selected_lines": 3702,
+        "hit_lines": 2804,
+        "scope": "Selected source lines before word/model truncation; not token attribution or clinical safety accuracy",
+        "registration": "Post-outcome secondary source-grounding audit; not prespecified in original prediction lock"
+      },
+      "I1_S1_R1": {
+        "micro_evidence_precision": 0.757428417071853,
+        "micro_evidence_recall": 0.4640079430746318,
+        "macro_evidence_recall": 0.6261611741676981,
+        "all_reference_lines_selected": 151,
+        "gold_lines": 6043,
+        "selected_lines": 3702,
+        "hit_lines": 2804,
+        "scope": "Selected source lines before word/model truncation; not token attribution or clinical safety accuracy",
+        "registration": "Post-outcome secondary source-grounding audit; not prespecified in original prediction lock"
+      }
+    },
+    "confident_errors": 298,
+    "prediction_freeze_sha256": "2d02821d76073b5de984d1cb5fe2343c4a1d652b1d8501e4ff6a767d9d7b0f18",
+    "gold_sha256": "df30c96d47a4f6daff3b5cb7cabb0b28c3483193473295f98d31a732d85a955e",
+    "no_new_model_inference": true
+  },
+  "diagnostics/EXTERNAL_INTERACTION.json": {
+    "status": "PASS",
+    "source": "exposed historical TREC rankings; no new neural inference or independent test",
+    "topic_count": 38,
+    "means": {
+      "full": {
+        "x00raw": 0.534099627630804,
+        "x01rawq": 0.5498432272364631,
+        "x10field": 0.5341536165336092,
+        "x11fieldq": 0.5480887470806135,
+        "interaction": -0.0018084690586546864
+      },
+      "intersection_restricted": {
+        "x00raw": 0.534099627630804,
+        "x01rawq": 0.5498432272364631,
+        "x10field": 0.5341536165336092,
+        "x11fieldq": 0.5480887470806135,
+        "interaction": -0.0018084690586546864
+      }
+    },
+    "official_inferred_aggregate_interactions": {
+      "infNDCG": -0.0017999999999999128,
+      "infAP": -0.00019999999999997797
+    },
+    "common_candidate_range": [
+      250,
+      838
+    ],
+    "interpretation": "Not a direct replication: trial-only fields, disease/gene/demographic query labels, global ordering, official qrels; BCKB uses four roles and role routing",
+    "intersection_scope": "Post-outcome restrict archived score orders to their four-way top1000 intersection before top10; full-qrel ideal denominator unchanged; not full-corpus common-score reranking",
+    "rows": [
+      {
+        "topic": "1",
+        "common_candidates": 670,
+        "full": {
+          "x00raw": 0.3436966913921454,
+          "x01rawq": 0.7630946912803436,
+          "x10field": 0.3436966913921454,
+          "x11fieldq": 0.7630946912803436,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.3436966913921454,
+          "x01rawq": 0.7630946912803436,
+          "x10field": 0.3436966913921454,
+          "x11fieldq": 0.7630946912803436,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "10",
+        "common_candidates": 772,
+        "full": {
+          "x00raw": 1.0,
+          "x01rawq": 1.0,
+          "x10field": 1.0,
+          "x11fieldq": 1.0,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 1.0,
+          "x01rawq": 1.0,
+          "x10field": 1.0,
+          "x11fieldq": 1.0,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "11",
+        "common_candidates": 612,
+        "full": {
+          "x00raw": 0.7773629807241593,
+          "x01rawq": 0.788090127112751,
+          "x10field": 0.8164716018042861,
+          "x11fieldq": 0.788090127112751,
+          "interaction": -0.039108621080126804
+        },
+        "intersection_restricted": {
+          "x00raw": 0.7773629807241593,
+          "x01rawq": 0.788090127112751,
+          "x10field": 0.8164716018042861,
+          "x11fieldq": 0.788090127112751,
+          "interaction": -0.039108621080126804
+        }
+      },
+      {
+        "topic": "12",
+        "common_candidates": 600,
+        "full": {
+          "x00raw": 0.1482972305701491,
+          "x01rawq": 0.19167138999231723,
+          "x10field": 0.21624063148843983,
+          "x11fieldq": 0.19167138999231723,
+          "interaction": -0.06794340091829074
+        },
+        "intersection_restricted": {
+          "x00raw": 0.1482972305701491,
+          "x01rawq": 0.19167138999231723,
+          "x10field": 0.21624063148843983,
+          "x11fieldq": 0.19167138999231723,
+          "interaction": -0.06794340091829074
+        }
+      },
+      {
+        "topic": "13",
+        "common_candidates": 572,
+        "full": {
+          "x00raw": 0.7314470771099789,
+          "x01rawq": 0.7877736340270854,
+          "x10field": 0.7218018303820491,
+          "x11fieldq": 0.7877736340270854,
+          "interaction": 0.009645246727929768
+        },
+        "intersection_restricted": {
+          "x00raw": 0.7314470771099789,
+          "x01rawq": 0.7877736340270854,
+          "x10field": 0.7218018303820491,
+          "x11fieldq": 0.7877736340270854,
+          "interaction": 0.009645246727929768
+        }
+      },
+      {
+        "topic": "14",
+        "common_candidates": 649,
+        "full": {
+          "x00raw": 0.09478836436955078,
+          "x01rawq": 0.08514311764162098,
+          "x10field": 0.09478836436955078,
+          "x11fieldq": 0.08514311764162098,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.09478836436955078,
+          "x01rawq": 0.08514311764162098,
+          "x10field": 0.09478836436955078,
+          "x11fieldq": 0.08514311764162098,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "15",
+        "common_candidates": 665,
+        "full": {
+          "x00raw": 0.23331170840008944,
+          "x01rawq": 0.2409404677898341,
+          "x10field": 0.23331170840008944,
+          "x11fieldq": 0.2409404677898341,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.23331170840008944,
+          "x01rawq": 0.2409404677898341,
+          "x10field": 0.23331170840008944,
+          "x11fieldq": 0.2409404677898341,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "16",
+        "common_candidates": 765,
+        "full": {
+          "x00raw": 0.715396751858943,
+          "x01rawq": 0.7136141674150676,
+          "x10field": 0.715396751858943,
+          "x11fieldq": 0.7136141674150676,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.715396751858943,
+          "x01rawq": 0.7136141674150676,
+          "x10field": 0.715396751858943,
+          "x11fieldq": 0.7136141674150676,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "17",
+        "common_candidates": 636,
+        "full": {
+          "x00raw": 0.18666416159634255,
+          "x01rawq": 0.12286383325798815,
+          "x10field": 0.1130004216818082,
+          "x11fieldq": 0.12286383325798815,
+          "interaction": 0.07366373991453436
+        },
+        "intersection_restricted": {
+          "x00raw": 0.18666416159634255,
+          "x01rawq": 0.12286383325798815,
+          "x10field": 0.1130004216818082,
+          "x11fieldq": 0.12286383325798815,
+          "interaction": 0.07366373991453436
+        }
+      },
+      {
+        "topic": "18",
+        "common_candidates": 587,
+        "full": {
+          "x00raw": 0.6505132600483449,
+          "x01rawq": 0.6207622843987103,
+          "x10field": 0.6505132600483449,
+          "x11fieldq": 0.605504765619221,
+          "interaction": -0.015257518779489332
+        },
+        "intersection_restricted": {
+          "x00raw": 0.6505132600483449,
+          "x01rawq": 0.6207622843987103,
+          "x10field": 0.6505132600483449,
+          "x11fieldq": 0.605504765619221,
+          "interaction": -0.015257518779489332
+        }
+      },
+      {
+        "topic": "19",
+        "common_candidates": 566,
+        "full": {
+          "x00raw": 0.22009176629808017,
+          "x01rawq": 0.22009176629808017,
+          "x10field": 0.22009176629808017,
+          "x11fieldq": 0.22009176629808017,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.22009176629808017,
+          "x01rawq": 0.22009176629808017,
+          "x10field": 0.22009176629808017,
+          "x11fieldq": 0.22009176629808017,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "2",
+        "common_candidates": 707,
+        "full": {
+          "x00raw": 1.0,
+          "x01rawq": 1.0,
+          "x10field": 1.0,
+          "x11fieldq": 1.0,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 1.0,
+          "x01rawq": 1.0,
+          "x10field": 1.0,
+          "x11fieldq": 1.0,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "20",
+        "common_candidates": 677,
+        "full": {
+          "x00raw": 0.2411741642702572,
+          "x01rawq": 0.25483467100741447,
+          "x10field": 0.2411741642702572,
+          "x11fieldq": 0.25483467100741447,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.2411741642702572,
+          "x01rawq": 0.25483467100741447,
+          "x10field": 0.2411741642702572,
+          "x11fieldq": 0.25483467100741447,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "21",
+        "common_candidates": 613,
+        "full": {
+          "x00raw": 0.7753366239771086,
+          "x01rawq": 0.8200685179888283,
+          "x10field": 0.7753366239771086,
+          "x11fieldq": 0.8200685179888283,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.7753366239771086,
+          "x01rawq": 0.8200685179888283,
+          "x10field": 0.7753366239771086,
+          "x11fieldq": 0.8200685179888283,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "22",
+        "common_candidates": 560,
+        "full": {
+          "x00raw": 0.8236998933965709,
+          "x01rawq": 0.8656312722365523,
+          "x10field": 0.8236998933965709,
+          "x11fieldq": 0.8656312722365523,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.8236998933965709,
+          "x01rawq": 0.8656312722365523,
+          "x10field": 0.8236998933965709,
+          "x11fieldq": 0.8656312722365523,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "23",
+        "common_candidates": 551,
+        "full": {
+          "x00raw": 0.17385461051511916,
+          "x01rawq": 0.0,
+          "x10field": 0.17385461051511916,
+          "x11fieldq": 0.0,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.17385461051511916,
+          "x01rawq": 0.0,
+          "x10field": 0.17385461051511916,
+          "x11fieldq": 0.0,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "24",
+        "common_candidates": 560,
+        "full": {
+          "x00raw": 0.22009176629808017,
+          "x01rawq": 0.40853591842579556,
+          "x10field": 0.22009176629808017,
+          "x11fieldq": 0.41528076708874123,
+          "interaction": 0.006744848662945668
+        },
+        "intersection_restricted": {
+          "x00raw": 0.22009176629808017,
+          "x01rawq": 0.40853591842579556,
+          "x10field": 0.22009176629808017,
+          "x11fieldq": 0.41528076708874123,
+          "interaction": 0.006744848662945668
+        }
+      },
+      {
+        "topic": "25",
+        "common_candidates": 376,
+        "full": {
+          "x00raw": 0.933745776545611,
+          "x01rawq": 0.8643145546088337,
+          "x10field": 0.933745776545611,
+          "x11fieldq": 0.8643145546088337,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.933745776545611,
+          "x01rawq": 0.8643145546088337,
+          "x10field": 0.933745776545611,
+          "x11fieldq": 0.8643145546088337,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "26",
+        "common_candidates": 607,
+        "full": {
+          "x00raw": 0.4615379007598259,
+          "x01rawq": 0.4010125818235126,
+          "x10field": 0.4615379007598259,
+          "x11fieldq": 0.4010125818235126,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.4615379007598259,
+          "x01rawq": 0.4010125818235126,
+          "x10field": 0.4615379007598259,
+          "x11fieldq": 0.4010125818235126,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "27",
+        "common_candidates": 667,
+        "full": {
+          "x00raw": 0.7148278180558393,
+          "x01rawq": 0.5869832799110316,
+          "x10field": 0.7148278180558393,
+          "x11fieldq": 0.5804174214255317,
+          "interaction": -0.0065658584854999535
+        },
+        "intersection_restricted": {
+          "x00raw": 0.7148278180558393,
+          "x01rawq": 0.5869832799110316,
+          "x10field": 0.7148278180558393,
+          "x11fieldq": 0.5804174214255317,
+          "interaction": -0.0065658584854999535
+        }
+      },
+      {
+        "topic": "28",
+        "common_candidates": 721,
+        "full": {
+          "x00raw": 0.4126158409676378,
+          "x01rawq": 0.5087587015910096,
+          "x10field": 0.4126158409676378,
+          "x11fieldq": 0.475631589863815,
+          "interaction": -0.03312711172719457
+        },
+        "intersection_restricted": {
+          "x00raw": 0.4126158409676378,
+          "x01rawq": 0.5087587015910096,
+          "x10field": 0.4126158409676378,
+          "x11fieldq": 0.475631589863815,
+          "interaction": -0.03312711172719457
+        }
+      },
+      {
+        "topic": "29",
+        "common_candidates": 383,
+        "full": {
+          "x00raw": 0.100939453260283,
+          "x01rawq": 0.12737140874229602,
+          "x10field": 0.100939453260283,
+          "x11fieldq": 0.12737140874229602,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.100939453260283,
+          "x01rawq": 0.12737140874229602,
+          "x10field": 0.100939453260283,
+          "x11fieldq": 0.12737140874229602,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "3",
+        "common_candidates": 649,
+        "full": {
+          "x00raw": 0.5533975035220433,
+          "x01rawq": 0.38388258796432534,
+          "x10field": 0.5533975035220433,
+          "x11fieldq": 0.38388258796432534,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.5533975035220433,
+          "x01rawq": 0.38388258796432534,
+          "x10field": 0.5533975035220433,
+          "x11fieldq": 0.38388258796432534,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "30",
+        "common_candidates": 761,
+        "full": {
+          "x00raw": 0.3034156072614767,
+          "x01rawq": 0.22696490052308183,
+          "x10field": 0.3138353748824869,
+          "x11fieldq": 0.22696490052308183,
+          "interaction": -0.010419767621010212
+        },
+        "intersection_restricted": {
+          "x00raw": 0.3034156072614767,
+          "x01rawq": 0.22696490052308183,
+          "x10field": 0.3138353748824869,
+          "x11fieldq": 0.22696490052308183,
+          "interaction": -0.010419767621010212
+        }
+      },
+      {
+        "topic": "31",
+        "common_candidates": 838,
+        "full": {
+          "x00raw": 0.38009376671593426,
+          "x01rawq": 0.6199062332840657,
+          "x10field": 0.38009376671593426,
+          "x11fieldq": 0.6089330166087422,
+          "interaction": -0.010973216675323472
+        },
+        "intersection_restricted": {
+          "x00raw": 0.38009376671593426,
+          "x01rawq": 0.6199062332840657,
+          "x10field": 0.38009376671593426,
+          "x11fieldq": 0.6089330166087422,
+          "interaction": -0.010973216675323472
+        }
+      },
+      {
+        "topic": "34",
+        "common_candidates": 358,
+        "full": {
+          "x00raw": 0.8868854556705132,
+          "x01rawq": 0.5995311664203287,
+          "x10field": 0.8868854556705132,
+          "x11fieldq": 0.5995311664203287,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.8868854556705132,
+          "x01rawq": 0.5995311664203287,
+          "x10field": 0.8868854556705132,
+          "x11fieldq": 0.5995311664203287,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "35",
+        "common_candidates": 643,
+        "full": {
+          "x00raw": 0.3766168327661624,
+          "x01rawq": 0.595002552564485,
+          "x10field": 0.3766168327661624,
+          "x11fieldq": 0.5875111636467646,
+          "interaction": -0.007491388917720387
+        },
+        "intersection_restricted": {
+          "x00raw": 0.3766168327661624,
+          "x01rawq": 0.595002552564485,
+          "x10field": 0.3766168327661624,
+          "x11fieldq": 0.5875111636467646,
+          "interaction": -0.007491388917720387
+        }
+      },
+      {
+        "topic": "36",
+        "common_candidates": 410,
+        "full": {
+          "x00raw": 0.6239432613822306,
+          "x01rawq": 0.7149894827905807,
+          "x10field": 0.5919187645279508,
+          "x11fieldq": 0.7149894827905807,
+          "interaction": 0.03202449685427977
+        },
+        "intersection_restricted": {
+          "x00raw": 0.6239432613822306,
+          "x01rawq": 0.7149894827905807,
+          "x10field": 0.5919187645279508,
+          "x11fieldq": 0.7149894827905807,
+          "interaction": 0.03202449685427977
+        }
+      },
+      {
+        "topic": "37",
+        "common_candidates": 659,
+        "full": {
+          "x00raw": 0.9297916128016405,
+          "x01rawq": 0.9297916128016405,
+          "x10field": 0.9297916128016405,
+          "x11fieldq": 0.9297916128016405,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.9297916128016405,
+          "x01rawq": 0.9297916128016405,
+          "x10field": 0.9297916128016405,
+          "x11fieldq": 0.9297916128016405,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "38",
+        "common_candidates": 250,
+        "full": {
+          "x00raw": 1.0,
+          "x01rawq": 1.0,
+          "x10field": 1.0,
+          "x11fieldq": 1.0,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 1.0,
+          "x01rawq": 1.0,
+          "x10field": 1.0,
+          "x11fieldq": 1.0,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "39",
+        "common_candidates": 645,
+        "full": {
+          "x00raw": 0.38009376671593426,
+          "x01rawq": 0.4796249331362629,
+          "x10field": 0.38009376671593426,
+          "x11fieldq": 0.4796249331362629,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.38009376671593426,
+          "x01rawq": 0.4796249331362629,
+          "x10field": 0.38009376671593426,
+          "x11fieldq": 0.4796249331362629,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "4",
+        "common_candidates": 559,
+        "full": {
+          "x00raw": 0.29929634258233134,
+          "x01rawq": 0.18807495171024902,
+          "x10field": 0.29929634258233134,
+          "x11fieldq": 0.18807495171024902,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.29929634258233134,
+          "x01rawq": 0.18807495171024902,
+          "x10field": 0.29929634258233134,
+          "x11fieldq": 0.18807495171024902,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "40",
+        "common_candidates": 517,
+        "full": {
+          "x00raw": 0.5706417189553201,
+          "x01rawq": 0.5706417189553201,
+          "x10field": 0.5706417189553201,
+          "x11fieldq": 0.5706417189553201,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.5706417189553201,
+          "x01rawq": 0.5706417189553201,
+          "x10field": 0.5706417189553201,
+          "x11fieldq": 0.5706417189553201,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "5",
+        "common_candidates": 548,
+        "full": {
+          "x00raw": 0.22009176629808017,
+          "x01rawq": 0.31488013066763093,
+          "x10field": 0.22009176629808017,
+          "x11fieldq": 0.31488013066763093,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.22009176629808017,
+          "x01rawq": 0.31488013066763093,
+          "x10field": 0.22009176629808017,
+          "x11fieldq": 0.31488013066763093,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "6",
+        "common_candidates": 810,
+        "full": {
+          "x00raw": 0.2894403406272416,
+          "x01rawq": 0.31022332034499717,
+          "x10field": 0.28683643937149617,
+          "x11fieldq": 0.31022332034499717,
+          "interaction": 0.0026039012557454444
+        },
+        "intersection_restricted": {
+          "x00raw": 0.2894403406272416,
+          "x01rawq": 0.31022332034499717,
+          "x10field": 0.28683643937149617,
+          "x11fieldq": 0.31022332034499717,
+          "interaction": 0.0026039012557454444
+        }
+      },
+      {
+        "topic": "7",
+        "common_candidates": 825,
+        "full": {
+          "x00raw": 0.9608008655106622,
+          "x01rawq": 0.9574284411791895,
+          "x10field": 0.9633180389503199,
+          "x11fieldq": 0.9574284411791895,
+          "interaction": -0.0025171734396576273
+        },
+        "intersection_restricted": {
+          "x00raw": 0.9608008655106622,
+          "x01rawq": 0.9574284411791895,
+          "x10field": 0.9633180389503199,
+          "x11fieldq": 0.9574284411791895,
+          "interaction": -0.0025171734396576273
+        }
+      },
+      {
+        "topic": "8",
+        "common_candidates": 578,
+        "full": {
+          "x00raw": 0.6500332220485792,
+          "x01rawq": 0.7136540102475308,
+          "x10field": 0.6500332220485792,
+          "x11fieldq": 0.7136540102475308,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.6500332220485792,
+          "x01rawq": 0.7136540102475308,
+          "x10field": 0.6500332220485792,
+          "x11fieldq": 0.7136540102475308,
+          "interaction": 0.0
+        }
+      },
+      {
+        "topic": "9",
+        "common_candidates": 685,
+        "full": {
+          "x00raw": 0.9118499466982855,
+          "x01rawq": 0.9178902068468361,
+          "x10field": 0.9118499466982855,
+          "x11fieldq": 0.9178902068468361,
+          "interaction": 0.0
+        },
+        "intersection_restricted": {
+          "x00raw": 0.9118499466982855,
+          "x01rawq": 0.9178902068468361,
+          "x10field": 0.9118499466982855,
+          "x11fieldq": 0.9178902068468361,
+          "interaction": 0.0
+        }
+      }
+    ],
+    "source_hashes": {
+      "trec_x00raw.run": "61aa1298168fde028eebca47b2b55a969067f6e6ab67b000075dbc407e1d92e3",
+      "trec_x01rawq.run": "58f93d3ebc6a2a1ea22a63f40fb7541f3b65ceb97b71c74bac6b6eccc750a345",
+      "trec_x10field.run": "83ffd221560eae5648a53c5416e6ba9c4118cec3444d95d74acf79f8e8be5ed4",
+      "trec_x11fieldq.run": "8df5667eb6c8866e8773641fc6e72a5e58787b0885766ad3978bbc4af5b96b83",
+      "qrels_treceval_trials.txt": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa"
+    }
+  }
+}

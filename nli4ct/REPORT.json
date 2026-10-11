@@ -1,0 +1,313 @@
+{
+  "arms": {
+    "I0_S0_R0": {
+      "all": {
+        "n": 500,
+        "binary_accuracy": 0.558,
+        "entailment_F1": 0.4872389791183295,
+        "decisions": 44,
+        "coverage": 0.088,
+        "selective_accuracy": 0.6136363636363636,
+        "UNKNOWN": 456
+      },
+      "Comparison": {
+        "n": 271,
+        "binary_accuracy": 0.5498154981549815,
+        "entailment_F1": 0.45535714285714285,
+        "decisions": 21,
+        "coverage": 0.07749077490774908,
+        "selective_accuracy": 0.5714285714285714,
+        "UNKNOWN": 250
+      },
+      "Single": {
+        "n": 229,
+        "binary_accuracy": 0.5676855895196506,
+        "entailment_F1": 0.5217391304347826,
+        "decisions": 23,
+        "coverage": 0.10043668122270742,
+        "selective_accuracy": 0.6521739130434783,
+        "UNKNOWN": 206
+      },
+      "Eligibility": {
+        "n": 132,
+        "binary_accuracy": 0.5757575757575758,
+        "entailment_F1": 0.5,
+        "decisions": 12,
+        "coverage": 0.09090909090909091,
+        "selective_accuracy": 0.75,
+        "UNKNOWN": 120
+      }
+    },
+    "I0_S0_R1": {
+      "all": {
+        "n": 500,
+        "binary_accuracy": 0.59,
+        "entailment_F1": 0.5372460496613995,
+        "decisions": 146,
+        "coverage": 0.292,
+        "selective_accuracy": 0.636986301369863,
+        "UNKNOWN": 354
+      },
+      "Comparison": {
+        "n": 271,
+        "binary_accuracy": 0.6051660516605166,
+        "entailment_F1": 0.5596707818930041,
+        "decisions": 75,
+        "coverage": 0.2767527675276753,
+        "selective_accuracy": 0.6,
+        "UNKNOWN": 196
+      },
+      "Single": {
+        "n": 229,
+        "binary_accuracy": 0.5720524017467249,
+        "entailment_F1": 0.51,
+        "decisions": 71,
+        "coverage": 0.31004366812227074,
+        "selective_accuracy": 0.676056338028169,
+        "UNKNOWN": 158
+      },
+      "Eligibility": {
+        "n": 132,
+        "binary_accuracy": 0.5984848484848485,
+        "entailment_F1": 0.5954198473282443,
+        "decisions": 31,
+        "coverage": 0.23484848484848486,
+        "selective_accuracy": 0.6451612903225806,
+        "UNKNOWN": 101
+      }
+    },
+    "I0_S1_R0": {
+      "all": {
+        "n": 500,
+        "binary_accuracy": 0.558,
+        "entailment_F1": 0.48484848484848486,
+        "decisions": 46,
+        "coverage": 0.092,
+        "selective_accuracy": 0.6304347826086957,
+        "UNKNOWN": 454
+      },
+      "Comparison": {
+        "n": 271,
+        "binary_accuracy": 0.5498154981549815,
+        "entailment_F1": 0.45045045045045046,
+        "decisions": 23,
+        "coverage": 0.08487084870848709,
+        "selective_accuracy": 0.6086956521739131,
+        "UNKNOWN": 248
+      },
+      "Single": {
+        "n": 229,
+        "binary_accuracy": 0.5676855895196506,
+        "entailment_F1": 0.5217391304347826,
+        "decisions": 23,
+        "coverage": 0.10043668122270742,
+        "selective_accuracy": 0.6521739130434783,
+        "UNKNOWN": 206
+      },
+      "Eligibility": {
+        "n": 132,
+        "binary_accuracy": 0.5757575757575758,
+        "entailment_F1": 0.4909090909090909,
+        "decisions": 14,
+        "coverage": 0.10606060606060606,
+        "selective_accuracy": 0.7857142857142857,
+        "UNKNOWN": 118
+      }
+    },
+    "I0_S1_R1": {
+      "all": {
+        "n": 500,
+        "binary_accuracy": 0.586,
+        "entailment_F1": 0.5219399538106235,
+        "decisions": 164,
+        "coverage": 0.328,
+        "selective_accuracy": 0.6341463414634146,
+        "UNKNOWN": 336
+      },
+      "Comparison": {
+        "n": 271,
+        "binary_accuracy": 0.6014760147601476,
+        "entailment_F1": 0.5384615384615384,
+        "decisions": 85,
+        "coverage": 0.31365313653136534,
+        "selective_accuracy": 0.611764705882353,
+        "UNKNOWN": 186
+      },
+      "Single": {
+        "n": 229,
+        "binary_accuracy": 0.5676855895196506,
+        "entailment_F1": 0.5025125628140703,
+        "decisions": 79,
+        "coverage": 0.34497816593886466,
+        "selective_accuracy": 0.6582278481012658,
+        "UNKNOWN": 150
+      },
+      "Eligibility": {
+        "n": 132,
+        "binary_accuracy": 0.5984848484848485,
+        "entailment_F1": 0.5691056910569106,
+        "decisions": 44,
+        "coverage": 0.3333333333333333,
+        "selective_accuracy": 0.7045454545454546,
+        "UNKNOWN": 88
+      }
+    },
+    "I1_S0_R0": {
+      "all": {
+        "n": 500,
+        "binary_accuracy": 0.558,
+        "entailment_F1": 0.4872389791183295,
+        "decisions": 44,
+        "coverage": 0.088,
+        "selective_accuracy": 0.6136363636363636,
+        "UNKNOWN": 456
+      },
+      "Comparison": {
+        "n": 271,
+        "binary_accuracy": 0.5498154981549815,
+        "entailment_F1": 0.45535714285714285,
+        "decisions": 21,
+        "coverage": 0.07749077490774908,
+        "selective_accuracy": 0.5714285714285714,
+        "UNKNOWN": 250
+      },
+      "Single": {
+        "n": 229,
+        "binary_accuracy": 0.5676855895196506,
+        "entailment_F1": 0.5217391304347826,
+        "decisions": 23,
+        "coverage": 0.10043668122270742,
+        "selective_accuracy": 0.6521739130434783,
+        "UNKNOWN": 206
+      },
+      "Eligibility": {
+        "n": 132,
+        "binary_accuracy": 0.5757575757575758,
+        "entailment_F1": 0.5,
+        "decisions": 12,
+        "coverage": 0.09090909090909091,
+        "selective_accuracy": 0.75,
+        "UNKNOWN": 120
+      }
+    },
+    "I1_S0_R1": {
+      "all": {
+        "n": 500,
+        "binary_accuracy": 0.586,
+        "entailment_F1": 0.5219399538106235,
+        "decisions": 152,
+        "coverage": 0.304,
+        "selective_accuracy": 0.631578947368421,
+        "UNKNOWN": 348
+      },
+      "Comparison": {
+        "n": 271,
+        "binary_accuracy": 0.5977859778597786,
+        "entailment_F1": 0.5321888412017167,
+        "decisions": 81,
+        "coverage": 0.2988929889298893,
+        "selective_accuracy": 0.5925925925925926,
+        "UNKNOWN": 190
+      },
+      "Single": {
+        "n": 229,
+        "binary_accuracy": 0.5720524017467249,
+        "entailment_F1": 0.51,
+        "decisions": 71,
+        "coverage": 0.31004366812227074,
+        "selective_accuracy": 0.676056338028169,
+        "UNKNOWN": 158
+      },
+      "Eligibility": {
+        "n": 132,
+        "binary_accuracy": 0.6060606060606061,
+        "entailment_F1": 0.5806451612903226,
+        "decisions": 32,
+        "coverage": 0.24242424242424243,
+        "selective_accuracy": 0.65625,
+        "UNKNOWN": 100
+      }
+    },
+    "I1_S1_R0": {
+      "all": {
+        "n": 500,
+        "binary_accuracy": 0.56,
+        "entailment_F1": 0.4883720930232558,
+        "decisions": 44,
+        "coverage": 0.088,
+        "selective_accuracy": 0.6136363636363636,
+        "UNKNOWN": 456
+      },
+      "Comparison": {
+        "n": 271,
+        "binary_accuracy": 0.5535055350553506,
+        "entailment_F1": 0.45739910313901344,
+        "decisions": 21,
+        "coverage": 0.07749077490774908,
+        "selective_accuracy": 0.5714285714285714,
+        "UNKNOWN": 250
+      },
+      "Single": {
+        "n": 229,
+        "binary_accuracy": 0.5676855895196506,
+        "entailment_F1": 0.5217391304347826,
+        "decisions": 23,
+        "coverage": 0.10043668122270742,
+        "selective_accuracy": 0.6521739130434783,
+        "UNKNOWN": 206
+      },
+      "Eligibility": {
+        "n": 132,
+        "binary_accuracy": 0.5833333333333334,
+        "entailment_F1": 0.5045045045045045,
+        "decisions": 12,
+        "coverage": 0.09090909090909091,
+        "selective_accuracy": 0.75,
+        "UNKNOWN": 120
+      }
+    },
+    "I1_S1_R1": {
+      "all": {
+        "n": 500,
+        "binary_accuracy": 0.586,
+        "entailment_F1": 0.5197215777262181,
+        "decisions": 168,
+        "coverage": 0.336,
+        "selective_accuracy": 0.6369047619047619,
+        "UNKNOWN": 332
+      },
+      "Comparison": {
+        "n": 271,
+        "binary_accuracy": 0.6014760147601476,
+        "entailment_F1": 0.5344827586206896,
+        "decisions": 89,
+        "coverage": 0.3284132841328413,
+        "selective_accuracy": 0.6179775280898876,
+        "UNKNOWN": 182
+      },
+      "Single": {
+        "n": 229,
+        "binary_accuracy": 0.5676855895196506,
+        "entailment_F1": 0.5025125628140703,
+        "decisions": 79,
+        "coverage": 0.34497816593886466,
+        "selective_accuracy": 0.6582278481012658,
+        "UNKNOWN": 150
+      },
+      "Eligibility": {
+        "n": 132,
+        "binary_accuracy": 0.5909090909090909,
+        "entailment_F1": 0.5573770491803278,
+        "decisions": 44,
+        "coverage": 0.3333333333333333,
+        "selective_accuracy": 0.7272727272727273,
+        "UNKNOWN": 88
+      }
+    }
+  },
+  "tasks": 500,
+  "predictions": 4000,
+  "clinical_appropriateness_validated": false,
+  "four_source_generalization_validated": false,
+  "label_origin": "independent organizer benchmark labels; not author or current AI proposals"
+}

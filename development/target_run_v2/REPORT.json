@@ -1,0 +1,31 @@
+{
+  "partition": "EXPOSED_CONSTRUCTED_DEVELOPMENT",
+  "targets": 16,
+  "source_pairs": 7,
+  "target_predicates": {
+    "same_documentary_role": 7,
+    "full_scope_alignment": 7,
+    "same_literal_feature_identifier": 2
+  },
+  "states": {
+    "UNSUPPORTED": 7,
+    "UNKNOWN": 8,
+    "SUPPORTED": 1
+  },
+  "matches_proposed_expectation": 15,
+  "unconfirmed_positive_proposals": [
+    "DEV24_REL_005_1"
+  ],
+  "supported_broad_scope_alignments": 0,
+  "clinical_relations_validated": 0,
+  "new_human_ratings": 0,
+  "new_independent_test_tasks": 0,
+  "rankings_changed_or_recomputed": 0,
+  "source_contexts_local_only": true,
+  "limits": [
+    "Two positive targets were proposed; only LVEF has explicit identifier witnesses in both cited contexts. HER2 is absent from the selected guideline parent, so that proposal remains UNKNOWN.",
+    "Seven negative cases concern source-role equality, not clinical inconsistency.",
+    "Seven broad-scope targets remain UNKNOWN.",
+    "Proposed expectations and examples were constructed after source exposure. Agreement with expectations is not independent semantic accuracy."
+  ]
+}

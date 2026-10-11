@@ -1,0 +1,51 @@
+{
+  "trec": {
+    "MEDCPT_RAW_IP": {
+      "ndcg10": 0.44436563435270704,
+      "P10": 0.40263157894736845,
+      "Rprec": 0.3330399866583178,
+      "recall100": 0.5321098628861956,
+      "infNDCG": 0.4848,
+      "infAP": 0.2471
+    },
+    "RRF_RAW_IP": {
+      "ndcg10": 0.5717519630050685,
+      "P10": 0.5052631578947369,
+      "Rprec": 0.41031521520471975,
+      "recall100": 0.5944938898376748,
+      "infNDCG": 0.5629,
+      "infAP": 0.3105
+    }
+  },
+  "clef": {
+    "MEDCPT_RAW_IP": {
+      "micro_NCG_at_10_percent": 0.45005945303210465,
+      "macro_NCG_at_10_percent": 0.5711735570963196,
+      "ceil_micro_sensitivity": 0.450653983353151,
+      "positive_denominator": 1682,
+      "scoreable_topics": 31
+    },
+    "RRF_RAW_IP": {
+      "micro_NCG_at_10_percent": 0.406064209274673,
+      "macro_NCG_at_10_percent": 0.5270998665833136,
+      "ceil_micro_sensitivity": 0.40784780023781214,
+      "positive_denominator": 1682,
+      "scoreable_topics": 31
+    }
+  },
+  "topic_metric_values": 366,
+  "inferred_aggregate_values": 4,
+  "input_hashes": {
+    "e19/MEDCPT_RAW_IP.run": "016a462304e9f080067ef6b4af5071c08471dcfe2b56583906f2e4ee7ba39949",
+    "e19/RRF_RAW_IP.run": "ea5b25caa6b91bfd6c068ab609173a6221b98bdb0728008dd5a9b22a648f48df",
+    "eclef/MEDCPT_RAW_IP.run": "82338be481a085a980c11fb631be2d1adc56a2f080de0c61aac6a9842bc447e2",
+    "eclef/RRF_RAW_IP.run": "e4946c0302fa4819e743c0fc0ca8420b969272a7d329f47ede5896c9a77ebc80"
+  },
+  "qrels_hashes": {
+    "qrels_treceval_trials.txt": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa",
+    "eclef2019_task2_abs_combined.qrels": "c3cbe3ef70efc589ac305cecef6d82dd01b2badd92786f8b143253c8eb7aad1d",
+    "qrels_sampleval_trials.txt": "96a4c039332cc67c02e6cb000c4310f58c74c06a51e9c7d66ef875982b95938b",
+    "sample_eval.pl": "8af44fab50fed7ae8d00c75cc0358ccd7242274f213d9dfa805fa64c74c069f4"
+  },
+  "scope": "Post-outcome scoring sensitivity, fixed historical tasks; recorded-rank evaluation is distinct from neural inference"
+}

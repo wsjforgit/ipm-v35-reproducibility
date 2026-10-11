@@ -1,0 +1,1306 @@
+[
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "1",
+    "ndcg10": 0.24309789328476902,
+    "P10": 0.3,
+    "Rprec": 0.42028985507246375,
+    "recall100": 0.34057971014492755
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "2",
+    "ndcg10": 0.2999050316974944,
+    "P10": 0.3,
+    "Rprec": 0.2383177570093458,
+    "recall100": 0.11214953271028037
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "3",
+    "ndcg10": 0.318020972360178,
+    "P10": 0.3,
+    "Rprec": 0.3,
+    "recall100": 0.9
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "4",
+    "ndcg10": 0.3137470237540585,
+    "P10": 0.4,
+    "Rprec": 0.3146067415730337,
+    "recall100": 0.3258426966292135
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "5",
+    "ndcg10": 0.22009176629808017,
+    "P10": 0.1,
+    "Rprec": 0.1346153846153846,
+    "recall100": 0.15384615384615385
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "6",
+    "ndcg10": 0.30215600509033613,
+    "P10": 0.4,
+    "Rprec": 0.3322884012539185,
+    "recall100": 0.11285266457680251
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "7",
+    "ndcg10": 0.6274092458891772,
+    "P10": 0.6,
+    "Rprec": 0.363013698630137,
+    "recall100": 0.15753424657534246
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "8",
+    "ndcg10": 0.28838205139432177,
+    "P10": 0.4,
+    "Rprec": 0.30434782608695654,
+    "recall100": 0.34782608695652173
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "9",
+    "ndcg10": 0.7640118053602019,
+    "P10": 0.7,
+    "Rprec": 0.6231884057971014,
+    "recall100": 0.7536231884057971
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "10",
+    "ndcg10": 0.933745776545611,
+    "P10": 0.9,
+    "Rprec": 0.6,
+    "recall100": 0.6571428571428571
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "11",
+    "ndcg10": 0.7079735922044323,
+    "P10": 0.7,
+    "Rprec": 0.5333333333333333,
+    "recall100": 0.7111111111111111
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "12",
+    "ndcg10": 0.09092803061897885,
+    "P10": 0.1,
+    "Rprec": 0.1111111111111111,
+    "recall100": 0.3333333333333333
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "13",
+    "ndcg10": 0.6717589890736099,
+    "P10": 0.6,
+    "Rprec": 0.325,
+    "recall100": 0.575
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "14",
+    "ndcg10": 0.07336392209936005,
+    "P10": 0.1,
+    "Rprec": 0.07692307692307693,
+    "recall100": 0.38461538461538464
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "15",
+    "ndcg10": 0.47890182703561945,
+    "P10": 0.8,
+    "Rprec": 0.3114754098360656,
+    "recall100": 0.22404371584699453
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "16",
+    "ndcg10": 0.8545616211215568,
+    "P10": 0.9,
+    "Rprec": 0.38095238095238093,
+    "recall100": 0.40476190476190477
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "17",
+    "ndcg10": 0.4000907142391546,
+    "P10": 0.6,
+    "Rprec": 0.5,
+    "recall100": 0.6111111111111112
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "18",
+    "ndcg10": 0.17947710508581735,
+    "P10": 0.2,
+    "Rprec": 0.16666666666666666,
+    "recall100": 0.21212121212121213
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "19",
+    "ndcg10": 0.2492767253899482,
+    "P10": 0.4,
+    "Rprec": 0.2,
+    "recall100": 0.34285714285714286
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "20",
+    "ndcg10": 0.32849841092194887,
+    "P10": 0.2,
+    "Rprec": 0.1,
+    "recall100": 0.4
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "21",
+    "ndcg10": 0.8240777442366681,
+    "P10": 0.9,
+    "Rprec": 0.6282051282051282,
+    "recall100": 0.717948717948718
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "22",
+    "ndcg10": 0.7496121754205756,
+    "P10": 0.8,
+    "Rprec": 0.35,
+    "recall100": 0.4166666666666667
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "23",
+    "ndcg10": 0.17385461051511916,
+    "P10": 0.1,
+    "Rprec": 0.125,
+    "recall100": 0.125
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "24",
+    "ndcg10": 0.07839826897867533,
+    "P10": 0.1,
+    "Rprec": 0.0625,
+    "recall100": 0.15625
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "25",
+    "ndcg10": 0.6122496142821665,
+    "P10": 0.5,
+    "Rprec": 0.45454545454545453,
+    "recall100": 0.696969696969697
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "26",
+    "ndcg10": 0.7246078065685068,
+    "P10": 0.4,
+    "Rprec": 0.5714285714285714,
+    "recall100": 0.8571428571428571
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "27",
+    "ndcg10": 0.6807351507646947,
+    "P10": 1.0,
+    "Rprec": 0.3804347826086957,
+    "recall100": 0.391304347826087
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "28",
+    "ndcg10": 0.3206151612326197,
+    "P10": 0.6,
+    "Rprec": 0.3669724770642202,
+    "recall100": 0.3394495412844037
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "29",
+    "ndcg10": 0.531129221783428,
+    "P10": 0.2,
+    "Rprec": 0.25,
+    "recall100": 0.75
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "30",
+    "ndcg10": 0.23537653116186527,
+    "P10": 0.1,
+    "Rprec": 0.2,
+    "recall100": 0.4666666666666667
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "31",
+    "ndcg10": 0.49320831104542096,
+    "P10": 0.2,
+    "Rprec": 0.5,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "34",
+    "ndcg10": 0.2940806813328203,
+    "P10": 0.1,
+    "Rprec": 0.0,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "35",
+    "ndcg10": 0.34658761311083547,
+    "P10": 0.3,
+    "Rprec": 0.36363636363636365,
+    "recall100": 0.9090909090909091
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "36",
+    "ndcg10": 0.7412387271465288,
+    "P10": 0.4,
+    "Rprec": 0.6666666666666666,
+    "recall100": 0.8333333333333334
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "37",
+    "ndcg10": 0.49752626558899254,
+    "P10": 0.4,
+    "Rprec": 0.4,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "38",
+    "ndcg10": 1.0,
+    "P10": 0.1,
+    "Rprec": 1.0,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "39",
+    "ndcg10": 0.0,
+    "P10": 0.0,
+    "Rprec": 0.0,
+    "recall100": 0.5
+  },
+  {
+    "dataset": "TREC",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "40",
+    "ndcg10": 0.23719771276929622,
+    "P10": 0.1,
+    "Rprec": 0.0,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "1",
+    "ndcg10": 0.41057198006764817,
+    "P10": 0.5,
+    "Rprec": 0.5579710144927537,
+    "recall100": 0.42028985507246375
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "2",
+    "ndcg10": 0.7877736340270853,
+    "P10": 0.8,
+    "Rprec": 0.3925233644859813,
+    "recall100": 0.24766355140186916
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "3",
+    "ndcg10": 0.404575419325978,
+    "P10": 0.4,
+    "Rprec": 0.4,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "4",
+    "ndcg10": 0.5721540138146773,
+    "P10": 0.7,
+    "Rprec": 0.2247191011235955,
+    "recall100": 0.25842696629213485
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "5",
+    "ndcg10": 0.20483424751859086,
+    "P10": 0.2,
+    "Rprec": 0.09615384615384616,
+    "recall100": 0.1346153846153846
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "6",
+    "ndcg10": 0.4754950727572664,
+    "P10": 0.5,
+    "Rprec": 0.36363636363636365,
+    "recall100": 0.109717868338558
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "7",
+    "ndcg10": 0.76008775562025,
+    "P10": 0.8,
+    "Rprec": 0.4657534246575342,
+    "recall100": 0.22945205479452055
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "8",
+    "ndcg10": 0.642923523403608,
+    "P10": 0.7,
+    "Rprec": 0.391304347826087,
+    "recall100": 0.5652173913043478
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "9",
+    "ndcg10": 0.8523030685665928,
+    "P10": 0.9,
+    "Rprec": 0.7536231884057971,
+    "recall100": 0.8260869565217391
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "10",
+    "ndcg10": 1.0,
+    "P10": 1.0,
+    "Rprec": 0.6285714285714286,
+    "recall100": 0.6571428571428571
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "11",
+    "ndcg10": 0.8465408326464715,
+    "P10": 0.9,
+    "Rprec": 0.6444444444444445,
+    "recall100": 0.7777777777777778
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "12",
+    "ndcg10": 0.26919108962472693,
+    "P10": 0.3,
+    "Rprec": 0.2222222222222222,
+    "recall100": 0.5555555555555556
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "13",
+    "ndcg10": 0.8579809428223729,
+    "P10": 0.8,
+    "Rprec": 0.5,
+    "recall100": 0.75
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "14",
+    "ndcg10": 0.22009176629808017,
+    "P10": 0.1,
+    "Rprec": 0.15384615384615385,
+    "recall100": 0.6153846153846154
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "15",
+    "ndcg10": 0.3361195135366878,
+    "P10": 0.6,
+    "Rprec": 0.3879781420765027,
+    "recall100": 0.273224043715847
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "16",
+    "ndcg10": 0.8707661565670631,
+    "P10": 0.8,
+    "Rprec": 0.42857142857142855,
+    "recall100": 0.47619047619047616
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "17",
+    "ndcg10": 0.44288910275258875,
+    "P10": 0.6,
+    "Rprec": 0.5,
+    "recall100": 0.6666666666666666
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "18",
+    "ndcg10": 0.576323354912681,
+    "P10": 0.5,
+    "Rprec": 0.24242424242424243,
+    "recall100": 0.3333333333333333
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "19",
+    "ndcg10": 0.3882285878196642,
+    "P10": 0.4,
+    "Rprec": 0.2571428571428571,
+    "recall100": 0.34285714285714286
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "20",
+    "ndcg10": 0.2010810754182416,
+    "P10": 0.2,
+    "Rprec": 0.2,
+    "recall100": 0.4
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "21",
+    "ndcg10": 0.8899541168509599,
+    "P10": 0.9,
+    "Rprec": 0.717948717948718,
+    "recall100": 0.782051282051282
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "22",
+    "ndcg10": 0.8293271620269694,
+    "P10": 0.9,
+    "Rprec": 0.43333333333333335,
+    "recall100": 0.5166666666666667
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "23",
+    "ndcg10": 0.27555303824394584,
+    "P10": 0.1,
+    "Rprec": 0.125,
+    "recall100": 0.125
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "24",
+    "ndcg10": 0.28952298823485745,
+    "P10": 0.2,
+    "Rprec": 0.125,
+    "recall100": 0.1875
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "25",
+    "ndcg10": 0.9363792118010481,
+    "P10": 0.9,
+    "Rprec": 0.6060606060606061,
+    "recall100": 0.9090909090909091
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "26",
+    "ndcg10": 0.6410526592807015,
+    "P10": 0.4,
+    "Rprec": 0.5714285714285714,
+    "recall100": 0.8571428571428571
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "27",
+    "ndcg10": 0.6953195217035424,
+    "P10": 0.9,
+    "Rprec": 0.5,
+    "recall100": 0.5108695652173914
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "28",
+    "ndcg10": 0.4691182800989876,
+    "P10": 0.7,
+    "Rprec": 0.42201834862385323,
+    "recall100": 0.41284403669724773
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "29",
+    "ndcg10": 0.403757813041132,
+    "P10": 0.2,
+    "Rprec": 0.25,
+    "recall100": 0.75
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "30",
+    "ndcg10": 0.4852537422563723,
+    "P10": 0.3,
+    "Rprec": 0.2,
+    "recall100": 0.4
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "31",
+    "ndcg10": 0.38009376671593426,
+    "P10": 0.1,
+    "Rprec": 0.5,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "34",
+    "ndcg10": 0.626665273802673,
+    "P10": 0.2,
+    "Rprec": 0.5,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "35",
+    "ndcg10": 0.5668388048959083,
+    "P10": 0.4,
+    "Rprec": 0.36363636363636365,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "36",
+    "ndcg10": 0.6713360037092465,
+    "P10": 0.5,
+    "Rprec": 0.6666666666666666,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "37",
+    "ndcg10": 0.7072362909106182,
+    "P10": 0.4,
+    "Rprec": 0.8,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "38",
+    "ndcg10": 1.0,
+    "P10": 0.1,
+    "Rprec": 1.0,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "39",
+    "ndcg10": 0.27078426295835145,
+    "P10": 0.1,
+    "Rprec": 0.0,
+    "recall100": 0.5
+  },
+  {
+    "dataset": "TREC",
+    "method": "RRF_RAW_IP",
+    "topic_id": "40",
+    "ndcg10": 0.46845052016107697,
+    "P10": 0.2,
+    "Rprec": 0.0,
+    "recall100": 1.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD008874",
+    "n": 2382,
+    "cutoff": 238,
+    "hits": 63,
+    "positive_denominator": 118,
+    "ncg": 0.5338983050847458
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD009044",
+    "n": 3169,
+    "cutoff": 316,
+    "hits": 11,
+    "positive_denominator": 11,
+    "ncg": 1.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD011686",
+    "n": 9729,
+    "cutoff": 972,
+    "hits": 63,
+    "positive_denominator": 64,
+    "ncg": 0.984375
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012080",
+    "n": 6643,
+    "cutoff": 664,
+    "hits": 38,
+    "positive_denominator": 77,
+    "ncg": 0.4935064935064935
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012233",
+    "n": 472,
+    "cutoff": 47,
+    "hits": 14,
+    "positive_denominator": 43,
+    "ncg": 0.32558139534883723
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012567",
+    "n": 6735,
+    "cutoff": 673,
+    "hits": 11,
+    "positive_denominator": 11,
+    "ncg": 1.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012669",
+    "n": 1260,
+    "cutoff": 126,
+    "hits": 26,
+    "positive_denominator": 71,
+    "ncg": 0.36619718309859156
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012768",
+    "n": 131,
+    "cutoff": 13,
+    "hits": 2,
+    "positive_denominator": 45,
+    "ncg": 0.044444444444444446
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD000996",
+    "n": 281,
+    "cutoff": 28,
+    "hits": 6,
+    "positive_denominator": 9,
+    "ncg": 0.6666666666666666
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD001261",
+    "n": 571,
+    "cutoff": 57,
+    "hits": 18,
+    "positive_denominator": 72,
+    "ncg": 0.25
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD004414",
+    "n": 336,
+    "cutoff": 33,
+    "hits": 10,
+    "positive_denominator": 16,
+    "ncg": 0.625
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD006468",
+    "n": 3873,
+    "cutoff": 387,
+    "hits": 26,
+    "positive_denominator": 52,
+    "ncg": 0.5
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD007867",
+    "n": 943,
+    "cutoff": 94,
+    "hits": 11,
+    "positive_denominator": 17,
+    "ncg": 0.6470588235294118
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD009069",
+    "n": 1757,
+    "cutoff": 175,
+    "hits": 15,
+    "positive_denominator": 78,
+    "ncg": 0.19230769230769232
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD009642",
+    "n": 1922,
+    "cutoff": 192,
+    "hits": 53,
+    "positive_denominator": 62,
+    "ncg": 0.8548387096774194
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD010038",
+    "n": 8867,
+    "cutoff": 886,
+    "hits": 19,
+    "positive_denominator": 23,
+    "ncg": 0.8260869565217391
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD010239",
+    "n": 224,
+    "cutoff": 22,
+    "hits": 10,
+    "positive_denominator": 12,
+    "ncg": 0.8333333333333334
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD010558",
+    "n": 2814,
+    "cutoff": 281,
+    "hits": 21,
+    "positive_denominator": 37,
+    "ncg": 0.5675675675675675
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD010753",
+    "n": 2538,
+    "cutoff": 253,
+    "hits": 16,
+    "positive_denominator": 29,
+    "ncg": 0.5517241379310345
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD011140",
+    "n": 289,
+    "cutoff": 28,
+    "hits": 4,
+    "positive_denominator": 4,
+    "ncg": 1.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD011571",
+    "n": 146,
+    "cutoff": 14,
+    "hits": 9,
+    "positive_denominator": 15,
+    "ncg": 0.6
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD011768",
+    "n": 9159,
+    "cutoff": 915,
+    "hits": 46,
+    "positive_denominator": 54,
+    "ncg": 0.8518518518518519
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD011977",
+    "n": 195,
+    "cutoff": 19,
+    "hits": 10,
+    "positive_denominator": 49,
+    "ncg": 0.20408163265306123
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012069",
+    "n": 3476,
+    "cutoff": 347,
+    "hits": 75,
+    "positive_denominator": 320,
+    "ncg": 0.234375
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012164",
+    "n": 61,
+    "cutoff": 6,
+    "hits": 4,
+    "positive_denominator": 7,
+    "ncg": 0.5714285714285714
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012342",
+    "n": 2353,
+    "cutoff": 235,
+    "hits": 4,
+    "positive_denominator": 6,
+    "ncg": 0.6666666666666666
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012455",
+    "n": 1593,
+    "cutoff": 159,
+    "hits": 7,
+    "positive_denominator": 7,
+    "ncg": 1.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012551",
+    "n": 591,
+    "cutoff": 59,
+    "hits": 16,
+    "positive_denominator": 68,
+    "ncg": 0.23529411764705882
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD012661",
+    "n": 3367,
+    "cutoff": 336,
+    "hits": 69,
+    "positive_denominator": 192,
+    "ncg": 0.359375
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD011558",
+    "n": 2166,
+    "cutoff": 216,
+    "hits": 0,
+    "positive_denominator": 2,
+    "ncg": 0.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "MEDCPT_RAW_IP",
+    "topic_id": "CD011787",
+    "n": 4369,
+    "cutoff": 436,
+    "hits": 80,
+    "positive_denominator": 111,
+    "ncg": 0.7207207207207207
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD008874",
+    "n": 2382,
+    "cutoff": 238,
+    "hits": 51,
+    "positive_denominator": 118,
+    "ncg": 0.4322033898305085
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD009044",
+    "n": 3169,
+    "cutoff": 316,
+    "hits": 10,
+    "positive_denominator": 11,
+    "ncg": 0.9090909090909091
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD011686",
+    "n": 9729,
+    "cutoff": 972,
+    "hits": 63,
+    "positive_denominator": 64,
+    "ncg": 0.984375
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012080",
+    "n": 6643,
+    "cutoff": 664,
+    "hits": 36,
+    "positive_denominator": 77,
+    "ncg": 0.4675324675324675
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012233",
+    "n": 472,
+    "cutoff": 47,
+    "hits": 8,
+    "positive_denominator": 43,
+    "ncg": 0.18604651162790697
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012567",
+    "n": 6735,
+    "cutoff": 673,
+    "hits": 9,
+    "positive_denominator": 11,
+    "ncg": 0.8181818181818182
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012669",
+    "n": 1260,
+    "cutoff": 126,
+    "hits": 21,
+    "positive_denominator": 71,
+    "ncg": 0.29577464788732394
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012768",
+    "n": 131,
+    "cutoff": 13,
+    "hits": 5,
+    "positive_denominator": 45,
+    "ncg": 0.1111111111111111
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD000996",
+    "n": 281,
+    "cutoff": 28,
+    "hits": 5,
+    "positive_denominator": 9,
+    "ncg": 0.5555555555555556
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD001261",
+    "n": 571,
+    "cutoff": 57,
+    "hits": 10,
+    "positive_denominator": 72,
+    "ncg": 0.1388888888888889
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD004414",
+    "n": 336,
+    "cutoff": 33,
+    "hits": 5,
+    "positive_denominator": 16,
+    "ncg": 0.3125
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD006468",
+    "n": 3873,
+    "cutoff": 387,
+    "hits": 25,
+    "positive_denominator": 52,
+    "ncg": 0.4807692307692308
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD007867",
+    "n": 943,
+    "cutoff": 94,
+    "hits": 13,
+    "positive_denominator": 17,
+    "ncg": 0.7647058823529411
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD009069",
+    "n": 1757,
+    "cutoff": 175,
+    "hits": 11,
+    "positive_denominator": 78,
+    "ncg": 0.14102564102564102
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD009642",
+    "n": 1922,
+    "cutoff": 192,
+    "hits": 54,
+    "positive_denominator": 62,
+    "ncg": 0.8709677419354839
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD010038",
+    "n": 8867,
+    "cutoff": 886,
+    "hits": 18,
+    "positive_denominator": 23,
+    "ncg": 0.782608695652174
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD010239",
+    "n": 224,
+    "cutoff": 22,
+    "hits": 12,
+    "positive_denominator": 12,
+    "ncg": 1.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD010558",
+    "n": 2814,
+    "cutoff": 281,
+    "hits": 21,
+    "positive_denominator": 37,
+    "ncg": 0.5675675675675675
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD010753",
+    "n": 2538,
+    "cutoff": 253,
+    "hits": 13,
+    "positive_denominator": 29,
+    "ncg": 0.4482758620689655
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD011140",
+    "n": 289,
+    "cutoff": 28,
+    "hits": 4,
+    "positive_denominator": 4,
+    "ncg": 1.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD011571",
+    "n": 146,
+    "cutoff": 14,
+    "hits": 8,
+    "positive_denominator": 15,
+    "ncg": 0.5333333333333333
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD011768",
+    "n": 9159,
+    "cutoff": 915,
+    "hits": 45,
+    "positive_denominator": 54,
+    "ncg": 0.8333333333333334
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD011977",
+    "n": 195,
+    "cutoff": 19,
+    "hits": 9,
+    "positive_denominator": 49,
+    "ncg": 0.1836734693877551
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012069",
+    "n": 3476,
+    "cutoff": 347,
+    "hits": 69,
+    "positive_denominator": 320,
+    "ncg": 0.215625
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012164",
+    "n": 61,
+    "cutoff": 6,
+    "hits": 3,
+    "positive_denominator": 7,
+    "ncg": 0.42857142857142855
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012342",
+    "n": 2353,
+    "cutoff": 235,
+    "hits": 4,
+    "positive_denominator": 6,
+    "ncg": 0.6666666666666666
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012455",
+    "n": 1593,
+    "cutoff": 159,
+    "hits": 7,
+    "positive_denominator": 7,
+    "ncg": 1.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012551",
+    "n": 591,
+    "cutoff": 59,
+    "hits": 17,
+    "positive_denominator": 68,
+    "ncg": 0.25
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD012661",
+    "n": 3367,
+    "cutoff": 336,
+    "hits": 48,
+    "positive_denominator": 192,
+    "ncg": 0.25
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD011558",
+    "n": 2166,
+    "cutoff": 216,
+    "hits": 0,
+    "positive_denominator": 2,
+    "ncg": 0.0
+  },
+  {
+    "dataset": "CLEF",
+    "method": "RRF_RAW_IP",
+    "topic_id": "CD011787",
+    "n": 4369,
+    "cutoff": 436,
+    "hits": 79,
+    "positive_denominator": 111,
+    "ncg": 0.7117117117117117
+  }
+]

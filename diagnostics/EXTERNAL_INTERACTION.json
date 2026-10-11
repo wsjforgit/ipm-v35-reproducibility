@@ -1,0 +1,724 @@
+{
+  "status": "PASS",
+  "source": "exposed historical TREC rankings; no new neural inference or independent test",
+  "topic_count": 38,
+  "means": {
+    "full": {
+      "x00raw": 0.534099627630804,
+      "x01rawq": 0.5498432272364631,
+      "x10field": 0.5341536165336092,
+      "x11fieldq": 0.5480887470806135,
+      "interaction": -0.0018084690586546864
+    },
+    "intersection_restricted": {
+      "x00raw": 0.534099627630804,
+      "x01rawq": 0.5498432272364631,
+      "x10field": 0.5341536165336092,
+      "x11fieldq": 0.5480887470806135,
+      "interaction": -0.0018084690586546864
+    }
+  },
+  "official_inferred_aggregate_interactions": {
+    "infNDCG": -0.0017999999999999128,
+    "infAP": -0.00019999999999997797
+  },
+  "common_candidate_range": [
+    250,
+    838
+  ],
+  "interpretation": "Not a direct replication: trial-only fields, disease/gene/demographic query labels, global ordering, official qrels; BCKB uses four roles and role routing",
+  "intersection_scope": "Post-outcome restrict archived score orders to their four-way top1000 intersection before top10; full-qrel ideal denominator unchanged; not full-corpus common-score reranking",
+  "rows": [
+    {
+      "topic": "1",
+      "common_candidates": 670,
+      "full": {
+        "x00raw": 0.3436966913921454,
+        "x01rawq": 0.7630946912803436,
+        "x10field": 0.3436966913921454,
+        "x11fieldq": 0.7630946912803436,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.3436966913921454,
+        "x01rawq": 0.7630946912803436,
+        "x10field": 0.3436966913921454,
+        "x11fieldq": 0.7630946912803436,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "10",
+      "common_candidates": 772,
+      "full": {
+        "x00raw": 1.0,
+        "x01rawq": 1.0,
+        "x10field": 1.0,
+        "x11fieldq": 1.0,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 1.0,
+        "x01rawq": 1.0,
+        "x10field": 1.0,
+        "x11fieldq": 1.0,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "11",
+      "common_candidates": 612,
+      "full": {
+        "x00raw": 0.7773629807241593,
+        "x01rawq": 0.788090127112751,
+        "x10field": 0.8164716018042861,
+        "x11fieldq": 0.788090127112751,
+        "interaction": -0.039108621080126804
+      },
+      "intersection_restricted": {
+        "x00raw": 0.7773629807241593,
+        "x01rawq": 0.788090127112751,
+        "x10field": 0.8164716018042861,
+        "x11fieldq": 0.788090127112751,
+        "interaction": -0.039108621080126804
+      }
+    },
+    {
+      "topic": "12",
+      "common_candidates": 600,
+      "full": {
+        "x00raw": 0.1482972305701491,
+        "x01rawq": 0.19167138999231723,
+        "x10field": 0.21624063148843983,
+        "x11fieldq": 0.19167138999231723,
+        "interaction": -0.06794340091829074
+      },
+      "intersection_restricted": {
+        "x00raw": 0.1482972305701491,
+        "x01rawq": 0.19167138999231723,
+        "x10field": 0.21624063148843983,
+        "x11fieldq": 0.19167138999231723,
+        "interaction": -0.06794340091829074
+      }
+    },
+    {
+      "topic": "13",
+      "common_candidates": 572,
+      "full": {
+        "x00raw": 0.7314470771099789,
+        "x01rawq": 0.7877736340270854,
+        "x10field": 0.7218018303820491,
+        "x11fieldq": 0.7877736340270854,
+        "interaction": 0.009645246727929768
+      },
+      "intersection_restricted": {
+        "x00raw": 0.7314470771099789,
+        "x01rawq": 0.7877736340270854,
+        "x10field": 0.7218018303820491,
+        "x11fieldq": 0.7877736340270854,
+        "interaction": 0.009645246727929768
+      }
+    },
+    {
+      "topic": "14",
+      "common_candidates": 649,
+      "full": {
+        "x00raw": 0.09478836436955078,
+        "x01rawq": 0.08514311764162098,
+        "x10field": 0.09478836436955078,
+        "x11fieldq": 0.08514311764162098,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.09478836436955078,
+        "x01rawq": 0.08514311764162098,
+        "x10field": 0.09478836436955078,
+        "x11fieldq": 0.08514311764162098,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "15",
+      "common_candidates": 665,
+      "full": {
+        "x00raw": 0.23331170840008944,
+        "x01rawq": 0.2409404677898341,
+        "x10field": 0.23331170840008944,
+        "x11fieldq": 0.2409404677898341,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.23331170840008944,
+        "x01rawq": 0.2409404677898341,
+        "x10field": 0.23331170840008944,
+        "x11fieldq": 0.2409404677898341,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "16",
+      "common_candidates": 765,
+      "full": {
+        "x00raw": 0.715396751858943,
+        "x01rawq": 0.7136141674150676,
+        "x10field": 0.715396751858943,
+        "x11fieldq": 0.7136141674150676,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.715396751858943,
+        "x01rawq": 0.7136141674150676,
+        "x10field": 0.715396751858943,
+        "x11fieldq": 0.7136141674150676,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "17",
+      "common_candidates": 636,
+      "full": {
+        "x00raw": 0.18666416159634255,
+        "x01rawq": 0.12286383325798815,
+        "x10field": 0.1130004216818082,
+        "x11fieldq": 0.12286383325798815,
+        "interaction": 0.07366373991453436
+      },
+      "intersection_restricted": {
+        "x00raw": 0.18666416159634255,
+        "x01rawq": 0.12286383325798815,
+        "x10field": 0.1130004216818082,
+        "x11fieldq": 0.12286383325798815,
+        "interaction": 0.07366373991453436
+      }
+    },
+    {
+      "topic": "18",
+      "common_candidates": 587,
+      "full": {
+        "x00raw": 0.6505132600483449,
+        "x01rawq": 0.6207622843987103,
+        "x10field": 0.6505132600483449,
+        "x11fieldq": 0.605504765619221,
+        "interaction": -0.015257518779489332
+      },
+      "intersection_restricted": {
+        "x00raw": 0.6505132600483449,
+        "x01rawq": 0.6207622843987103,
+        "x10field": 0.6505132600483449,
+        "x11fieldq": 0.605504765619221,
+        "interaction": -0.015257518779489332
+      }
+    },
+    {
+      "topic": "19",
+      "common_candidates": 566,
+      "full": {
+        "x00raw": 0.22009176629808017,
+        "x01rawq": 0.22009176629808017,
+        "x10field": 0.22009176629808017,
+        "x11fieldq": 0.22009176629808017,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.22009176629808017,
+        "x01rawq": 0.22009176629808017,
+        "x10field": 0.22009176629808017,
+        "x11fieldq": 0.22009176629808017,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "2",
+      "common_candidates": 707,
+      "full": {
+        "x00raw": 1.0,
+        "x01rawq": 1.0,
+        "x10field": 1.0,
+        "x11fieldq": 1.0,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 1.0,
+        "x01rawq": 1.0,
+        "x10field": 1.0,
+        "x11fieldq": 1.0,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "20",
+      "common_candidates": 677,
+      "full": {
+        "x00raw": 0.2411741642702572,
+        "x01rawq": 0.25483467100741447,
+        "x10field": 0.2411741642702572,
+        "x11fieldq": 0.25483467100741447,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.2411741642702572,
+        "x01rawq": 0.25483467100741447,
+        "x10field": 0.2411741642702572,
+        "x11fieldq": 0.25483467100741447,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "21",
+      "common_candidates": 613,
+      "full": {
+        "x00raw": 0.7753366239771086,
+        "x01rawq": 0.8200685179888283,
+        "x10field": 0.7753366239771086,
+        "x11fieldq": 0.8200685179888283,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.7753366239771086,
+        "x01rawq": 0.8200685179888283,
+        "x10field": 0.7753366239771086,
+        "x11fieldq": 0.8200685179888283,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "22",
+      "common_candidates": 560,
+      "full": {
+        "x00raw": 0.8236998933965709,
+        "x01rawq": 0.8656312722365523,
+        "x10field": 0.8236998933965709,
+        "x11fieldq": 0.8656312722365523,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.8236998933965709,
+        "x01rawq": 0.8656312722365523,
+        "x10field": 0.8236998933965709,
+        "x11fieldq": 0.8656312722365523,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "23",
+      "common_candidates": 551,
+      "full": {
+        "x00raw": 0.17385461051511916,
+        "x01rawq": 0.0,
+        "x10field": 0.17385461051511916,
+        "x11fieldq": 0.0,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.17385461051511916,
+        "x01rawq": 0.0,
+        "x10field": 0.17385461051511916,
+        "x11fieldq": 0.0,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "24",
+      "common_candidates": 560,
+      "full": {
+        "x00raw": 0.22009176629808017,
+        "x01rawq": 0.40853591842579556,
+        "x10field": 0.22009176629808017,
+        "x11fieldq": 0.41528076708874123,
+        "interaction": 0.006744848662945668
+      },
+      "intersection_restricted": {
+        "x00raw": 0.22009176629808017,
+        "x01rawq": 0.40853591842579556,
+        "x10field": 0.22009176629808017,
+        "x11fieldq": 0.41528076708874123,
+        "interaction": 0.006744848662945668
+      }
+    },
+    {
+      "topic": "25",
+      "common_candidates": 376,
+      "full": {
+        "x00raw": 0.933745776545611,
+        "x01rawq": 0.8643145546088337,
+        "x10field": 0.933745776545611,
+        "x11fieldq": 0.8643145546088337,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.933745776545611,
+        "x01rawq": 0.8643145546088337,
+        "x10field": 0.933745776545611,
+        "x11fieldq": 0.8643145546088337,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "26",
+      "common_candidates": 607,
+      "full": {
+        "x00raw": 0.4615379007598259,
+        "x01rawq": 0.4010125818235126,
+        "x10field": 0.4615379007598259,
+        "x11fieldq": 0.4010125818235126,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.4615379007598259,
+        "x01rawq": 0.4010125818235126,
+        "x10field": 0.4615379007598259,
+        "x11fieldq": 0.4010125818235126,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "27",
+      "common_candidates": 667,
+      "full": {
+        "x00raw": 0.7148278180558393,
+        "x01rawq": 0.5869832799110316,
+        "x10field": 0.7148278180558393,
+        "x11fieldq": 0.5804174214255317,
+        "interaction": -0.0065658584854999535
+      },
+      "intersection_restricted": {
+        "x00raw": 0.7148278180558393,
+        "x01rawq": 0.5869832799110316,
+        "x10field": 0.7148278180558393,
+        "x11fieldq": 0.5804174214255317,
+        "interaction": -0.0065658584854999535
+      }
+    },
+    {
+      "topic": "28",
+      "common_candidates": 721,
+      "full": {
+        "x00raw": 0.4126158409676378,
+        "x01rawq": 0.5087587015910096,
+        "x10field": 0.4126158409676378,
+        "x11fieldq": 0.475631589863815,
+        "interaction": -0.03312711172719457
+      },
+      "intersection_restricted": {
+        "x00raw": 0.4126158409676378,
+        "x01rawq": 0.5087587015910096,
+        "x10field": 0.4126158409676378,
+        "x11fieldq": 0.475631589863815,
+        "interaction": -0.03312711172719457
+      }
+    },
+    {
+      "topic": "29",
+      "common_candidates": 383,
+      "full": {
+        "x00raw": 0.100939453260283,
+        "x01rawq": 0.12737140874229602,
+        "x10field": 0.100939453260283,
+        "x11fieldq": 0.12737140874229602,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.100939453260283,
+        "x01rawq": 0.12737140874229602,
+        "x10field": 0.100939453260283,
+        "x11fieldq": 0.12737140874229602,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "3",
+      "common_candidates": 649,
+      "full": {
+        "x00raw": 0.5533975035220433,
+        "x01rawq": 0.38388258796432534,
+        "x10field": 0.5533975035220433,
+        "x11fieldq": 0.38388258796432534,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.5533975035220433,
+        "x01rawq": 0.38388258796432534,
+        "x10field": 0.5533975035220433,
+        "x11fieldq": 0.38388258796432534,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "30",
+      "common_candidates": 761,
+      "full": {
+        "x00raw": 0.3034156072614767,
+        "x01rawq": 0.22696490052308183,
+        "x10field": 0.3138353748824869,
+        "x11fieldq": 0.22696490052308183,
+        "interaction": -0.010419767621010212
+      },
+      "intersection_restricted": {
+        "x00raw": 0.3034156072614767,
+        "x01rawq": 0.22696490052308183,
+        "x10field": 0.3138353748824869,
+        "x11fieldq": 0.22696490052308183,
+        "interaction": -0.010419767621010212
+      }
+    },
+    {
+      "topic": "31",
+      "common_candidates": 838,
+      "full": {
+        "x00raw": 0.38009376671593426,
+        "x01rawq": 0.6199062332840657,
+        "x10field": 0.38009376671593426,
+        "x11fieldq": 0.6089330166087422,
+        "interaction": -0.010973216675323472
+      },
+      "intersection_restricted": {
+        "x00raw": 0.38009376671593426,
+        "x01rawq": 0.6199062332840657,
+        "x10field": 0.38009376671593426,
+        "x11fieldq": 0.6089330166087422,
+        "interaction": -0.010973216675323472
+      }
+    },
+    {
+      "topic": "34",
+      "common_candidates": 358,
+      "full": {
+        "x00raw": 0.8868854556705132,
+        "x01rawq": 0.5995311664203287,
+        "x10field": 0.8868854556705132,
+        "x11fieldq": 0.5995311664203287,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.8868854556705132,
+        "x01rawq": 0.5995311664203287,
+        "x10field": 0.8868854556705132,
+        "x11fieldq": 0.5995311664203287,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "35",
+      "common_candidates": 643,
+      "full": {
+        "x00raw": 0.3766168327661624,
+        "x01rawq": 0.595002552564485,
+        "x10field": 0.3766168327661624,
+        "x11fieldq": 0.5875111636467646,
+        "interaction": -0.007491388917720387
+      },
+      "intersection_restricted": {
+        "x00raw": 0.3766168327661624,
+        "x01rawq": 0.595002552564485,
+        "x10field": 0.3766168327661624,
+        "x11fieldq": 0.5875111636467646,
+        "interaction": -0.007491388917720387
+      }
+    },
+    {
+      "topic": "36",
+      "common_candidates": 410,
+      "full": {
+        "x00raw": 0.6239432613822306,
+        "x01rawq": 0.7149894827905807,
+        "x10field": 0.5919187645279508,
+        "x11fieldq": 0.7149894827905807,
+        "interaction": 0.03202449685427977
+      },
+      "intersection_restricted": {
+        "x00raw": 0.6239432613822306,
+        "x01rawq": 0.7149894827905807,
+        "x10field": 0.5919187645279508,
+        "x11fieldq": 0.7149894827905807,
+        "interaction": 0.03202449685427977
+      }
+    },
+    {
+      "topic": "37",
+      "common_candidates": 659,
+      "full": {
+        "x00raw": 0.9297916128016405,
+        "x01rawq": 0.9297916128016405,
+        "x10field": 0.9297916128016405,
+        "x11fieldq": 0.9297916128016405,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.9297916128016405,
+        "x01rawq": 0.9297916128016405,
+        "x10field": 0.9297916128016405,
+        "x11fieldq": 0.9297916128016405,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "38",
+      "common_candidates": 250,
+      "full": {
+        "x00raw": 1.0,
+        "x01rawq": 1.0,
+        "x10field": 1.0,
+        "x11fieldq": 1.0,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 1.0,
+        "x01rawq": 1.0,
+        "x10field": 1.0,
+        "x11fieldq": 1.0,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "39",
+      "common_candidates": 645,
+      "full": {
+        "x00raw": 0.38009376671593426,
+        "x01rawq": 0.4796249331362629,
+        "x10field": 0.38009376671593426,
+        "x11fieldq": 0.4796249331362629,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.38009376671593426,
+        "x01rawq": 0.4796249331362629,
+        "x10field": 0.38009376671593426,
+        "x11fieldq": 0.4796249331362629,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "4",
+      "common_candidates": 559,
+      "full": {
+        "x00raw": 0.29929634258233134,
+        "x01rawq": 0.18807495171024902,
+        "x10field": 0.29929634258233134,
+        "x11fieldq": 0.18807495171024902,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.29929634258233134,
+        "x01rawq": 0.18807495171024902,
+        "x10field": 0.29929634258233134,
+        "x11fieldq": 0.18807495171024902,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "40",
+      "common_candidates": 517,
+      "full": {
+        "x00raw": 0.5706417189553201,
+        "x01rawq": 0.5706417189553201,
+        "x10field": 0.5706417189553201,
+        "x11fieldq": 0.5706417189553201,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.5706417189553201,
+        "x01rawq": 0.5706417189553201,
+        "x10field": 0.5706417189553201,
+        "x11fieldq": 0.5706417189553201,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "5",
+      "common_candidates": 548,
+      "full": {
+        "x00raw": 0.22009176629808017,
+        "x01rawq": 0.31488013066763093,
+        "x10field": 0.22009176629808017,
+        "x11fieldq": 0.31488013066763093,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.22009176629808017,
+        "x01rawq": 0.31488013066763093,
+        "x10field": 0.22009176629808017,
+        "x11fieldq": 0.31488013066763093,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "6",
+      "common_candidates": 810,
+      "full": {
+        "x00raw": 0.2894403406272416,
+        "x01rawq": 0.31022332034499717,
+        "x10field": 0.28683643937149617,
+        "x11fieldq": 0.31022332034499717,
+        "interaction": 0.0026039012557454444
+      },
+      "intersection_restricted": {
+        "x00raw": 0.2894403406272416,
+        "x01rawq": 0.31022332034499717,
+        "x10field": 0.28683643937149617,
+        "x11fieldq": 0.31022332034499717,
+        "interaction": 0.0026039012557454444
+      }
+    },
+    {
+      "topic": "7",
+      "common_candidates": 825,
+      "full": {
+        "x00raw": 0.9608008655106622,
+        "x01rawq": 0.9574284411791895,
+        "x10field": 0.9633180389503199,
+        "x11fieldq": 0.9574284411791895,
+        "interaction": -0.0025171734396576273
+      },
+      "intersection_restricted": {
+        "x00raw": 0.9608008655106622,
+        "x01rawq": 0.9574284411791895,
+        "x10field": 0.9633180389503199,
+        "x11fieldq": 0.9574284411791895,
+        "interaction": -0.0025171734396576273
+      }
+    },
+    {
+      "topic": "8",
+      "common_candidates": 578,
+      "full": {
+        "x00raw": 0.6500332220485792,
+        "x01rawq": 0.7136540102475308,
+        "x10field": 0.6500332220485792,
+        "x11fieldq": 0.7136540102475308,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.6500332220485792,
+        "x01rawq": 0.7136540102475308,
+        "x10field": 0.6500332220485792,
+        "x11fieldq": 0.7136540102475308,
+        "interaction": 0.0
+      }
+    },
+    {
+      "topic": "9",
+      "common_candidates": 685,
+      "full": {
+        "x00raw": 0.9118499466982855,
+        "x01rawq": 0.9178902068468361,
+        "x10field": 0.9118499466982855,
+        "x11fieldq": 0.9178902068468361,
+        "interaction": 0.0
+      },
+      "intersection_restricted": {
+        "x00raw": 0.9118499466982855,
+        "x01rawq": 0.9178902068468361,
+        "x10field": 0.9118499466982855,
+        "x11fieldq": 0.9178902068468361,
+        "interaction": 0.0
+      }
+    }
+  ],
+  "source_hashes": {
+    "trec_x00raw.run": "61aa1298168fde028eebca47b2b55a969067f6e6ab67b000075dbc407e1d92e3",
+    "trec_x01rawq.run": "58f93d3ebc6a2a1ea22a63f40fb7541f3b65ceb97b71c74bac6b6eccc750a345",
+    "trec_x10field.run": "83ffd221560eae5648a53c5416e6ba9c4118cec3444d95d74acf79f8e8be5ed4",
+    "trec_x11fieldq.run": "8df5667eb6c8866e8773641fc6e72a5e58787b0885766ad3978bbc4af5b96b83",
+    "qrels_treceval_trials.txt": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa"
+  }
+}
