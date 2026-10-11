@@ -1,4 +1,4 @@
-# Anonymous research-derived data and deterministic replay (local pre-publication draft)
+# Anonymous research-derived data and deterministic replay (public peer-review artifact)
 
 This data capsule accompanies a double-anonymized submission on structured multisource biomedical evidence retrieval.
 

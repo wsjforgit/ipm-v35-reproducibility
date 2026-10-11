@@ -6,4 +6,4 @@ The RUNS.json files contain identifiers and model-generated scores, not source p
 
 This version provides deterministic saved-output replay, not complete independent regeneration of neural inferences. No real clinician adjudication, clinical efficacy or patient-level safety validation is included.
 
-Before public deposit, select and declare an appropriate license for the author's original code and derived outputs and verify repository anonymity for double-anonymous review.
+Publication scope: only these original author-produced codes and numeric derived outputs are released under the stated MIT and CC BY 4.0 licenses; the repository owner address itself is identifiable and should not be used as an anonymous review link. External sources remain subject to their upstream terms.
