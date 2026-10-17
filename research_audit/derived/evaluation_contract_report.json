@@ -1,0 +1,97 @@
+{
+  "data_contract": {
+    "CLEF": {
+      "judgment_source": "official systematic review screening evaluation",
+      "matched_BCKB_replication": false,
+      "metric": "topic NCG saved output, two methods",
+      "topics": 31
+    },
+    "Formal40": {
+      "clinical_gold": false,
+      "independent_topic_sampling_assured": false,
+      "judgment_source": "study-created field/alias silver reference",
+      "metric": "binary parent nDCG@10",
+      "record_unit": "parent documentary evidence unit",
+      "saved_rankings": 360,
+      "topics": 40
+    },
+    "NLI4CT": {
+      "included": false,
+      "reason": "Trial statement correctness is not a comparable relevance ranking metric"
+    },
+    "TREC": {
+      "judgment_source": "official TREC trial relevance labels (NOT distributed by this tool)",
+      "matched_BCKB_replication": false,
+      "metric": "nDCG@10 saved external scores, two neural/fusion methods",
+      "topics": 38
+    }
+  },
+  "external_saved_metrics": {
+    "CLEF": {
+      "RRF_minus_MedCPT": -0.044073690513005984,
+      "comparison_unit": "archived topic-local official benchmark scores",
+      "interpretation": "within-dataset saved rank outputs only; not comparable across TREC and CLEF reference designs",
+      "methods": {
+        "MEDCPT_RAW_IP": 0.5711735570963196,
+        "RRF_RAW_IP": 0.5270998665833136
+      },
+      "metric": "ncg",
+      "negative_diff_count": 20,
+      "positive_diff_count": 5,
+      "topic_count": 31,
+      "zero_diff_count": 6
+    },
+    "TREC": {
+      "RRF_minus_MedCPT": 0.12738632865236138,
+      "comparison_unit": "archived topic-local official benchmark scores",
+      "interpretation": "within-dataset saved rank outputs only; not comparable across TREC and CLEF reference designs",
+      "methods": {
+        "MEDCPT_RAW_IP": 0.44436563435270704,
+        "RRF_RAW_IP": 0.5717519630050685
+      },
+      "metric": "ndcg10",
+      "negative_diff_count": 7,
+      "positive_diff_count": 30,
+      "topic_count": 38,
+      "zero_diff_count": 1
+    }
+  },
+  "formal_40_saved_metrics": {
+    "condition_means": {
+      "G00": 0.2907818314662132,
+      "G01": 0.17267017647681895,
+      "G10": 0.2845582081200264,
+      "G11": 0.31083305946461093
+    },
+    "connected_component_sizes": [
+      40
+    ],
+    "factorial_interaction": 0.14438650633397873,
+    "negative_topic_count": 2,
+    "positive_topic_count": 32,
+    "shared_positive_parent_topic_pairs": 669
+  },
+  "gates": {
+    "clinically_validated": false,
+    "executable_evaluation_contract_only": true,
+    "external_separate_dataset_scoring_only": true,
+    "formal_parent_rank_replay": true,
+    "formal_schema_complete": true,
+    "full_corpus_reproduced": false,
+    "independent_gold_for_F40": false,
+    "new_neural_inference": false,
+    "topic_independent_significance_calibrated": false
+  },
+  "inputs_sha256": {
+    "DOCUMENTARY_QRELS.json": "c8fc6490bb2060b0d8aff06d0dd7cdab07543314271669d337c2899765c60511",
+    "FORMAL_RUNS.json": "ebe0b44b52d3aabfeab64908b90b5a06fcf8338f4ba83456a026630f06151eaa",
+    "PER_TOPIC_METRICS.json": "d055c93e3dbccf626fad6b078b0b06d48ca96881df219294695ab652010b6152"
+  },
+  "limitations": [
+    "Formal40 relevance labels overlap in source parents and are not independent clinician relevance ground truth.",
+    "No comparison across unrelated datasets may be pooled without a matched label, candidate and metric protocol.",
+    "The same data-contract validator can execute on saved result files, not reconstruct licensed biomedical source text.",
+    "Existing model and saved-ranking results are immutable: this release does not claim a new neural ranking algorithm."
+  ],
+  "schema": "biomedical-retrieval-evaluation-contract-v1"
+}

@@ -1,0 +1,51 @@
+{
+  "archive_basis": "original published public saved-output capsule plus legally accessible archived TREC qrels and TREC run files (latter are NOT redistributed)",
+  "branch_intended": "research-eval-contract-2026-10-18 (non-default, non-force)",
+  "completed": {
+    "E1_independence_adjusted_p_value": false,
+    "E1_saved_score_dependency_and_label_perturbation": true,
+    "E2_archived_TREC_38_official_qrel_saved_rank_sensitivity": true,
+    "E2_new_prospective_matched_external_neural_run": false,
+    "E3_executable_evaluation_contract_with_three_separate_metrics": true,
+    "E3_standard_library_unit_tests": 11,
+    "E4_new_independent_relevance_gold": false,
+    "E5_clinical_safety_validation": false
+  },
+  "copyright": "Inherit root MIT code license and CC BY 4.0 eligibility for author-derived results only",
+  "freeze_date": "2026-10-18",
+  "known_unresolved": [
+    "No new independent reference dataset; Formal40 relevance judgments remain silver/selected and overlapping.",
+    "Archive TREC four-condition comparison is a different task/protocol; no new matched BCKB external model runs.",
+    "The original paired-topic bootstrap CI and p-value are not dependence-recalibrated.",
+    "Public capsule does not reconstruct licensed biomedical raw corpus or neural inference.",
+    "Journal CMPB SCIE/JCR Q1 and publisher anonymity/rules await authoritative confirmation by author."
+  ],
+  "new_funding_or_paid_apis": false,
+  "original_main_branch_modified": false,
+  "primary_descriptives": {
+    "CLEF_RRF_minus_MedCPT_NCG": -0.044073690513005984,
+    "Formal40_interaction": 0.14438650633397873,
+    "TREC_RRF_minus_MedCPT": 0.12738632865236138,
+    "TREC_candidate_common_min_max": [
+      250,
+      838
+    ],
+    "TREC_common_intersection_top10_changes": {
+      "G00": 0,
+      "G01": 1,
+      "G10": 0,
+      "G11": 1
+    },
+    "TREC_exponential_gain_interaction": -0.0008746345129868605,
+    "TREC_linear_interaction": -0.001808469058654727,
+    "TREC_reused_positive_topic_pairs": 123,
+    "shared_positive_topic_pairs": 669,
+    "top_removed10_interaction": 0.10566373024995473,
+    "top_removed1_interaction": 0.11513704876410151,
+    "top_removed5_interaction": 0.10640260428894091,
+    "total_F40_pairs": 780
+  },
+  "public_release_scope": "Only authored source code, synthetic tests, derived numerical tables and explanatory protocol/README; no full third-party corpus or official TREC qrels or private identities.",
+  "research_goal": "bounded methodology and reproducibility audit; not new model training or clinical proof",
+  "schema": "biomedical-retrieval-evidence-release-v1"
+}

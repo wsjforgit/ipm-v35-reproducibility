@@ -1,0 +1,1530 @@
+{
+  "archived_run_extra_unjudged_topics": {
+    "G00": 2,
+    "G01": 2,
+    "G10": 2,
+    "G11": 2
+  },
+  "common_candidate_count_min_max_mean": [
+    250,
+    838,
+    611.8684210526316
+  ],
+  "external_validity_status": "SAVED-TREC-COMMON-POOL-DIAGNOSTIC_NOT_MATCHED_BCKB_REPLICATION",
+  "input_file_sha256": {
+    "qrels_treceval_trials.txt": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa",
+    "trec_x00raw.run": "61aa1298168fde028eebca47b2b55a969067f6e6ab67b000075dbc407e1d92e3",
+    "trec_x01rawq.run": "58f93d3ebc6a2a1ea22a63f40fb7541f3b65ceb97b71c74bac6b6eccc750a345",
+    "trec_x10field.run": "83ffd221560eae5648a53c5416e6ba9c4118cec3444d95d74acf79f8e8be5ed4",
+    "trec_x11fieldq.run": "8df5667eb6c8866e8773641fc6e72a5e58787b0885766ad3978bbc4af5b96b83"
+  },
+  "judged_topics": 38,
+  "limits": [
+    "Topic qrels are from the official TREC trial collection, a different task and reference design than Formal-40.",
+    "Four ranked lists were saved before this experiment; no retrieval, query regeneration or model scoring is performed here.",
+    "Posthoc candidate-set intersection retaining top10 does not establish a prospective equal-eligibility model comparison.",
+    "Gain-function choice affects the interaction magnitude, so the evaluation convention must be declared explicitly.",
+    "Original clinical-trial corpus and model inference cannot be inferred from derived saved scores."
+  ],
+  "means": {
+    "exp2": {
+      "original": {
+        "condition_means": {
+          "G00": 0.5218282848517996,
+          "G01": 0.5367117289342827,
+          "G10": 0.5212482013654726,
+          "G11": 0.5352570109349688
+        },
+        "factorial_interaction": -0.0008746345129868605,
+        "positive_topic_delta_count": 5
+      },
+      "saved_common_candidate_intersection": {
+        "condition_means": {
+          "G00": 0.5218282848517996,
+          "G01": 0.5367117289342827,
+          "G10": 0.5212482013654726,
+          "G11": 0.5352570109349688
+        },
+        "factorial_interaction": -0.0008746345129868605,
+        "positive_topic_delta_count": 5
+      }
+    },
+    "linear": {
+      "original": {
+        "condition_means": {
+          "G00": 0.534099627630804,
+          "G01": 0.5498432272364631,
+          "G10": 0.5341536165336092,
+          "G11": 0.5480887470806135
+        },
+        "factorial_interaction": -0.001808469058654727,
+        "positive_topic_delta_count": 5
+      },
+      "saved_common_candidate_intersection": {
+        "condition_means": {
+          "G00": 0.534099627630804,
+          "G01": 0.5498432272364631,
+          "G10": 0.5341536165336092,
+          "G11": 0.5480887470806135
+        },
+        "factorial_interaction": -0.001808469058654727,
+        "positive_topic_delta_count": 5
+      }
+    }
+  },
+  "original_top10_changed_by_posthoc_filter": {
+    "G00": 0,
+    "G01": 1,
+    "G10": 0,
+    "G11": 1
+  },
+  "per_topic_derived_metrics": [
+    {
+      "common_saved_candidate_count": 670,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.3436966913921454,
+            "G01": 0.7630946912803436,
+            "G10": 0.3436966913921454,
+            "G11": 0.7630946912803436
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.3436966913921454,
+            "G01": 0.7630946912803436,
+            "G10": 0.3436966913921454,
+            "G11": 0.7630946912803436
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.3436966913921454,
+            "G01": 0.7630946912803436,
+            "G10": 0.3436966913921454,
+            "G11": 0.7630946912803436
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.3436966913921454,
+            "G01": 0.7630946912803436,
+            "G10": 0.3436966913921454,
+            "G11": 0.7630946912803436
+          }
+        }
+      },
+      "topic_id": "1"
+    },
+    {
+      "common_saved_candidate_count": 707,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          }
+        }
+      },
+      "topic_id": "2"
+    },
+    {
+      "common_saved_candidate_count": 649,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.5665117281055946,
+            "G01": 0.3929797061122003,
+            "G10": 0.5665117281055946,
+            "G11": 0.3929797061122003
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.5665117281055946,
+            "G01": 0.3929797061122003,
+            "G10": 0.5665117281055946,
+            "G11": 0.3929797061122003
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.5533975035220433,
+            "G01": 0.38388258796432534,
+            "G10": 0.5533975035220433,
+            "G11": 0.38388258796432534
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.5533975035220433,
+            "G01": 0.38388258796432534,
+            "G10": 0.5533975035220433,
+            "G11": 0.38388258796432534
+          }
+        }
+      },
+      "topic_id": "3"
+    },
+    {
+      "common_saved_candidate_count": 559,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.23621285610456758,
+            "G01": 0.14659023053981657,
+            "G10": 0.23621285610456758,
+            "G11": 0.14659023053981657
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.23621285610456758,
+            "G01": 0.14659023053981657,
+            "G10": 0.23621285610456758,
+            "G11": 0.14659023053981657
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.29929634258233134,
+            "G01": 0.18807495171024902,
+            "G10": 0.29929634258233134,
+            "G11": 0.18807495171024902
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.29929634258233134,
+            "G01": 0.18807495171024902,
+            "G10": 0.29929634258233134,
+            "G11": 0.18807495171024902
+          }
+        }
+      },
+      "topic_id": "4"
+    },
+    {
+      "common_saved_candidate_count": 548,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.22009176629808017,
+            "G01": 0.31488013066763093,
+            "G10": 0.22009176629808017,
+            "G11": 0.31488013066763093
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.22009176629808017,
+            "G01": 0.31488013066763093,
+            "G10": 0.22009176629808017,
+            "G11": 0.31488013066763093
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.22009176629808017,
+            "G01": 0.31488013066763093,
+            "G10": 0.22009176629808017,
+            "G11": 0.31488013066763093
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.22009176629808017,
+            "G01": 0.31488013066763093,
+            "G10": 0.22009176629808017,
+            "G11": 0.31488013066763093
+          }
+        }
+      },
+      "topic_id": "5"
+    },
+    {
+      "common_saved_candidate_count": 810,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.00220596778846735,
+          "factorial_original": 0.00220596778846735,
+          "original": {
+            "G00": 0.24520748115846824,
+            "G01": 0.26281436379450507,
+            "G10": 0.2430015133700009,
+            "G11": 0.26281436379450507
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.24520748115846824,
+            "G01": 0.26281436379450507,
+            "G10": 0.2430015133700009,
+            "G11": 0.26281436379450507
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0026039012557454444,
+          "factorial_original": 0.0026039012557454444,
+          "original": {
+            "G00": 0.2894403406272416,
+            "G01": 0.31022332034499717,
+            "G10": 0.28683643937149617,
+            "G11": 0.31022332034499717
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.2894403406272416,
+            "G01": 0.31022332034499717,
+            "G10": 0.28683643937149617,
+            "G11": 0.31022332034499717
+          }
+        }
+      },
+      "topic_id": "6"
+    },
+    {
+      "common_saved_candidate_count": 825,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.0033562312528768734,
+          "factorial_original": -0.0033562312528768734,
+          "original": {
+            "G00": 0.9477344873475498,
+            "G01": 0.9432379215722527,
+            "G10": 0.9510907186004267,
+            "G11": 0.9432379215722527
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.9477344873475498,
+            "G01": 0.9432379215722527,
+            "G10": 0.9510907186004267,
+            "G11": 0.9432379215722527
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.0025171734396576273,
+          "factorial_original": -0.0025171734396576273,
+          "original": {
+            "G00": 0.9608008655106622,
+            "G01": 0.9574284411791895,
+            "G10": 0.9633180389503199,
+            "G11": 0.9574284411791895
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.9608008655106622,
+            "G01": 0.9574284411791895,
+            "G10": 0.9633180389503199,
+            "G11": 0.9574284411791895
+          }
+        }
+      },
+      "topic_id": "7"
+    },
+    {
+      "common_saved_candidate_count": 578,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.6500332220485792,
+            "G01": 0.7136540102475308,
+            "G10": 0.6500332220485792,
+            "G11": 0.7136540102475308
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.6500332220485792,
+            "G01": 0.7136540102475308,
+            "G10": 0.6500332220485792,
+            "G11": 0.7136540102475308
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.6500332220485792,
+            "G01": 0.7136540102475308,
+            "G10": 0.6500332220485792,
+            "G11": 0.7136540102475308
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.6500332220485792,
+            "G01": 0.7136540102475308,
+            "G10": 0.6500332220485792,
+            "G11": 0.7136540102475308
+          }
+        }
+      },
+      "topic_id": "8"
+    },
+    {
+      "common_saved_candidate_count": 685,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.8824665955977138,
+            "G01": 0.8905202757957812,
+            "G10": 0.8824665955977138,
+            "G11": 0.8905202757957812
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.8824665955977138,
+            "G01": 0.8905202757957812,
+            "G10": 0.8824665955977138,
+            "G11": 0.8905202757957812
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.9118499466982855,
+            "G01": 0.9178902068468361,
+            "G10": 0.9118499466982855,
+            "G11": 0.9178902068468361
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.9118499466982855,
+            "G01": 0.9178902068468361,
+            "G10": 0.9118499466982855,
+            "G11": 0.9178902068468361
+          }
+        }
+      },
+      "topic_id": "9"
+    },
+    {
+      "common_saved_candidate_count": 772,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          }
+        }
+      },
+      "topic_id": "10"
+    },
+    {
+      "common_saved_candidate_count": 612,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.02912264736961423,
+          "factorial_original": -0.02912264736961423,
+          "original": {
+            "G00": 0.7920993492242231,
+            "G01": 0.79854926963155,
+            "G10": 0.8212219965938373,
+            "G11": 0.79854926963155
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.7920993492242231,
+            "G01": 0.79854926963155,
+            "G10": 0.8212219965938373,
+            "G11": 0.79854926963155
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.039108621080126804,
+          "factorial_original": -0.039108621080126804,
+          "original": {
+            "G00": 0.7773629807241593,
+            "G01": 0.788090127112751,
+            "G10": 0.8164716018042861,
+            "G11": 0.788090127112751
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.7773629807241593,
+            "G01": 0.788090127112751,
+            "G10": 0.8164716018042861,
+            "G11": 0.788090127112751
+          }
+        }
+      },
+      "topic_id": "11"
+    },
+    {
+      "common_saved_candidate_count": 600,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.06794340091829074,
+          "factorial_original": -0.06794340091829074,
+          "original": {
+            "G00": 0.1482972305701491,
+            "G01": 0.19167138999231723,
+            "G10": 0.21624063148843983,
+            "G11": 0.19167138999231723
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.1482972305701491,
+            "G01": 0.19167138999231723,
+            "G10": 0.21624063148843983,
+            "G11": 0.19167138999231723
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.06794340091829074,
+          "factorial_original": -0.06794340091829074,
+          "original": {
+            "G00": 0.1482972305701491,
+            "G01": 0.19167138999231723,
+            "G10": 0.21624063148843983,
+            "G11": 0.19167138999231723
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.1482972305701491,
+            "G01": 0.19167138999231723,
+            "G10": 0.21624063148843983,
+            "G11": 0.19167138999231723
+          }
+        }
+      },
+      "topic_id": "12"
+    },
+    {
+      "common_saved_candidate_count": 572,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.009645246727929768,
+          "factorial_original": 0.009645246727929768,
+          "original": {
+            "G00": 0.7314470771099789,
+            "G01": 0.7877736340270854,
+            "G10": 0.7218018303820491,
+            "G11": 0.7877736340270854
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.7314470771099789,
+            "G01": 0.7877736340270854,
+            "G10": 0.7218018303820491,
+            "G11": 0.7877736340270854
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.009645246727929768,
+          "factorial_original": 0.009645246727929768,
+          "original": {
+            "G00": 0.7314470771099789,
+            "G01": 0.7877736340270854,
+            "G10": 0.7218018303820491,
+            "G11": 0.7877736340270854
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.7314470771099789,
+            "G01": 0.7877736340270854,
+            "G10": 0.7218018303820491,
+            "G11": 0.7877736340270854
+          }
+        }
+      },
+      "topic_id": "13"
+    },
+    {
+      "common_saved_candidate_count": 649,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.09478836436955078,
+            "G01": 0.08514311764162098,
+            "G10": 0.09478836436955078,
+            "G11": 0.08514311764162098
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.09478836436955078,
+            "G01": 0.08514311764162098,
+            "G10": 0.09478836436955078,
+            "G11": 0.08514311764162098
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.09478836436955078,
+            "G01": 0.08514311764162098,
+            "G10": 0.09478836436955078,
+            "G11": 0.08514311764162098
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.09478836436955078,
+            "G01": 0.08514311764162098,
+            "G10": 0.09478836436955078,
+            "G11": 0.08514311764162098
+          }
+        }
+      },
+      "topic_id": "14"
+    },
+    {
+      "common_saved_candidate_count": 665,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.15554113893339294,
+            "G01": 0.16062697852655605,
+            "G10": 0.15554113893339294,
+            "G11": 0.16062697852655605
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.15554113893339294,
+            "G01": 0.16062697852655605,
+            "G10": 0.15554113893339294,
+            "G11": 0.16062697852655605
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.23331170840008944,
+            "G01": 0.2409404677898341,
+            "G10": 0.23331170840008944,
+            "G11": 0.2409404677898341
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.23331170840008944,
+            "G01": 0.2409404677898341,
+            "G10": 0.23331170840008944,
+            "G11": 0.2409404677898341
+          }
+        }
+      },
+      "topic_id": "15"
+    },
+    {
+      "common_saved_candidate_count": 765,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.688270045082722,
+            "G01": 0.6830862886146358,
+            "G10": 0.688270045082722,
+            "G11": 0.6830862886146358
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.688270045082722,
+            "G01": 0.6830862886146358,
+            "G10": 0.688270045082722,
+            "G11": 0.6830862886146358
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.715396751858943,
+            "G01": 0.7136141674150676,
+            "G10": 0.715396751858943,
+            "G11": 0.7136141674150676
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.715396751858943,
+            "G01": 0.7136141674150676,
+            "G10": 0.715396751858943,
+            "G11": 0.7136141674150676
+          }
+        }
+      },
+      "topic_id": "16"
+    },
+    {
+      "common_saved_candidate_count": 636,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.07775512242353887,
+          "factorial_original": 0.07775512242353887,
+          "original": {
+            "G00": 0.15727286644951932,
+            "G01": 0.08645856977923368,
+            "G10": 0.07951774402598046,
+            "G11": 0.08645856977923368
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.15727286644951932,
+            "G01": 0.08645856977923368,
+            "G10": 0.07951774402598046,
+            "G11": 0.08645856977923368
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.07366373991453436,
+          "factorial_original": 0.07366373991453436,
+          "original": {
+            "G00": 0.18666416159634255,
+            "G01": 0.12286383325798815,
+            "G10": 0.1130004216818082,
+            "G11": 0.12286383325798815
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.18666416159634255,
+            "G01": 0.12286383325798815,
+            "G10": 0.1130004216818082,
+            "G11": 0.12286383325798815
+          }
+        }
+      },
+      "topic_id": "17"
+    },
+    {
+      "common_saved_candidate_count": 587,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.015257518779489332,
+          "factorial_original": -0.015257518779489332,
+          "original": {
+            "G00": 0.6505132600483449,
+            "G01": 0.6207622843987103,
+            "G10": 0.6505132600483449,
+            "G11": 0.605504765619221
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.6505132600483449,
+            "G01": 0.6207622843987103,
+            "G10": 0.6505132600483449,
+            "G11": 0.605504765619221
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.015257518779489332,
+          "factorial_original": -0.015257518779489332,
+          "original": {
+            "G00": 0.6505132600483449,
+            "G01": 0.6207622843987103,
+            "G10": 0.6505132600483449,
+            "G11": 0.605504765619221
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.6505132600483449,
+            "G01": 0.6207622843987103,
+            "G10": 0.6505132600483449,
+            "G11": 0.605504765619221
+          }
+        }
+      },
+      "topic_id": "18"
+    },
+    {
+      "common_saved_candidate_count": 566,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.22009176629808014,
+            "G01": 0.22009176629808014,
+            "G10": 0.22009176629808014,
+            "G11": 0.22009176629808014
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.22009176629808014,
+            "G01": 0.22009176629808014,
+            "G10": 0.22009176629808014,
+            "G11": 0.22009176629808014
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.22009176629808017,
+            "G01": 0.22009176629808017,
+            "G10": 0.22009176629808017,
+            "G11": 0.22009176629808017
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.22009176629808017,
+            "G01": 0.22009176629808017,
+            "G10": 0.22009176629808017,
+            "G11": 0.22009176629808017
+          }
+        }
+      },
+      "topic_id": "19"
+    },
+    {
+      "common_saved_candidate_count": 677,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.2545692994950494,
+            "G01": 0.2689885290230043,
+            "G10": 0.2545692994950494,
+            "G11": 0.2689885290230043
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.2545692994950494,
+            "G01": 0.2689885290230043,
+            "G10": 0.2545692994950494,
+            "G11": 0.2689885290230043
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.2411741642702572,
+            "G01": 0.25483467100741447,
+            "G10": 0.2411741642702572,
+            "G11": 0.25483467100741447
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.2411741642702572,
+            "G01": 0.25483467100741447,
+            "G10": 0.2411741642702572,
+            "G11": 0.25483467100741447
+          }
+        }
+      },
+      "topic_id": "20"
+    },
+    {
+      "common_saved_candidate_count": 613,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.7753366239771085,
+            "G01": 0.8200685179888281,
+            "G10": 0.7753366239771085,
+            "G11": 0.8200685179888281
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.7753366239771085,
+            "G01": 0.8200685179888281,
+            "G10": 0.7753366239771085,
+            "G11": 0.8200685179888281
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.7753366239771086,
+            "G01": 0.8200685179888283,
+            "G10": 0.7753366239771086,
+            "G11": 0.8200685179888283
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.7753366239771086,
+            "G01": 0.8200685179888283,
+            "G10": 0.7753366239771086,
+            "G11": 0.8200685179888283
+          }
+        }
+      },
+      "topic_id": "21"
+    },
+    {
+      "common_saved_candidate_count": 560,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.7870179323468908,
+            "G01": 0.8208416963154032,
+            "G10": 0.7870179323468908,
+            "G11": 0.8208416963154032
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.7870179323468908,
+            "G01": 0.8208416963154032,
+            "G10": 0.7870179323468908,
+            "G11": 0.8208416963154032
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.8236998933965709,
+            "G01": 0.8656312722365523,
+            "G10": 0.8236998933965709,
+            "G11": 0.8656312722365523
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.8236998933965709,
+            "G01": 0.8656312722365523,
+            "G10": 0.8236998933965709,
+            "G11": 0.8656312722365523
+          }
+        }
+      },
+      "topic_id": "22"
+    },
+    {
+      "common_saved_candidate_count": 551,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.17919394245321368,
+            "G01": 0.0,
+            "G10": 0.17919394245321368,
+            "G11": 0.0
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.17919394245321368,
+            "G01": 0.0,
+            "G10": 0.17919394245321368,
+            "G11": 0.0
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.17385461051511916,
+            "G01": 0.0,
+            "G10": 0.17385461051511916,
+            "G11": 0.0
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.17385461051511916,
+            "G01": 0.0,
+            "G10": 0.17385461051511916,
+            "G11": 0.0
+          }
+        }
+      },
+      "topic_id": "23"
+    },
+    {
+      "common_saved_candidate_count": 560,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.006744848662945668,
+          "factorial_original": 0.006744848662945668,
+          "original": {
+            "G00": 0.22009176629808017,
+            "G01": 0.40853591842579556,
+            "G10": 0.22009176629808017,
+            "G11": 0.41528076708874123
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.22009176629808017,
+            "G01": 0.40853591842579556,
+            "G10": 0.22009176629808017,
+            "G11": 0.41528076708874123
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.006744848662945668,
+          "factorial_original": 0.006744848662945668,
+          "original": {
+            "G00": 0.22009176629808017,
+            "G01": 0.40853591842579556,
+            "G10": 0.22009176629808017,
+            "G11": 0.41528076708874123
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.22009176629808017,
+            "G01": 0.40853591842579556,
+            "G10": 0.22009176629808017,
+            "G11": 0.41528076708874123
+          }
+        }
+      },
+      "topic_id": "24"
+    },
+    {
+      "common_saved_candidate_count": 376,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.933745776545611,
+            "G01": 0.8643145546088337,
+            "G10": 0.933745776545611,
+            "G11": 0.8643145546088337
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.933745776545611,
+            "G01": 0.8643145546088337,
+            "G10": 0.933745776545611,
+            "G11": 0.8643145546088337
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.933745776545611,
+            "G01": 0.8643145546088337,
+            "G10": 0.933745776545611,
+            "G11": 0.8643145546088337
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.933745776545611,
+            "G01": 0.8643145546088337,
+            "G10": 0.933745776545611,
+            "G11": 0.8643145546088337
+          }
+        }
+      },
+      "topic_id": "25"
+    },
+    {
+      "common_saved_candidate_count": 607,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.4328202034783624,
+            "G01": 0.36857684601577495,
+            "G10": 0.4328202034783624,
+            "G11": 0.36857684601577495
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.4328202034783624,
+            "G01": 0.36857684601577495,
+            "G10": 0.4328202034783624,
+            "G11": 0.36857684601577495
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.4615379007598259,
+            "G01": 0.4010125818235126,
+            "G10": 0.4615379007598259,
+            "G11": 0.4010125818235126
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.4615379007598259,
+            "G01": 0.4010125818235126,
+            "G10": 0.4615379007598259,
+            "G11": 0.4010125818235126
+          }
+        }
+      },
+      "topic_id": "26"
+    },
+    {
+      "common_saved_candidate_count": 667,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.004976907017044896,
+          "factorial_original": -0.004976907017044896,
+          "original": {
+            "G00": 0.6912306453327549,
+            "G01": 0.5584985320052329,
+            "G10": 0.6912306453327549,
+            "G11": 0.553521624988188
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.6912306453327549,
+            "G01": 0.5584985320052329,
+            "G10": 0.6912306453327549,
+            "G11": 0.553521624988188
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.0065658584854999535,
+          "factorial_original": -0.0065658584854999535,
+          "original": {
+            "G00": 0.7148278180558393,
+            "G01": 0.5869832799110316,
+            "G10": 0.7148278180558393,
+            "G11": 0.5804174214255317
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.7148278180558393,
+            "G01": 0.5869832799110316,
+            "G10": 0.7148278180558393,
+            "G11": 0.5804174214255317
+          }
+        }
+      },
+      "topic_id": "27"
+    },
+    {
+      "common_saved_candidate_count": 721,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.022084741151463028,
+          "factorial_original": -0.022084741151463028,
+          "original": {
+            "G00": 0.31175918836143857,
+            "G01": 0.4311215191179618,
+            "G10": 0.31175918836143857,
+            "G11": 0.4090367779664988
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.31175918836143857,
+            "G01": 0.4311215191179618,
+            "G10": 0.31175918836143857,
+            "G11": 0.4090367779664988
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.03312711172719457,
+          "factorial_original": -0.03312711172719457,
+          "original": {
+            "G00": 0.4126158409676378,
+            "G01": 0.5087587015910096,
+            "G10": 0.4126158409676378,
+            "G11": 0.475631589863815
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.4126158409676378,
+            "G01": 0.5087587015910096,
+            "G10": 0.4126158409676378,
+            "G11": 0.475631589863815
+          }
+        }
+      },
+      "topic_id": "28"
+    },
+    {
+      "common_saved_candidate_count": 383,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.08398471153179837,
+            "G01": 0.10597690670105499,
+            "G10": 0.08398471153179837,
+            "G11": 0.10597690670105499
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.08398471153179837,
+            "G01": 0.10597690670105499,
+            "G10": 0.08398471153179837,
+            "G11": 0.10597690670105499
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.100939453260283,
+            "G01": 0.12737140874229602,
+            "G10": 0.100939453260283,
+            "G11": 0.12737140874229602
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.100939453260283,
+            "G01": 0.12737140874229602,
+            "G10": 0.100939453260283,
+            "G11": 0.12737140874229602
+          }
+        }
+      },
+      "topic_id": "29"
+    },
+    {
+      "common_saved_candidate_count": 761,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.0106666917068991,
+          "factorial_original": -0.0106666917068991,
+          "original": {
+            "G00": 0.3106058464484215,
+            "G01": 0.23234343703453997,
+            "G10": 0.3212725381553206,
+            "G11": 0.23234343703453997
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.3106058464484215,
+            "G01": 0.23234343703453997,
+            "G10": 0.3212725381553206,
+            "G11": 0.23234343703453997
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.010419767621010212,
+          "factorial_original": -0.010419767621010212,
+          "original": {
+            "G00": 0.3034156072614767,
+            "G01": 0.22696490052308183,
+            "G10": 0.3138353748824869,
+            "G11": 0.22696490052308183
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.3034156072614767,
+            "G01": 0.22696490052308183,
+            "G10": 0.3138353748824869,
+            "G11": 0.22696490052308183
+          }
+        }
+      },
+      "topic_id": "30"
+    },
+    {
+      "common_saved_candidate_count": 838,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.011926599054318587,
+          "factorial_original": -0.011926599054318587,
+          "original": {
+            "G00": 0.27541155237618664,
+            "G01": 0.5360595666833466,
+            "G10": 0.27541155237618664,
+            "G11": 0.5241329676290281
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.27541155237618664,
+            "G01": 0.5360595666833466,
+            "G10": 0.27541155237618664,
+            "G11": 0.5241329676290281
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.010973216675323472,
+          "factorial_original": -0.010973216675323472,
+          "original": {
+            "G00": 0.38009376671593426,
+            "G01": 0.6199062332840657,
+            "G10": 0.38009376671593426,
+            "G11": 0.6089330166087422
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.38009376671593426,
+            "G01": 0.6199062332840657,
+            "G10": 0.38009376671593426,
+            "G11": 0.6089330166087422
+          }
+        }
+      },
+      "topic_id": "31"
+    },
+    {
+      "common_saved_candidate_count": 358,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.9180385079206221,
+            "G01": 0.60817870005004,
+            "G10": 0.9180385079206221,
+            "G11": 0.60817870005004
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.9180385079206221,
+            "G01": 0.60817870005004,
+            "G10": 0.9180385079206221,
+            "G11": 0.60817870005004
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.8868854556705132,
+            "G01": 0.5995311664203287,
+            "G10": 0.8868854556705132,
+            "G11": 0.5995311664203287
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.8868854556705132,
+            "G01": 0.5995311664203287,
+            "G10": 0.8868854556705132,
+            "G11": 0.5995311664203287
+          }
+        }
+      },
+      "topic_id": "34"
+    },
+    {
+      "common_saved_candidate_count": 643,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": -0.007778366634556666,
+          "factorial_original": -0.007778366634556666,
+          "original": {
+            "G00": 0.3769432278773249,
+            "G01": 0.591105646415434,
+            "G10": 0.3769432278773249,
+            "G11": 0.5833272797808773
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.3769432278773249,
+            "G01": 0.591105646415434,
+            "G10": 0.3769432278773249,
+            "G11": 0.5833272797808773
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": -0.007491388917720387,
+          "factorial_original": -0.007491388917720387,
+          "original": {
+            "G00": 0.3766168327661624,
+            "G01": 0.595002552564485,
+            "G10": 0.3766168327661624,
+            "G11": 0.5875111636467646
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.3766168327661624,
+            "G01": 0.595002552564485,
+            "G10": 0.3766168327661624,
+            "G11": 0.5875111636467646
+          }
+        }
+      },
+      "topic_id": "35"
+    },
+    {
+      "common_saved_candidate_count": 410,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.04352580678817208,
+          "factorial_original": 0.04352580678817208,
+          "original": {
+            "G00": 0.6126178487301739,
+            "G01": 0.6744901750909139,
+            "G10": 0.5690920419420018,
+            "G11": 0.6744901750909139
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.6126178487301739,
+            "G01": 0.6744901750909139,
+            "G10": 0.5690920419420018,
+            "G11": 0.6744901750909139
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.03202449685427977,
+          "factorial_original": 0.03202449685427977,
+          "original": {
+            "G00": 0.6239432613822306,
+            "G01": 0.7149894827905807,
+            "G10": 0.5919187645279508,
+            "G11": 0.7149894827905807
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.6239432613822306,
+            "G01": 0.7149894827905807,
+            "G10": 0.5919187645279508,
+            "G11": 0.7149894827905807
+          }
+        }
+      },
+      "topic_id": "36"
+    },
+    {
+      "common_saved_candidate_count": 659,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.9520727775370875,
+            "G01": 0.9520727775370875,
+            "G10": 0.9520727775370875,
+            "G11": 0.9520727775370875
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.9520727775370875,
+            "G01": 0.9520727775370875,
+            "G10": 0.9520727775370875,
+            "G11": 0.9520727775370875
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.9297916128016405,
+            "G01": 0.9297916128016405,
+            "G10": 0.9297916128016405,
+            "G11": 0.9297916128016405
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.9297916128016405,
+            "G01": 0.9297916128016405,
+            "G10": 0.9297916128016405,
+            "G11": 0.9297916128016405
+          }
+        }
+      },
+      "topic_id": "37"
+    },
+    {
+      "common_saved_candidate_count": 250,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 1.0,
+            "G01": 1.0,
+            "G10": 1.0,
+            "G11": 1.0
+          }
+        }
+      },
+      "topic_id": "38"
+    },
+    {
+      "common_saved_candidate_count": 645,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.41311732856427996,
+            "G01": 0.52129602861432,
+            "G10": 0.41311732856427996,
+            "G11": 0.52129602861432
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.41311732856427996,
+            "G01": 0.52129602861432,
+            "G10": 0.41311732856427996,
+            "G11": 0.52129602861432
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.38009376671593426,
+            "G01": 0.4796249331362629,
+            "G10": 0.38009376671593426,
+            "G11": 0.4796249331362629
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.38009376671593426,
+            "G01": 0.4796249331362629,
+            "G10": 0.38009376671593426,
+            "G11": 0.4796249331362629
+          }
+        }
+      },
+      "topic_id": "39"
+    },
+    {
+      "common_saved_candidate_count": 517,
+      "metrics": {
+        "exp2": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.5706417189553201,
+            "G01": 0.5706417189553201,
+            "G10": 0.5706417189553201,
+            "G11": 0.5706417189553201
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.5706417189553201,
+            "G01": 0.5706417189553201,
+            "G10": 0.5706417189553201,
+            "G11": 0.5706417189553201
+          }
+        },
+        "linear": {
+          "factorial_common_candidate": 0.0,
+          "factorial_original": 0.0,
+          "original": {
+            "G00": 0.5706417189553201,
+            "G01": 0.5706417189553201,
+            "G10": 0.5706417189553201,
+            "G11": 0.5706417189553201
+          },
+          "saved_common_candidate_intersection": {
+            "G00": 0.5706417189553201,
+            "G01": 0.5706417189553201,
+            "G10": 0.5706417189553201,
+            "G11": 0.5706417189553201
+          }
+        }
+      },
+      "topic_id": "40"
+    }
+  ],
+  "qrel_positive_overlap_topic_pairs": 123,
+  "qrel_total_topic_pairs": 703,
+  "schema": "biomedical-retrieval-external-saved-run-v1"
+}

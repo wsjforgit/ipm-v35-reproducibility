@@ -1,0 +1,742 @@
+{
+  "evaluation_unit": "selected documentary topic; original silver primary parent references",
+  "inferential_limits": [
+    "The shared-positive-parent graph is connected but this alone does not establish a formal correlation model.",
+    "No confidence interval or significance test is recomputed or independently validated here.",
+    "LOCO, LOTO and top-frequency qrel deletion are post-outcome descriptive diagnostics only.",
+    "References are author-created silver qrels and are not independent physician relevance gold.",
+    "No new neural retrieval, data annotation or clinical validation occurs in this audit."
+  ],
+  "inputs": {
+    "qrels_filename": "DOCUMENTARY_QRELS.json",
+    "qrels_sha256": "c8fc6490bb2060b0d8aff06d0dd7cdab07543314271669d337c2899765c60511",
+    "runs_filename": "FORMAL_RUNS.json",
+    "runs_sha256": "ebe0b44b52d3aabfeab64908b90b5a06fcf8338f4ba83456a026630f06151eaa"
+  },
+  "methods": [
+    "G00",
+    "G01",
+    "G10",
+    "G11"
+  ],
+  "original_saved_rank_evaluation": {
+    "condition_means": {
+      "G00": 0.2907818314662132,
+      "G01": 0.17267017647681895,
+      "G10": 0.2845582081200264,
+      "G11": 0.31083305946461093
+    },
+    "interaction": 0.14438650633397873,
+    "leave_one_category_out": {
+      "biomarker_disease": {
+        "interaction": 0.12439180542603705,
+        "topics": 30
+      },
+      "eligibility_population": {
+        "interaction": 0.16736175237069795,
+        "topics": 30
+      },
+      "therapy": {
+        "interaction": 0.1063080385672157,
+        "topics": 30
+      },
+      "toxicity_restriction": {
+        "interaction": 0.17948442897196426,
+        "topics": 30
+      }
+    },
+    "leave_one_topic_out": [
+      {
+        "interaction": 0.14081404356056712,
+        "topic_id": "F001"
+      },
+      {
+        "interaction": 0.1424453458220787,
+        "topic_id": "F002"
+      },
+      {
+        "interaction": 0.14795863118861619,
+        "topic_id": "F003"
+      },
+      {
+        "interaction": 0.13655315069195856,
+        "topic_id": "F004"
+      },
+      {
+        "interaction": 0.1406839503040769,
+        "topic_id": "F005"
+      },
+      {
+        "interaction": 0.14490705872475176,
+        "topic_id": "F006"
+      },
+      {
+        "interaction": 0.14261829065959014,
+        "topic_id": "F007"
+      },
+      {
+        "interaction": 0.14050265777789311,
+        "topic_id": "F008"
+      },
+      {
+        "interaction": 0.13465699887116034,
+        "topic_id": "F009"
+      },
+      {
+        "interaction": 0.1434338066877384,
+        "topic_id": "F010"
+      },
+      {
+        "interaction": 0.1445281489611691,
+        "topic_id": "F011"
+      },
+      {
+        "interaction": 0.13952330278704958,
+        "topic_id": "F012"
+      },
+      {
+        "interaction": 0.14257543907856893,
+        "topic_id": "F013"
+      },
+      {
+        "interaction": 0.1376087128793969,
+        "topic_id": "F014"
+      },
+      {
+        "interaction": 0.14526703513359254,
+        "topic_id": "F015"
+      },
+      {
+        "interaction": 0.148122038929905,
+        "topic_id": "F016"
+      },
+      {
+        "interaction": 0.14590556758250073,
+        "topic_id": "F017"
+      },
+      {
+        "interaction": 0.14446649437177744,
+        "topic_id": "F018"
+      },
+      {
+        "interaction": 0.13888477033814142,
+        "topic_id": "F019"
+      },
+      {
+        "interaction": 0.14160301411773057,
+        "topic_id": "F020"
+      },
+      {
+        "interaction": 0.14607851242001216,
+        "topic_id": "F021"
+      },
+      {
+        "interaction": 0.14590556758250073,
+        "topic_id": "F022"
+      },
+      {
+        "interaction": 0.14074651957965847,
+        "topic_id": "F023"
+      },
+      {
+        "interaction": 0.1464574221835948,
+        "topic_id": "F024"
+      },
+      {
+        "interaction": 0.1468363319471775,
+        "topic_id": "F025"
+      },
+      {
+        "interaction": 0.1461594512226807,
+        "topic_id": "F026"
+      },
+      {
+        "interaction": 0.1466387147097786,
+        "topic_id": "F027"
+      },
+      {
+        "interaction": 0.1480887244451064,
+        "topic_id": "F028"
+      },
+      {
+        "interaction": 0.1480887244451064,
+        "topic_id": "F029"
+      },
+      {
+        "interaction": 0.14653836098626336,
+        "topic_id": "F030"
+      },
+      {
+        "interaction": 0.1480887244451064,
+        "topic_id": "F031"
+      },
+      {
+        "interaction": 0.1464574221835948,
+        "topic_id": "F032"
+      },
+      {
+        "interaction": 0.15091041375662026,
+        "topic_id": "F033"
+      },
+      {
+        "interaction": 0.14607851242001216,
+        "topic_id": "F034"
+      },
+      {
+        "interaction": 0.1480887244451064,
+        "topic_id": "F035"
+      },
+      {
+        "interaction": 0.14607851242001216,
+        "topic_id": "F036"
+      },
+      {
+        "interaction": 0.1480887244451064,
+        "topic_id": "F037"
+      },
+      {
+        "interaction": 0.1480887244451064,
+        "topic_id": "F038"
+      },
+      {
+        "interaction": 0.1424453458220787,
+        "topic_id": "F039"
+      },
+      {
+        "interaction": 0.14653836098626336,
+        "topic_id": "F040"
+      }
+    ],
+    "non_scoreable_topics": 0,
+    "topic_interaction_min_max": [
+      -0.11004588314904021,
+      0.5238372973838965
+    ],
+    "topic_interaction_negative_count": 2,
+    "topic_interaction_positive_count": 32,
+    "topic_interaction_zero_count": 6,
+    "topics_evaluated": 40
+  },
+  "per_topic_frozen_scores": [
+    {
+      "category": "therapy",
+      "interaction": 0.2837125544970317,
+      "positive_count": 146,
+      "scores": {
+        "G00": 0.4198523768135526,
+        "G01": 0.21501812929496175,
+        "G10": 0.4346298575932762,
+        "G11": 0.5135081645717171
+      },
+      "topic_id": "F001"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.22009176629808008,
+      "positive_count": 144,
+      "scores": {
+        "G00": 0.40002324830925196,
+        "G01": 0.22979561007468535,
+        "G10": 0.40002324830925196,
+        "G11": 0.44988737637276544
+      },
+      "topic_id": "F002"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.005073637003118386,
+      "positive_count": 110,
+      "scores": {
+        "G00": 0.31488013066763093,
+        "G01": 0.1487639058405727,
+        "G10": 0.38113435412202,
+        "G11": 0.22009176629808017
+      },
+      "topic_id": "F003"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.44988737637276544,
+      "positive_count": 62,
+      "scores": {
+        "G00": 0.38113435412202,
+        "G01": 0.0,
+        "G10": 0.38113435412202,
+        "G11": 0.44988737637276544
+      },
+      "topic_id": "F004"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.2887861915001503,
+      "positive_count": 71,
+      "scores": {
+        "G00": 0.31488013066763093,
+        "G01": 0.15139734109601002,
+        "G10": 0.17993148201117176,
+        "G11": 0.30523488393970116
+      },
+      "topic_id": "F005"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.12408496309383091,
+      "positive_count": 41,
+      "scores": {
+        "G00": 0.27770450256879337,
+        "G01": 0.1884441521277154,
+        "G10": 0.27770450256879337,
+        "G11": 0.3125291152215463
+      },
+      "topic_id": "F006"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.21334691763513453,
+      "positive_count": 17,
+      "scores": {
+        "G00": 0.33480714634441017,
+        "G01": 0.08514311764162098,
+        "G10": 0.33480714634441017,
+        "G11": 0.2984900352767555
+      },
+      "topic_id": "F007"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.2958566000213182,
+      "positive_count": 40,
+      "scores": {
+        "G00": 0.2984900352767555,
+        "G01": 0.15139734109601002,
+        "G10": 0.2984900352767555,
+        "G11": 0.4472539411173282
+      },
+      "topic_id": "F008"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.5238372973838965,
+      "positive_count": 4,
+      "scores": {
+        "G00": 0.6469523342593044,
+        "G01": 0.6207412960974641,
+        "G10": 0.407591902495008,
+        "G11": 0.9052181617170642
+      },
+      "topic_id": "F009"
+    },
+    {
+      "category": "therapy",
+      "interaction": 0.1815417925373527,
+      "positive_count": 3,
+      "scores": {
+        "G00": 0.6508205185601091,
+        "G01": 0.46927872602275644,
+        "G10": 0.6508205185601091,
+        "G11": 0.6508205185601091
+      },
+      "topic_id": "F010"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.13886244387355454,
+      "positive_count": 59,
+      "scores": {
+        "G00": 0.24703059344735182,
+        "G01": 0.0,
+        "G10": 0.24703059344735182,
+        "G11": 0.13886244387355454
+      },
+      "topic_id": "F011"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.33405144466421577,
+      "positive_count": 51,
+      "scores": {
+        "G00": 0.6547216238913564,
+        "G01": 0.4341754806679218,
+        "G10": 0.6547216238913564,
+        "G11": 0.7682269253321375
+      },
+      "topic_id": "F012"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.21501812929496172,
+      "positive_count": 49,
+      "scores": {
+        "G00": 0.48882922182497546,
+        "G01": 0.20248323207250624,
+        "G10": 0.5036067026046991,
+        "G11": 0.4322788421471916
+      },
+      "topic_id": "F013"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.40872045106266996,
+      "positive_count": 25,
+      "scores": {
+        "G00": 0.40350157154648025,
+        "G01": 0.2685529228900211,
+        "G10": 0.40350157154648025,
+        "G11": 0.677273373952691
+      },
+      "topic_id": "F014"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.11004588314904008,
+      "positive_count": 32,
+      "scores": {
+        "G00": 0.11004588314904008,
+        "G01": 0.06362078819895171,
+        "G10": 0.11004588314904008,
+        "G11": 0.1736666713479918
+      },
+      "topic_id": "F015"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": -0.001299264907145492,
+      "positive_count": 30,
+      "scores": {
+        "G00": 0.6870165078530993,
+        "G01": 0.5743371894486219,
+        "G10": 0.6870165078530993,
+        "G11": 0.5730379245414764
+      },
+      "topic_id": "F016"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.085143117641621,
+      "positive_count": 15,
+      "scores": {
+        "G00": 0.30523488393970116,
+        "G01": 0.22009176629808017,
+        "G10": 0.30523488393970116,
+        "G11": 0.30523488393970116
+      },
+      "topic_id": "F017"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.14126697285982903,
+      "positive_count": 3,
+      "scores": {
+        "G00": 0.3228087653971817,
+        "G01": 0.46927872602275644,
+        "G10": 0.3228087653971817,
+        "G11": 0.6105456988825855
+      },
+      "topic_id": "F018"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.3589542101716346,
+      "positive_count": 23,
+      "scores": {
+        "G00": 0.4472539411173282,
+        "G01": 0.14201905717762703,
+        "G10": 0.4472539411173282,
+        "G11": 0.5009732673492616
+      },
+      "topic_id": "F019"
+    },
+    {
+      "category": "biomarker_disease",
+      "interaction": 0.2529427027676571,
+      "positive_count": 8,
+      "scores": {
+        "G00": 0.3327372413301053,
+        "G01": 0.07979453856244817,
+        "G10": 0.3327372413301053,
+        "G11": 0.3327372413301053
+      },
+      "topic_id": "F020"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.07839826897867534,
+      "positive_count": 20,
+      "scores": {
+        "G00": 0.17993148201117176,
+        "G01": 0.06943122193677727,
+        "G10": 0.17993148201117176,
+        "G11": 0.1478294909154526
+      },
+      "topic_id": "F021"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.08514311764162097,
+      "positive_count": 26,
+      "scores": {
+        "G00": 0.31488013066763093,
+        "G01": 0.0,
+        "G10": 0.31488013066763093,
+        "G11": 0.08514311764162098
+      },
+      "topic_id": "F022"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.28634598975246917,
+      "positive_count": 10,
+      "scores": {
+        "G00": 0.4662774717636409,
+        "G01": 0.17993148201117176,
+        "G10": 0.4662774717636409,
+        "G11": 0.4662774717636409
+      },
+      "topic_id": "F023"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.0636207881989517,
+      "positive_count": 70,
+      "scores": {
+        "G00": 0.24703059344735182,
+        "G01": 0.1884441521277154,
+        "G10": 0.24703059344735182,
+        "G11": 0.2520649403266671
+      },
+      "topic_id": "F024"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.048843307419228085,
+      "positive_count": 35,
+      "scores": {
+        "G00": 0.06362078819895171,
+        "G01": 0.07839826897867533,
+        "G10": 0.07839826897867533,
+        "G11": 0.14201905717762703
+      },
+      "topic_id": "F025"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.07524165567460284,
+      "positive_count": 37,
+      "scores": {
+        "G00": 0.14201905717762703,
+        "G01": 0.14201905717762703,
+        "G10": 0.14201905717762703,
+        "G11": 0.21726071285222986
+      },
+      "topic_id": "F026"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.05655037967778387,
+      "positive_count": 44,
+      "scores": {
+        "G00": 0.22009176629808017,
+        "G01": 0.1635413866202963,
+        "G10": 0.22009176629808017,
+        "G11": 0.22009176629808017
+      },
+      "topic_id": "F027"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.0,
+      "positive_count": 35,
+      "scores": {
+        "G00": 0.18340980524840012,
+        "G01": 0.07839826897867533,
+        "G10": 0.18340980524840012,
+        "G11": 0.07839826897867533
+      },
+      "topic_id": "F028"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.0,
+      "positive_count": 39,
+      "scores": {
+        "G00": 0.5455206287241073,
+        "G01": 0.14201905717762703,
+        "G10": 0.5455206287241073,
+        "G11": 0.14201905717762703
+      },
+      "topic_id": "F029"
+    },
+    {
+      "category": "eligibility_population",
+      "interaction": 0.06046417489487921,
+      "positive_count": 44,
+      "scores": {
+        "G00": 0.06362078819895171,
+        "G01": 0.06362078819895171,
+        "G10": 0.07839826897867533,
+        "G11": 0.13886244387355454
+      },
+      "topic_id": "F030"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.0,
+      "positive_count": 107,
+      "scores": {
+        "G00": 0.2863459897524692,
+        "G01": 0.08514311764162098,
+        "G10": 0.2863459897524692,
+        "G11": 0.08514311764162098
+      },
+      "topic_id": "F031"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.06362078819895171,
+      "positive_count": 53,
+      "scores": {
+        "G00": 0.0,
+        "G01": 0.0,
+        "G10": 0.0,
+        "G11": 0.06362078819895171
+      },
+      "topic_id": "F032"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": -0.11004588314904021,
+      "positive_count": 69,
+      "scores": {
+        "G00": 0.2114502791144043,
+        "G01": 0.48964844873235525,
+        "G10": 0.2114502791144043,
+        "G11": 0.37960256558331507
+      },
+      "topic_id": "F033"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.07839826897867533,
+      "positive_count": 65,
+      "scores": {
+        "G00": 0.0,
+        "G01": 0.0,
+        "G10": 0.0,
+        "G11": 0.07839826897867533
+      },
+      "topic_id": "F034"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.0,
+      "positive_count": 50,
+      "scores": {
+        "G00": 0.0,
+        "G01": 0.0,
+        "G10": 0.0,
+        "G11": 0.0
+      },
+      "topic_id": "F035"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.07839826897867533,
+      "positive_count": 50,
+      "scores": {
+        "G00": 0.13305201013572898,
+        "G01": 0.13305201013572898,
+        "G10": 0.13305201013572898,
+        "G11": 0.2114502791144043
+      },
+      "topic_id": "F036"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.0,
+      "positive_count": 41,
+      "scores": {
+        "G00": 0.09478836436955078,
+        "G01": 0.09478836436955078,
+        "G10": 0.09478836436955078,
+        "G11": 0.09478836436955078
+      },
+      "topic_id": "F037"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.0,
+      "positive_count": 29,
+      "scores": {
+        "G00": 0.0,
+        "G01": 0.0,
+        "G10": 0.0,
+        "G11": 0.0
+      },
+      "topic_id": "F038"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.22009176629808014,
+      "positive_count": 18,
+      "scores": {
+        "G00": 0.2984900352767555,
+        "G01": 0.14201905717762703,
+        "G10": 0.2984900352767555,
+        "G11": 0.36211082347570717
+      },
+      "topic_id": "F039"
+    },
+    {
+      "category": "toxicity_restriction",
+      "interaction": 0.06046417489487921,
+      "positive_count": 95,
+      "scores": {
+        "G00": 0.14201905717762703,
+        "G01": 0.14201905717762703,
+        "G10": 0.14201905717762703,
+        "G11": 0.20248323207250624
+      },
+      "topic_id": "F040"
+    }
+  ],
+  "positive_reference_dependence": {
+    "graph_component_sizes": [
+      40
+    ],
+    "max_topic_frequency_of_one_parent": 21,
+    "pairwise_jaccard_mean": 0.0729569822789436,
+    "pairwise_jaccard_median": 0.051503094606542885,
+    "positive_set_min_max": [
+      3,
+      146
+    ],
+    "reused_parent_ids": 357,
+    "shared_pair_fraction": 0.8576923076923076,
+    "shared_positive_parent_pairs": 669,
+    "topic_pairs": 780,
+    "unique_positive_parent_ids": 486
+  },
+  "posthoc_reference_removal_sensitivity": {
+    "1": {
+      "definition": "post-outcome top-K frequency qrel-label deletion; candidate rankings held frozen",
+      "interaction": 0.11513704876410151,
+      "reference_parent_ids_removed": 1,
+      "topics_remaining": 40
+    },
+    "10": {
+      "definition": "post-outcome top-K frequency qrel-label deletion; candidate rankings held frozen",
+      "interaction": 0.10566373024995473,
+      "reference_parent_ids_removed": 10,
+      "topics_remaining": 40
+    },
+    "5": {
+      "definition": "post-outcome top-K frequency qrel-label deletion; candidate rankings held frozen",
+      "interaction": 0.10640260428894091,
+      "reference_parent_ids_removed": 5,
+      "topics_remaining": 40
+    }
+  },
+  "runs_count": 360,
+  "schema": "biomedical-retrieval-formal-audit-v1",
+  "topic_count": 40
+}
