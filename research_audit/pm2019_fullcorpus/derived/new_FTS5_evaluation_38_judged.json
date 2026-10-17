@@ -1,0 +1,1796 @@
+{
+  "all_corpus_topics_scored": 40,
+  "external_validity_limits": [
+    "Study authors already had historical access to 2019 qrels; this is not an unseen gold test.",
+    "2019 clinical-trial-only roles and fields differ materially from BCKB four-source documentary queries.",
+    "The FTS5 stemming/tokenization is a new baseline, not exact replay of historical bm25s/Lucene index.",
+    "No statistical significance is claimed because independent topic exchangeability has not been verified.",
+    "Full XML trial corpus and official qrels are not redistributed in the release."
+  ],
+  "means_and_interactions": {
+    "P10": {
+      "factorial_interaction": 0.0026315789473684292,
+      "leave_one_topic_out_interaction_range": [
+        -0.005405405405405408,
+        0.010810810810810808
+      ],
+      "method_means": {
+        "G00": 0.46578947368421053,
+        "G01": 0.4631578947368421,
+        "G10": 0.46578947368421053,
+        "G11": 0.46578947368421053
+      },
+      "negative_topic_deltas": 5,
+      "per_topic_interaction_min_max": [
+        -0.3,
+        0.30000000000000004
+      ],
+      "positive_topic_deltas": 6,
+      "zero_topic_deltas": 27
+    },
+    "Recall100": {
+      "factorial_interaction": -0.011025992080733626,
+      "leave_one_topic_out_interaction_range": [
+        -0.012594855206528317,
+        -0.006819487362194956
+      ],
+      "method_means": {
+        "G00": 0.5613684688710369,
+        "G01": 0.5723944609517705,
+        "G10": 0.5612053986599546,
+        "G11": 0.5612053986599546
+      },
+      "negative_topic_deltas": 11,
+      "per_topic_interaction_min_max": [
+        -0.16666666666666663,
+        0.04702194357366772
+      ],
+      "positive_topic_deltas": 7,
+      "zero_topic_deltas": 20
+    },
+    "Rprec": {
+      "factorial_interaction": -0.0016742513854482999,
+      "leave_one_topic_out_interaction_range": [
+        -0.0027361920947559224,
+        -0.00021799992139133622
+      ],
+      "method_means": {
+        "G00": 0.407829281663113,
+        "G01": 0.4095035330485613,
+        "G10": 0.40773915909642233,
+        "G11": 0.40773915909642233
+      },
+      "negative_topic_deltas": 9,
+      "per_topic_interaction_min_max": [
+        -0.05555555555555555,
+        0.037617554858934144
+      ],
+      "positive_topic_deltas": 9,
+      "zero_topic_deltas": 20
+    },
+    "nDCG10_exp2": {
+      "factorial_interaction": -0.009997156617034153,
+      "leave_one_topic_out_interaction_range": [
+        -0.01436712041991476,
+        -0.003107819159743435
+      ],
+      "method_means": {
+        "G00": 0.534805411795768,
+        "G01": 0.5448025684128022,
+        "G10": 0.5345706971499974,
+        "G11": 0.5345706971499974
+      },
+      "negative_topic_deltas": 14,
+      "per_topic_interaction_min_max": [
+        -0.26490264253679113,
+        0.1516915040895479
+      ],
+      "positive_topic_deltas": 12,
+      "zero_topic_deltas": 12
+    },
+    "nDCG10_linear": {
+      "factorial_interaction": -0.0075510710821312665,
+      "leave_one_topic_out_interaction_range": [
+        -0.01220432909892793,
+        -0.0005956232049782323
+      ],
+      "method_means": {
+        "G00": 0.5494761814904439,
+        "G01": 0.5570272525725751,
+        "G10": 0.5492887331725566,
+        "G11": 0.5492887331725566
+      },
+      "negative_topic_deltas": 14,
+      "per_topic_interaction_min_max": [
+        -0.26490264253679113,
+        0.1646194755393477
+      ],
+      "positive_topic_deltas": 12,
+      "zero_topic_deltas": 12
+    }
+  },
+  "numeric_metric_definitions": "linear nDCG@10 primary, exp2 secondary; binary positive for P10/Recall100/Rprec",
+  "per_topic_results": [
+    {
+      "interactions": {
+        "P10": -0.3,
+        "Recall100": -0.02898550724637683,
+        "Rprec": 0.036231884057971064,
+        "nDCG10_exp2": -0.26490264253679113,
+        "nDCG10_linear": -0.26490264253679113
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.3,
+          "Recall100": 0.41304347826086957,
+          "Rprec": 0.6014492753623188,
+          "judged_positive_count": 138,
+          "nDCG10_exp2": 0.424926013816671,
+          "nDCG10_linear": 0.424926013816671
+        },
+        "G01": {
+          "P10": 0.6,
+          "Recall100": 0.4420289855072464,
+          "Rprec": 0.5652173913043478,
+          "judged_positive_count": 138,
+          "nDCG10_exp2": 0.6898286563534621,
+          "nDCG10_linear": 0.6898286563534621
+        },
+        "G10": {
+          "P10": 0.3,
+          "Recall100": 0.41304347826086957,
+          "Rprec": 0.6014492753623188,
+          "judged_positive_count": 138,
+          "nDCG10_exp2": 0.424926013816671,
+          "nDCG10_linear": 0.424926013816671
+        },
+        "G11": {
+          "P10": 0.3,
+          "Recall100": 0.41304347826086957,
+          "Rprec": 0.6014492753623188,
+          "judged_positive_count": 138,
+          "nDCG10_exp2": 0.424926013816671,
+          "nDCG10_linear": 0.424926013816671
+        }
+      },
+      "topic_id": "1"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.004672897196261683,
+        "Rprec": -0.009345794392523366,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 1.0,
+          "Recall100": 0.3411214953271028,
+          "Rprec": 0.43457943925233644,
+          "judged_positive_count": 214,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G01": {
+          "P10": 1.0,
+          "Recall100": 0.3364485981308411,
+          "Rprec": 0.4439252336448598,
+          "judged_positive_count": 214,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G10": {
+          "P10": 1.0,
+          "Recall100": 0.34579439252336447,
+          "Rprec": 0.43457943925233644,
+          "judged_positive_count": 214,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G11": {
+          "P10": 1.0,
+          "Recall100": 0.34579439252336447,
+          "Rprec": 0.43457943925233644,
+          "judged_positive_count": 214,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        }
+      },
+      "topic_id": "2"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": -0.041008719890647916,
+        "nDCG10_linear": -0.040059405806139536
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.4,
+          "judged_positive_count": 10,
+          "nDCG10_exp2": 0.5484608392776524,
+          "nDCG10_linear": 0.5357644761403485
+        },
+        "G01": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.4,
+          "judged_positive_count": 10,
+          "nDCG10_exp2": 0.5894695591683003,
+          "nDCG10_linear": 0.575823881946488
+        },
+        "G10": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.4,
+          "judged_positive_count": 10,
+          "nDCG10_exp2": 0.5484608392776524,
+          "nDCG10_linear": 0.5357644761403485
+        },
+        "G11": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.4,
+          "judged_positive_count": 10,
+          "nDCG10_exp2": 0.5484608392776524,
+          "nDCG10_linear": 0.5357644761403485
+        }
+      },
+      "topic_id": "3"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.008570414948113475,
+        "nDCG10_linear": 0.02530700517587975
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.4,
+          "Recall100": 0.16853932584269662,
+          "Rprec": 0.15730337078651685,
+          "judged_positive_count": 89,
+          "nDCG10_exp2": 0.21964364149044774,
+          "nDCG10_linear": 0.28689390341486115
+        },
+        "G01": {
+          "P10": 0.4,
+          "Recall100": 0.16853932584269662,
+          "Rprec": 0.15730337078651685,
+          "judged_positive_count": 89,
+          "nDCG10_exp2": 0.21107322654233426,
+          "nDCG10_linear": 0.2615868982389814
+        },
+        "G10": {
+          "P10": 0.4,
+          "Recall100": 0.16853932584269662,
+          "Rprec": 0.15730337078651685,
+          "judged_positive_count": 89,
+          "nDCG10_exp2": 0.21964364149044774,
+          "nDCG10_linear": 0.28689390341486115
+        },
+        "G11": {
+          "P10": 0.4,
+          "Recall100": 0.16853932584269662,
+          "Rprec": 0.15730337078651685,
+          "judged_positive_count": 89,
+          "nDCG10_exp2": 0.21964364149044774,
+          "nDCG10_linear": 0.28689390341486115
+        }
+      },
+      "topic_id": "4"
+    },
+    {
+      "interactions": {
+        "P10": 0.1,
+        "Recall100": -0.019230769230769232,
+        "Rprec": 0.019230769230769232,
+        "nDCG10_exp2": 0.003913795217095367,
+        "nDCG10_linear": 0.003913795217095367
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.2,
+          "Recall100": 0.09615384615384616,
+          "Rprec": 0.07692307692307693,
+          "judged_positive_count": 52,
+          "nDCG10_exp2": 0.22400556151517553,
+          "nDCG10_linear": 0.22400556151517553
+        },
+        "G01": {
+          "P10": 0.1,
+          "Recall100": 0.11538461538461539,
+          "Rprec": 0.057692307692307696,
+          "judged_positive_count": 52,
+          "nDCG10_exp2": 0.22009176629808017,
+          "nDCG10_linear": 0.22009176629808017
+        },
+        "G10": {
+          "P10": 0.2,
+          "Recall100": 0.09615384615384616,
+          "Rprec": 0.07692307692307693,
+          "judged_positive_count": 52,
+          "nDCG10_exp2": 0.22400556151517553,
+          "nDCG10_linear": 0.22400556151517553
+        },
+        "G11": {
+          "P10": 0.2,
+          "Recall100": 0.09615384615384616,
+          "Rprec": 0.07692307692307693,
+          "judged_positive_count": 52,
+          "nDCG10_exp2": 0.22400556151517553,
+          "nDCG10_linear": 0.22400556151517553
+        }
+      },
+      "topic_id": "5"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.04702194357366772,
+        "Rprec": 0.037617554858934144,
+        "nDCG10_exp2": 0.029490692434614385,
+        "nDCG10_linear": 0.03481050424432869
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.4,
+          "Recall100": 0.12852664576802508,
+          "Rprec": 0.3605015673981191,
+          "judged_positive_count": 319,
+          "nDCG10_exp2": 0.30147232685354436,
+          "nDCG10_linear": 0.3558547747480238
+        },
+        "G01": {
+          "P10": 0.4,
+          "Recall100": 0.08150470219435736,
+          "Rprec": 0.322884012539185,
+          "judged_positive_count": 319,
+          "nDCG10_exp2": 0.27198163441893,
+          "nDCG10_linear": 0.3210442705036951
+        },
+        "G10": {
+          "P10": 0.4,
+          "Recall100": 0.12852664576802508,
+          "Rprec": 0.3605015673981191,
+          "judged_positive_count": 319,
+          "nDCG10_exp2": 0.30147232685354436,
+          "nDCG10_linear": 0.3558547747480238
+        },
+        "G11": {
+          "P10": 0.4,
+          "Recall100": 0.12852664576802508,
+          "Rprec": 0.3605015673981191,
+          "judged_positive_count": 319,
+          "nDCG10_exp2": 0.30147232685354436,
+          "nDCG10_linear": 0.3558547747480238
+        }
+      },
+      "topic_id": "6"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.003424657534246589,
+        "Rprec": 0.0,
+        "nDCG10_exp2": -0.09467937145175132,
+        "nDCG10_linear": -0.07100952858881349
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 1.0,
+          "Recall100": 0.2636986301369863,
+          "Rprec": 0.5136986301369864,
+          "judged_positive_count": 292,
+          "nDCG10_exp2": 0.9053206285482487,
+          "nDCG10_linear": 0.9289904714111865
+        },
+        "G01": {
+          "P10": 1.0,
+          "Recall100": 0.2602739726027397,
+          "Rprec": 0.5136986301369864,
+          "judged_positive_count": 292,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G10": {
+          "P10": 1.0,
+          "Recall100": 0.2636986301369863,
+          "Rprec": 0.5102739726027398,
+          "judged_positive_count": 292,
+          "nDCG10_exp2": 0.9053206285482487,
+          "nDCG10_linear": 0.9289904714111865
+        },
+        "G11": {
+          "P10": 1.0,
+          "Recall100": 0.2636986301369863,
+          "Rprec": 0.5102739726027398,
+          "judged_positive_count": 292,
+          "nDCG10_exp2": 0.9053206285482487,
+          "nDCG10_linear": 0.9289904714111865
+        }
+      },
+      "topic_id": "7"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": -0.08695652173913049,
+        "Rprec": 0.0,
+        "nDCG10_exp2": -0.03274926088709729,
+        "nDCG10_linear": -0.03274926088709729
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.6,
+          "Recall100": 0.5652173913043478,
+          "Rprec": 0.43478260869565216,
+          "judged_positive_count": 23,
+          "nDCG10_exp2": 0.6578986223737446,
+          "nDCG10_linear": 0.6578986223737446
+        },
+        "G01": {
+          "P10": 0.6,
+          "Recall100": 0.6521739130434783,
+          "Rprec": 0.43478260869565216,
+          "judged_positive_count": 23,
+          "nDCG10_exp2": 0.6906478832608419,
+          "nDCG10_linear": 0.6906478832608419
+        },
+        "G10": {
+          "P10": 0.6,
+          "Recall100": 0.5652173913043478,
+          "Rprec": 0.43478260869565216,
+          "judged_positive_count": 23,
+          "nDCG10_exp2": 0.6578986223737446,
+          "nDCG10_linear": 0.6578986223737446
+        },
+        "G11": {
+          "P10": 0.6,
+          "Recall100": 0.5652173913043478,
+          "Rprec": 0.43478260869565216,
+          "judged_positive_count": 23,
+          "nDCG10_exp2": 0.6578986223737446,
+          "nDCG10_linear": 0.6578986223737446
+        }
+      },
+      "topic_id": "8"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": -0.01449275362318847,
+        "Rprec": 0.02898550724637683,
+        "nDCG10_exp2": -0.01278087599772304,
+        "nDCG10_linear": -0.009585656998292391
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 1.0,
+          "Recall100": 0.7681159420289855,
+          "Rprec": 0.6811594202898551,
+          "judged_positive_count": 69,
+          "nDCG10_exp2": 0.850662958989883,
+          "nDCG10_linear": 0.8879972192424123
+        },
+        "G01": {
+          "P10": 1.0,
+          "Recall100": 0.782608695652174,
+          "Rprec": 0.6521739130434783,
+          "judged_positive_count": 69,
+          "nDCG10_exp2": 0.863443834987606,
+          "nDCG10_linear": 0.8975828762407047
+        },
+        "G10": {
+          "P10": 1.0,
+          "Recall100": 0.7681159420289855,
+          "Rprec": 0.6811594202898551,
+          "judged_positive_count": 69,
+          "nDCG10_exp2": 0.8442327945045964,
+          "nDCG10_linear": 0.8831745958784475
+        },
+        "G11": {
+          "P10": 1.0,
+          "Recall100": 0.7681159420289855,
+          "Rprec": 0.6811594202898551,
+          "judged_positive_count": 69,
+          "nDCG10_exp2": 0.8442327945045964,
+          "nDCG10_linear": 0.8831745958784475
+        }
+      },
+      "topic_id": "9"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.02857142857142858,
+        "Rprec": 0.02857142857142858,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 1.0,
+          "Recall100": 0.7428571428571429,
+          "Rprec": 0.6,
+          "judged_positive_count": 35,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G01": {
+          "P10": 1.0,
+          "Recall100": 0.7142857142857143,
+          "Rprec": 0.5714285714285714,
+          "judged_positive_count": 35,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G10": {
+          "P10": 1.0,
+          "Recall100": 0.7428571428571429,
+          "Rprec": 0.6,
+          "judged_positive_count": 35,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G11": {
+          "P10": 1.0,
+          "Recall100": 0.7428571428571429,
+          "Rprec": 0.6,
+          "judged_positive_count": 35,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        }
+      },
+      "topic_id": "10"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0444444444444444,
+        "Rprec": -0.022222222222222143,
+        "nDCG10_exp2": -0.1273242957226397,
+        "nDCG10_linear": -0.0932887690947869
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.7,
+          "Recall100": 0.7333333333333333,
+          "Rprec": 0.5555555555555556,
+          "judged_positive_count": 45,
+          "nDCG10_exp2": 0.6503984222674629,
+          "nDCG10_linear": 0.671067146411197
+        },
+        "G01": {
+          "P10": 0.7,
+          "Recall100": 0.6888888888888889,
+          "Rprec": 0.5777777777777777,
+          "judged_positive_count": 45,
+          "nDCG10_exp2": 0.7777227179901026,
+          "nDCG10_linear": 0.7643559155059839
+        },
+        "G10": {
+          "P10": 0.7,
+          "Recall100": 0.7333333333333333,
+          "Rprec": 0.5555555555555556,
+          "judged_positive_count": 45,
+          "nDCG10_exp2": 0.6442456179875221,
+          "nDCG10_linear": 0.6652380954098525
+        },
+        "G11": {
+          "P10": 0.7,
+          "Recall100": 0.7333333333333333,
+          "Rprec": 0.5555555555555556,
+          "judged_positive_count": 45,
+          "nDCG10_exp2": 0.6442456179875221,
+          "nDCG10_linear": 0.6652380954098525
+        }
+      },
+      "topic_id": "11"
+    },
+    {
+      "interactions": {
+        "P10": -0.09999999999999998,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": -0.0462728368956499,
+        "nDCG10_linear": -0.0462728368956499
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.2,
+          "Recall100": 0.5555555555555556,
+          "Rprec": 0.2222222222222222,
+          "judged_positive_count": 9,
+          "nDCG10_exp2": 0.20124768870643614,
+          "nDCG10_linear": 0.20124768870643614
+        },
+        "G01": {
+          "P10": 0.3,
+          "Recall100": 0.5555555555555556,
+          "Rprec": 0.2222222222222222,
+          "judged_positive_count": 9,
+          "nDCG10_exp2": 0.24752052560208604,
+          "nDCG10_linear": 0.24752052560208604
+        },
+        "G10": {
+          "P10": 0.2,
+          "Recall100": 0.5555555555555556,
+          "Rprec": 0.2222222222222222,
+          "judged_positive_count": 9,
+          "nDCG10_exp2": 0.20124768870643614,
+          "nDCG10_linear": 0.20124768870643614
+        },
+        "G11": {
+          "P10": 0.2,
+          "Recall100": 0.5555555555555556,
+          "Rprec": 0.2222222222222222,
+          "judged_positive_count": 9,
+          "nDCG10_exp2": 0.20124768870643614,
+          "nDCG10_linear": 0.20124768870643614
+        }
+      },
+      "topic_id": "12"
+    },
+    {
+      "interactions": {
+        "P10": -0.20000000000000007,
+        "Recall100": -0.050000000000000044,
+        "Rprec": 0.0,
+        "nDCG10_exp2": -0.1495399926990829,
+        "nDCG10_linear": -0.1495399926990829
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.6,
+          "Recall100": 0.725,
+          "Rprec": 0.55,
+          "judged_positive_count": 40,
+          "nDCG10_exp2": 0.677273373952691,
+          "nDCG10_linear": 0.677273373952691
+        },
+        "G01": {
+          "P10": 0.8,
+          "Recall100": 0.775,
+          "Rprec": 0.55,
+          "judged_positive_count": 40,
+          "nDCG10_exp2": 0.826813366651774,
+          "nDCG10_linear": 0.826813366651774
+        },
+        "G10": {
+          "P10": 0.6,
+          "Recall100": 0.725,
+          "Rprec": 0.55,
+          "judged_positive_count": 40,
+          "nDCG10_exp2": 0.677273373952691,
+          "nDCG10_linear": 0.677273373952691
+        },
+        "G11": {
+          "P10": 0.6,
+          "Recall100": 0.725,
+          "Rprec": 0.55,
+          "judged_positive_count": 40,
+          "nDCG10_exp2": 0.677273373952691,
+          "nDCG10_linear": 0.677273373952691
+        }
+      },
+      "topic_id": "13"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.1,
+          "Recall100": 0.6153846153846154,
+          "Rprec": 0.07692307692307693,
+          "judged_positive_count": 13,
+          "nDCG10_exp2": 0.08514311764162098,
+          "nDCG10_linear": 0.08514311764162098
+        },
+        "G01": {
+          "P10": 0.1,
+          "Recall100": 0.6153846153846154,
+          "Rprec": 0.07692307692307693,
+          "judged_positive_count": 13,
+          "nDCG10_exp2": 0.08514311764162098,
+          "nDCG10_linear": 0.08514311764162098
+        },
+        "G10": {
+          "P10": 0.1,
+          "Recall100": 0.6153846153846154,
+          "Rprec": 0.07692307692307693,
+          "judged_positive_count": 13,
+          "nDCG10_exp2": 0.08514311764162098,
+          "nDCG10_linear": 0.08514311764162098
+        },
+        "G11": {
+          "P10": 0.1,
+          "Recall100": 0.6153846153846154,
+          "Rprec": 0.07692307692307693,
+          "judged_positive_count": 13,
+          "nDCG10_exp2": 0.08514311764162098,
+          "nDCG10_linear": 0.08514311764162098
+        }
+      },
+      "topic_id": "14"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.016393442622950838,
+        "nDCG10_exp2": 0.04241385879930115,
+        "nDCG10_linear": 0.03181039409947589
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.7,
+          "Recall100": 0.29508196721311475,
+          "Rprec": 0.37158469945355194,
+          "judged_positive_count": 183,
+          "nDCG10_exp2": 0.26439671057789593,
+          "nDCG10_linear": 0.36478467176736806
+        },
+        "G01": {
+          "P10": 0.7,
+          "Recall100": 0.29508196721311475,
+          "Rprec": 0.3551912568306011,
+          "judged_positive_count": 183,
+          "nDCG10_exp2": 0.22198285177859478,
+          "nDCG10_linear": 0.33297427766789217
+        },
+        "G10": {
+          "P10": 0.7,
+          "Recall100": 0.29508196721311475,
+          "Rprec": 0.37158469945355194,
+          "judged_positive_count": 183,
+          "nDCG10_exp2": 0.26439671057789593,
+          "nDCG10_linear": 0.36478467176736806
+        },
+        "G11": {
+          "P10": 0.7,
+          "Recall100": 0.29508196721311475,
+          "Rprec": 0.37158469945355194,
+          "judged_positive_count": 183,
+          "nDCG10_exp2": 0.26439671057789593,
+          "nDCG10_linear": 0.36478467176736806
+        }
+      },
+      "topic_id": "15"
+    },
+    {
+      "interactions": {
+        "P10": 0.19999999999999996,
+        "Recall100": -0.047619047619047616,
+        "Rprec": -0.047619047619047616,
+        "nDCG10_exp2": 0.10925909344712781,
+        "nDCG10_linear": 0.1169085739534369
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.7,
+          "Recall100": 0.40476190476190477,
+          "Rprec": 0.2619047619047619,
+          "judged_positive_count": 42,
+          "nDCG10_exp2": 0.743325286666998,
+          "nDCG10_linear": 0.7552777618100699
+        },
+        "G01": {
+          "P10": 0.5,
+          "Recall100": 0.4523809523809524,
+          "Rprec": 0.30952380952380953,
+          "judged_positive_count": 42,
+          "nDCG10_exp2": 0.6340661932198702,
+          "nDCG10_linear": 0.638369187856633
+        },
+        "G10": {
+          "P10": 0.7,
+          "Recall100": 0.40476190476190477,
+          "Rprec": 0.2619047619047619,
+          "judged_positive_count": 42,
+          "nDCG10_exp2": 0.743325286666998,
+          "nDCG10_linear": 0.7552777618100699
+        },
+        "G11": {
+          "P10": 0.7,
+          "Recall100": 0.40476190476190477,
+          "Rprec": 0.2619047619047619,
+          "judged_positive_count": 42,
+          "nDCG10_exp2": 0.743325286666998,
+          "nDCG10_linear": 0.7552777618100699
+        }
+      },
+      "topic_id": "16"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": -0.16666666666666663,
+        "Rprec": -0.05555555555555555,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.1,
+          "Recall100": 0.6111111111111112,
+          "Rprec": 0.1111111111111111,
+          "judged_positive_count": 18,
+          "nDCG10_exp2": 0.038615684613617494,
+          "nDCG10_linear": 0.05487565949361938
+        },
+        "G01": {
+          "P10": 0.1,
+          "Recall100": 0.7777777777777778,
+          "Rprec": 0.16666666666666666,
+          "judged_positive_count": 18,
+          "nDCG10_exp2": 0.038615684613617494,
+          "nDCG10_linear": 0.05487565949361938
+        },
+        "G10": {
+          "P10": 0.1,
+          "Recall100": 0.6111111111111112,
+          "Rprec": 0.1111111111111111,
+          "judged_positive_count": 18,
+          "nDCG10_exp2": 0.038615684613617494,
+          "nDCG10_linear": 0.05487565949361938
+        },
+        "G11": {
+          "P10": 0.1,
+          "Recall100": 0.6111111111111112,
+          "Rprec": 0.1111111111111111,
+          "judged_positive_count": 18,
+          "nDCG10_exp2": 0.038615684613617494,
+          "nDCG10_linear": 0.05487565949361938
+        }
+      },
+      "topic_id": "17"
+    },
+    {
+      "interactions": {
+        "P10": 0.09999999999999998,
+        "Recall100": 0.0,
+        "Rprec": 0.015151515151515138,
+        "nDCG10_exp2": 0.03019332762582283,
+        "nDCG10_linear": 0.03019332762582283
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.6,
+          "Recall100": 0.3484848484848485,
+          "Rprec": 0.2727272727272727,
+          "judged_positive_count": 66,
+          "nDCG10_exp2": 0.6235540477207574,
+          "nDCG10_linear": 0.6235540477207574
+        },
+        "G01": {
+          "P10": 0.5,
+          "Recall100": 0.3484848484848485,
+          "Rprec": 0.25757575757575757,
+          "judged_positive_count": 66,
+          "nDCG10_exp2": 0.5933607200949346,
+          "nDCG10_linear": 0.5933607200949346
+        },
+        "G10": {
+          "P10": 0.6,
+          "Recall100": 0.3484848484848485,
+          "Rprec": 0.2727272727272727,
+          "judged_positive_count": 66,
+          "nDCG10_exp2": 0.6235540477207574,
+          "nDCG10_linear": 0.6235540477207574
+        },
+        "G11": {
+          "P10": 0.6,
+          "Recall100": 0.3484848484848485,
+          "Rprec": 0.2727272727272727,
+          "judged_positive_count": 66,
+          "nDCG10_exp2": 0.6235540477207574,
+          "nDCG10_linear": 0.6235540477207574
+        }
+      },
+      "topic_id": "18"
+    },
+    {
+      "interactions": {
+        "P10": 0.1,
+        "Recall100": 0.0,
+        "Rprec": -0.02857142857142858,
+        "nDCG10_exp2": 0.05002349012416499,
+        "nDCG10_linear": 0.06062695482399032
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.2,
+          "Recall100": 0.22857142857142856,
+          "Rprec": 0.14285714285714285,
+          "judged_positive_count": 35,
+          "nDCG10_exp2": 0.16006937327320506,
+          "nDCG10_linear": 0.1706728379730304
+        },
+        "G01": {
+          "P10": 0.1,
+          "Recall100": 0.22857142857142856,
+          "Rprec": 0.17142857142857143,
+          "judged_positive_count": 35,
+          "nDCG10_exp2": 0.11004588314904007,
+          "nDCG10_linear": 0.11004588314904008
+        },
+        "G10": {
+          "P10": 0.2,
+          "Recall100": 0.22857142857142856,
+          "Rprec": 0.14285714285714285,
+          "judged_positive_count": 35,
+          "nDCG10_exp2": 0.16006937327320506,
+          "nDCG10_linear": 0.1706728379730304
+        },
+        "G11": {
+          "P10": 0.2,
+          "Recall100": 0.22857142857142856,
+          "Rprec": 0.14285714285714285,
+          "judged_positive_count": 35,
+          "nDCG10_exp2": 0.16006937327320506,
+          "nDCG10_linear": 0.1706728379730304
+        }
+      },
+      "topic_id": "19"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": -0.05000000000000002,
+        "nDCG10_exp2": 0.004806409842651627,
+        "nDCG10_linear": 0.004553502245719071
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.2,
+          "Recall100": 0.3,
+          "Rprec": 0.15,
+          "judged_positive_count": 20,
+          "nDCG10_exp2": 0.19372181057410728,
+          "nDCG10_linear": 0.18352839819571395
+        },
+        "G01": {
+          "P10": 0.2,
+          "Recall100": 0.3,
+          "Rprec": 0.2,
+          "judged_positive_count": 20,
+          "nDCG10_exp2": 0.18891540073145566,
+          "nDCG10_linear": 0.17897489594999488
+        },
+        "G10": {
+          "P10": 0.2,
+          "Recall100": 0.3,
+          "Rprec": 0.15,
+          "judged_positive_count": 20,
+          "nDCG10_exp2": 0.19372181057410728,
+          "nDCG10_linear": 0.18352839819571395
+        },
+        "G11": {
+          "P10": 0.2,
+          "Recall100": 0.3,
+          "Rprec": 0.15,
+          "judged_positive_count": 20,
+          "nDCG10_exp2": 0.19372181057410728,
+          "nDCG10_linear": 0.18352839819571395
+        }
+      },
+      "topic_id": "20"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": -0.038461538461538436,
+        "Rprec": -0.012820512820512775,
+        "nDCG10_exp2": -0.0002824198093527297,
+        "nDCG10_linear": -0.0002824198093528407
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.8,
+          "Recall100": 0.6923076923076923,
+          "Rprec": 0.6410256410256411,
+          "judged_positive_count": 78,
+          "nDCG10_exp2": 0.7948833326720564,
+          "nDCG10_linear": 0.7948833326720564
+        },
+        "G01": {
+          "P10": 0.8,
+          "Recall100": 0.7307692307692307,
+          "Rprec": 0.6538461538461539,
+          "judged_positive_count": 78,
+          "nDCG10_exp2": 0.7951657524814091,
+          "nDCG10_linear": 0.7951657524814092
+        },
+        "G10": {
+          "P10": 0.8,
+          "Recall100": 0.6923076923076923,
+          "Rprec": 0.6410256410256411,
+          "judged_positive_count": 78,
+          "nDCG10_exp2": 0.7948833326720564,
+          "nDCG10_linear": 0.7948833326720564
+        },
+        "G11": {
+          "P10": 0.8,
+          "Recall100": 0.6923076923076923,
+          "Rprec": 0.6410256410256411,
+          "judged_positive_count": 78,
+          "nDCG10_exp2": 0.7948833326720564,
+          "nDCG10_linear": 0.7948833326720564
+        }
+      },
+      "topic_id": "21"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": -0.016666666666666663,
+        "Rprec": 0.016666666666666663,
+        "nDCG10_exp2": -0.002633435255437244,
+        "nDCG10_linear": -0.0026334352554373552
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.9,
+          "Recall100": 0.45,
+          "Rprec": 0.45,
+          "judged_positive_count": 60,
+          "nDCG10_exp2": 0.7870179323468908,
+          "nDCG10_linear": 0.8236998933965709
+        },
+        "G01": {
+          "P10": 0.9,
+          "Recall100": 0.4666666666666667,
+          "Rprec": 0.43333333333333335,
+          "judged_positive_count": 60,
+          "nDCG10_exp2": 0.789651367602328,
+          "nDCG10_linear": 0.8263333286520083
+        },
+        "G10": {
+          "P10": 0.9,
+          "Recall100": 0.45,
+          "Rprec": 0.45,
+          "judged_positive_count": 60,
+          "nDCG10_exp2": 0.7870179323468908,
+          "nDCG10_linear": 0.8236998933965709
+        },
+        "G11": {
+          "P10": 0.9,
+          "Recall100": 0.45,
+          "Rprec": 0.45,
+          "judged_positive_count": 60,
+          "nDCG10_exp2": 0.7870179323468908,
+          "nDCG10_linear": 0.8236998933965709
+        }
+      },
+      "topic_id": "22"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.0,
+          "Recall100": 0.0,
+          "Rprec": 0.0,
+          "judged_positive_count": 8,
+          "nDCG10_exp2": 0.0,
+          "nDCG10_linear": 0.0
+        },
+        "G01": {
+          "P10": 0.0,
+          "Recall100": 0.0,
+          "Rprec": 0.0,
+          "judged_positive_count": 8,
+          "nDCG10_exp2": 0.0,
+          "nDCG10_linear": 0.0
+        },
+        "G10": {
+          "P10": 0.0,
+          "Recall100": 0.0,
+          "Rprec": 0.0,
+          "judged_positive_count": 8,
+          "nDCG10_exp2": 0.0,
+          "nDCG10_linear": 0.0
+        },
+        "G11": {
+          "P10": 0.0,
+          "Recall100": 0.0,
+          "Rprec": 0.0,
+          "judged_positive_count": 8,
+          "nDCG10_exp2": 0.0,
+          "nDCG10_linear": 0.0
+        }
+      },
+      "topic_id": "23"
+    },
+    {
+      "interactions": {
+        "P10": -0.1,
+        "Recall100": 0.0,
+        "Rprec": -0.03125,
+        "nDCG10_exp2": -0.0636207881989517,
+        "nDCG10_linear": -0.0636207881989517
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.1,
+          "Recall100": 0.34375,
+          "Rprec": 0.21875,
+          "judged_positive_count": 32,
+          "nDCG10_exp2": 0.22009176629808017,
+          "nDCG10_linear": 0.22009176629808017
+        },
+        "G01": {
+          "P10": 0.2,
+          "Recall100": 0.34375,
+          "Rprec": 0.25,
+          "judged_positive_count": 32,
+          "nDCG10_exp2": 0.28371255449703187,
+          "nDCG10_linear": 0.28371255449703187
+        },
+        "G10": {
+          "P10": 0.1,
+          "Recall100": 0.34375,
+          "Rprec": 0.21875,
+          "judged_positive_count": 32,
+          "nDCG10_exp2": 0.22009176629808017,
+          "nDCG10_linear": 0.22009176629808017
+        },
+        "G11": {
+          "P10": 0.1,
+          "Recall100": 0.34375,
+          "Rprec": 0.21875,
+          "judged_positive_count": 32,
+          "nDCG10_exp2": 0.22009176629808017,
+          "nDCG10_linear": 0.22009176629808017
+        }
+      },
+      "topic_id": "24"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.030303030303030276,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.9,
+          "Recall100": 0.8787878787878788,
+          "Rprec": 0.5454545454545454,
+          "judged_positive_count": 33,
+          "nDCG10_exp2": 0.9305687780632227,
+          "nDCG10_linear": 0.9305687780632227
+        },
+        "G01": {
+          "P10": 0.9,
+          "Recall100": 0.8484848484848485,
+          "Rprec": 0.5454545454545454,
+          "judged_positive_count": 33,
+          "nDCG10_exp2": 0.9305687780632227,
+          "nDCG10_linear": 0.9305687780632227
+        },
+        "G10": {
+          "P10": 0.9,
+          "Recall100": 0.8787878787878788,
+          "Rprec": 0.5454545454545454,
+          "judged_positive_count": 33,
+          "nDCG10_exp2": 0.9305687780632227,
+          "nDCG10_linear": 0.9305687780632227
+        },
+        "G11": {
+          "P10": 0.9,
+          "Recall100": 0.8787878787878788,
+          "Rprec": 0.5454545454545454,
+          "judged_positive_count": 33,
+          "nDCG10_exp2": 0.9305687780632227,
+          "nDCG10_linear": 0.9305687780632227
+        }
+      },
+      "topic_id": "25"
+    },
+    {
+      "interactions": {
+        "P10": -0.10000000000000003,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": -0.08397504870152478,
+        "nDCG10_linear": -0.07911505260776763
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.3,
+          "Recall100": 0.8571428571428571,
+          "Rprec": 0.42857142857142855,
+          "judged_positive_count": 7,
+          "nDCG10_exp2": 0.47765295594923324,
+          "nDCG10_linear": 0.503775989634189
+        },
+        "G01": {
+          "P10": 0.4,
+          "Recall100": 0.8571428571428571,
+          "Rprec": 0.42857142857142855,
+          "judged_positive_count": 7,
+          "nDCG10_exp2": 0.561628004650758,
+          "nDCG10_linear": 0.5828910422419566
+        },
+        "G10": {
+          "P10": 0.3,
+          "Recall100": 0.8571428571428571,
+          "Rprec": 0.42857142857142855,
+          "judged_positive_count": 7,
+          "nDCG10_exp2": 0.47765295594923324,
+          "nDCG10_linear": 0.503775989634189
+        },
+        "G11": {
+          "P10": 0.3,
+          "Recall100": 0.8571428571428571,
+          "Rprec": 0.42857142857142855,
+          "judged_positive_count": 7,
+          "nDCG10_exp2": 0.47765295594923324,
+          "nDCG10_linear": 0.503775989634189
+        }
+      },
+      "topic_id": "26"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": -0.010869565217391353,
+        "Rprec": -0.03260869565217395,
+        "nDCG10_exp2": 0.014753733338586428,
+        "nDCG10_linear": 0.011445569335240324
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.8,
+          "Recall100": 0.5217391304347826,
+          "Rprec": 0.5,
+          "judged_positive_count": 92,
+          "nDCG10_exp2": 0.6604018128499249,
+          "nDCG10_linear": 0.7187564383740156
+        },
+        "G01": {
+          "P10": 0.8,
+          "Recall100": 0.532608695652174,
+          "Rprec": 0.532608695652174,
+          "judged_positive_count": 92,
+          "nDCG10_exp2": 0.6456480795113385,
+          "nDCG10_linear": 0.7073108690387753
+        },
+        "G10": {
+          "P10": 0.8,
+          "Recall100": 0.5108695652173914,
+          "Rprec": 0.5,
+          "judged_positive_count": 92,
+          "nDCG10_exp2": 0.6604018128499249,
+          "nDCG10_linear": 0.7187564383740156
+        },
+        "G11": {
+          "P10": 0.8,
+          "Recall100": 0.5108695652173914,
+          "Rprec": 0.5,
+          "judged_positive_count": 92,
+          "nDCG10_exp2": 0.6604018128499249,
+          "nDCG10_linear": 0.7187564383740156
+        }
+      },
+      "topic_id": "27"
+    },
+    {
+      "interactions": {
+        "P10": 0.30000000000000004,
+        "Recall100": 0.027522935779816515,
+        "Rprec": 0.027522935779816515,
+        "nDCG10_exp2": 0.13724954448829302,
+        "nDCG10_linear": 0.1646194755393477
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.9,
+          "Recall100": 0.45871559633027525,
+          "Rprec": 0.47706422018348627,
+          "judged_positive_count": 109,
+          "nDCG10_exp2": 0.462690042061369,
+          "nDCG10_linear": 0.5804539756824295
+        },
+        "G01": {
+          "P10": 0.6,
+          "Recall100": 0.43119266055045874,
+          "Rprec": 0.44954128440366975,
+          "judged_positive_count": 109,
+          "nDCG10_exp2": 0.32544049757307597,
+          "nDCG10_linear": 0.4158345001430818
+        },
+        "G10": {
+          "P10": 0.9,
+          "Recall100": 0.45871559633027525,
+          "Rprec": 0.47706422018348627,
+          "judged_positive_count": 109,
+          "nDCG10_exp2": 0.462690042061369,
+          "nDCG10_linear": 0.5804539756824295
+        },
+        "G11": {
+          "P10": 0.9,
+          "Recall100": 0.45871559633027525,
+          "Rprec": 0.47706422018348627,
+          "judged_positive_count": 109,
+          "nDCG10_exp2": 0.462690042061369,
+          "nDCG10_linear": 0.5804539756824295
+        }
+      },
+      "topic_id": "28"
+    },
+    {
+      "interactions": {
+        "P10": 0.1,
+        "Recall100": -0.125,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.1516915040895479,
+        "nDCG10_linear": 0.12154321270907051
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.2,
+          "Recall100": 0.625,
+          "Rprec": 0.125,
+          "judged_positive_count": 8,
+          "nDCG10_exp2": 0.23567621562134627,
+          "nDCG10_linear": 0.2224826659693535
+        },
+        "G01": {
+          "P10": 0.1,
+          "Recall100": 0.75,
+          "Rprec": 0.125,
+          "judged_positive_count": 8,
+          "nDCG10_exp2": 0.08398471153179837,
+          "nDCG10_linear": 0.100939453260283
+        },
+        "G10": {
+          "P10": 0.2,
+          "Recall100": 0.625,
+          "Rprec": 0.125,
+          "judged_positive_count": 8,
+          "nDCG10_exp2": 0.23567621562134627,
+          "nDCG10_linear": 0.2224826659693535
+        },
+        "G11": {
+          "P10": 0.2,
+          "Recall100": 0.625,
+          "Rprec": 0.125,
+          "judged_positive_count": 8,
+          "nDCG10_exp2": 0.23567621562134627,
+          "nDCG10_linear": 0.2224826659693535
+        }
+      },
+      "topic_id": "29"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.3,
+          "Recall100": 0.2,
+          "Rprec": 0.2,
+          "judged_positive_count": 15,
+          "nDCG10_exp2": 0.46520501862691294,
+          "nDCG10_linear": 0.4544359510348447
+        },
+        "G01": {
+          "P10": 0.3,
+          "Recall100": 0.2,
+          "Rprec": 0.2,
+          "judged_positive_count": 15,
+          "nDCG10_exp2": 0.46520501862691294,
+          "nDCG10_linear": 0.4544359510348447
+        },
+        "G10": {
+          "P10": 0.3,
+          "Recall100": 0.2,
+          "Rprec": 0.2,
+          "judged_positive_count": 15,
+          "nDCG10_exp2": 0.46520501862691294,
+          "nDCG10_linear": 0.4544359510348447
+        },
+        "G11": {
+          "P10": 0.3,
+          "Recall100": 0.2,
+          "Rprec": 0.2,
+          "judged_positive_count": 15,
+          "nDCG10_exp2": 0.46520501862691294,
+          "nDCG10_linear": 0.4544359510348447
+        }
+      },
+      "topic_id": "30"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.1,
+          "Recall100": 0.5,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.27541155237618664,
+          "nDCG10_linear": 0.38009376671593426
+        },
+        "G01": {
+          "P10": 0.1,
+          "Recall100": 0.5,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.27541155237618664,
+          "nDCG10_linear": 0.38009376671593426
+        },
+        "G10": {
+          "P10": 0.1,
+          "Recall100": 0.5,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.27541155237618664,
+          "nDCG10_linear": 0.38009376671593426
+        },
+        "G11": {
+          "P10": 0.1,
+          "Recall100": 0.5,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.27541155237618664,
+          "nDCG10_linear": 0.38009376671593426
+        }
+      },
+      "topic_id": "31"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": -0.008440157812575566,
+        "nDCG10_linear": -0.011648209187234415
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.2,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.9243382314975351,
+          "nDCG10_linear": 0.8955796649110442
+        },
+        "G01": {
+          "P10": 0.2,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.9327783893101107,
+          "nDCG10_linear": 0.9072278740982787
+        },
+        "G10": {
+          "P10": 0.2,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.9243382314975351,
+          "nDCG10_linear": 0.8955796649110442
+        },
+        "G11": {
+          "P10": 0.2,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.9243382314975351,
+          "nDCG10_linear": 0.8955796649110442
+        }
+      },
+      "topic_id": "34"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.03323214287870302,
+        "nDCG10_linear": 0.03200606484240487
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.6,
+          "Recall100": 1.0,
+          "Rprec": 0.6363636363636364,
+          "judged_positive_count": 11,
+          "nDCG10_exp2": 0.5365645548843135,
+          "nDCG10_linear": 0.5325295280746581
+        },
+        "G01": {
+          "P10": 0.6,
+          "Recall100": 1.0,
+          "Rprec": 0.6363636363636364,
+          "judged_positive_count": 11,
+          "nDCG10_exp2": 0.5033324120056105,
+          "nDCG10_linear": 0.5005234632322533
+        },
+        "G10": {
+          "P10": 0.6,
+          "Recall100": 1.0,
+          "Rprec": 0.6363636363636364,
+          "judged_positive_count": 11,
+          "nDCG10_exp2": 0.540228367110258,
+          "nDCG10_linear": 0.5360581663602476
+        },
+        "G11": {
+          "P10": 0.6,
+          "Recall100": 1.0,
+          "Rprec": 0.6363636363636364,
+          "judged_positive_count": 11,
+          "nDCG10_exp2": 0.540228367110258,
+          "nDCG10_linear": 0.5360581663602476
+        }
+      },
+      "topic_id": "35"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": -0.067280112822095,
+        "nDCG10_linear": -0.05997108236740045
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 6,
+          "nDCG10_exp2": 0.6151721363632732,
+          "nDCG10_linear": 0.6301444499203662
+        },
+        "G01": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 6,
+          "nDCG10_exp2": 0.6824522491853682,
+          "nDCG10_linear": 0.6901155322877667
+        },
+        "G10": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 6,
+          "nDCG10_exp2": 0.6151721363632732,
+          "nDCG10_linear": 0.6301444499203662
+        },
+        "G11": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 6,
+          "nDCG10_exp2": 0.6151721363632732,
+          "nDCG10_linear": 0.6301444499203662
+        }
+      },
+      "topic_id": "36"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.8,
+          "judged_positive_count": 5,
+          "nDCG10_exp2": 0.9520727775370875,
+          "nDCG10_linear": 0.9297916128016405
+        },
+        "G01": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.8,
+          "judged_positive_count": 5,
+          "nDCG10_exp2": 0.9520727775370875,
+          "nDCG10_linear": 0.9297916128016405
+        },
+        "G10": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.8,
+          "judged_positive_count": 5,
+          "nDCG10_exp2": 0.9520727775370875,
+          "nDCG10_linear": 0.9297916128016405
+        },
+        "G11": {
+          "P10": 0.4,
+          "Recall100": 1.0,
+          "Rprec": 0.8,
+          "judged_positive_count": 5,
+          "nDCG10_exp2": 0.9520727775370875,
+          "nDCG10_linear": 0.9297916128016405
+        }
+      },
+      "topic_id": "37"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.1,
+          "Recall100": 1.0,
+          "Rprec": 1.0,
+          "judged_positive_count": 1,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G01": {
+          "P10": 0.1,
+          "Recall100": 1.0,
+          "Rprec": 1.0,
+          "judged_positive_count": 1,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G10": {
+          "P10": 0.1,
+          "Recall100": 1.0,
+          "Rprec": 1.0,
+          "judged_positive_count": 1,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        },
+        "G11": {
+          "P10": 0.1,
+          "Recall100": 1.0,
+          "Rprec": 1.0,
+          "judged_positive_count": 1,
+          "nDCG10_exp2": 1.0,
+          "nDCG10_linear": 1.0
+        }
+      },
+      "topic_id": "38"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.1,
+          "Recall100": 0.5,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.52129602861432,
+          "nDCG10_linear": 0.4796249331362629
+        },
+        "G01": {
+          "P10": 0.1,
+          "Recall100": 0.5,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.52129602861432,
+          "nDCG10_linear": 0.4796249331362629
+        },
+        "G10": {
+          "P10": 0.1,
+          "Recall100": 0.5,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.52129602861432,
+          "nDCG10_linear": 0.4796249331362629
+        },
+        "G11": {
+          "P10": 0.1,
+          "Recall100": 0.5,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.52129602861432,
+          "nDCG10_linear": 0.4796249331362629
+        }
+      },
+      "topic_id": "39"
+    },
+    {
+      "interactions": {
+        "P10": 0.0,
+        "Recall100": 0.0,
+        "Rprec": 0.0,
+        "nDCG10_exp2": 0.0,
+        "nDCG10_linear": 0.0
+      },
+      "metrics_by_arm": {
+        "G00": {
+          "P10": 0.2,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.6934264036172708,
+          "nDCG10_linear": 0.6934264036172708
+        },
+        "G01": {
+          "P10": 0.2,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.6934264036172708,
+          "nDCG10_linear": 0.6934264036172708
+        },
+        "G10": {
+          "P10": 0.2,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.6934264036172708,
+          "nDCG10_linear": 0.6934264036172708
+        },
+        "G11": {
+          "P10": 0.2,
+          "Recall100": 1.0,
+          "Rprec": 0.5,
+          "judged_positive_count": 2,
+          "nDCG10_exp2": 0.6934264036172708,
+          "nDCG10_linear": 0.6934264036172708
+        }
+      },
+      "topic_id": "40"
+    }
+  ],
+  "protocol": "full 2019 trial-corpus index; lexical BM25 FTS5 2x2; no new neural training",
+  "qrels": "NIST 2019 official trials trec-eval judgements; grades 0/1/2",
+  "schema": "pm2019-fts5-full-corpus-retrieval-evaluation-v1",
+  "source_hashes": {
+    "official_qrels": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa",
+    "retrieval": "c201e51f1e0af39af9bd5a96ca037fd5f309ba07961f371f57dd304d261f7b35"
+  },
+  "test_topics": 38,
+  "units": "matched same 2019 corpus and topic within this external task; not matched BCKB source-role interaction"
+}

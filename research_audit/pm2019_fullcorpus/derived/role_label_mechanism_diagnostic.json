@@ -1,0 +1,32 @@
+{
+  "doc_count": 306238,
+  "index_counts": {
+    "raw": 306238,
+    "label": 306238
+  },
+  "fixed_literal_query_term_document_frequencies": {
+    "condition": {
+      "fts_raw": 104029,
+      "fts_label": 305427
+    },
+    "eligibility": {
+      "fts_raw": 56261,
+      "fts_label": 305362
+    },
+    "gene": {
+      "fts_raw": 13738,
+      "fts_label": 13738
+    },
+    "demographic": {
+      "fts_raw": 9455,
+      "fts_label": 9455
+    }
+  },
+  "G10_G11_equal_topK_topic_counts_out_of40": {
+    "10": 40,
+    "100": 40,
+    "1000": 25
+  },
+  "scope": "explanatory post-outcome audit of role-label discriminativeness; no alternate outcome tuning",
+  "warning": "Common literal labels may act as near-ubiquitous matches; this is not an independent clinical role-conditioned test."
+}

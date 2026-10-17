@@ -1,0 +1,17 @@
+{
+  "all_four_conditions_on_40_topics_equal": true,
+  "author_original_source_protected": true,
+  "new_clinical_gold_created": false,
+  "per_topic_evaluation_rows_exactly_equal": 38,
+  "primary_linear_nDCG10_interaction": -0.0075510710821312665,
+  "qrels_or_corpus_raw_text_published": false,
+  "qrels_sha256": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa",
+  "rank_and_score_rows_exactly_equal": 160000,
+  "rank_score_fingerprint_sha256": "13e33b1a9befd9eb39a299ae70252d090b58d7ff2c358f7628a86d274a90ad77",
+  "raw_json_bitwise_identical": false,
+  "raw_run_json_sha256_clean_clone": "f9d70a858556b3df5ed024f94134563143b130f946dd18684c004eed85e40367",
+  "raw_run_json_sha256_original": "c201e51f1e0af39af9bd5a96ca037fd5f309ba07961f371f57dd304d261f7b35",
+  "reason": "wall-clock elapsed_ms timing fields differ in independent runs; NCT ranked IDs and floating scores are identical",
+  "scope": "Same official 2019 snapshot and SHA-locked protocol rerun from an isolated clean Git checkout; NOT an independently collected test cohort.",
+  "timing_field_differences": 159
+}

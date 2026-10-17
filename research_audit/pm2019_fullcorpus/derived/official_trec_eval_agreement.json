@@ -1,0 +1,32 @@
+{
+  "all_absolute_differences_below_0_00005001": true,
+  "comparisons": 456,
+  "independent_method": "NIST trec_eval (local compiled executable from usnistgov/trec_eval)",
+  "largest_abs_rounded_delta": 4.999999999999449e-05,
+  "no_new_ground_truth": true,
+  "official_trec_eval": {
+    "G00": {
+      "Python_ndcg10": 0.5494761814904439,
+      "run_sha256": "3cb61f3741cb8893576e8cf0cf9af1e6560b9df1cbdc0845a6b2454b9f315b84",
+      "trec_eval_ndcg_cut_10": 0.5495
+    },
+    "G01": {
+      "Python_ndcg10": 0.5570272525725751,
+      "run_sha256": "7e652d421ee3a9dbad38676d578601ab88ff933accc9603d41563a5264540ae9",
+      "trec_eval_ndcg_cut_10": 0.557
+    },
+    "G10": {
+      "Python_ndcg10": 0.5492887331725566,
+      "run_sha256": "4e0de77919a1ef8cac0e28994804a53da3e51495d3c89262cd8cd9ed97c7bd2b",
+      "trec_eval_ndcg_cut_10": 0.5493
+    },
+    "G11": {
+      "Python_ndcg10": 0.5492887331725566,
+      "run_sha256": "b847a854b2f78e05635f2c599d5979540d5444cdc37af208750b34989f685c70",
+      "trec_eval_ndcg_cut_10": 0.5493
+    }
+  },
+  "qrels_SHA256": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa",
+  "run_arms": 4,
+  "validated_topics": 38
+}

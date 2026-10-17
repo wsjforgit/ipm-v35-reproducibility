@@ -1,0 +1,46 @@
+{
+  "2019_source_only": true,
+  "complete": true,
+  "documents_scanned_this_run": 306238,
+  "duplicate_trials_skipped": 0,
+  "indexed_unique_trials": 306238,
+  "new_insertions_this_run": 306238,
+  "no_qrels_used_in_index": true,
+  "parts": [
+    {
+      "duplicates": 0,
+      "inserted": 79759,
+      "part": 0,
+      "scanned": 79759
+    },
+    {
+      "duplicates": 0,
+      "inserted": 76259,
+      "part": 1,
+      "scanned": 76259
+    },
+    {
+      "duplicates": 0,
+      "inserted": 76625,
+      "part": 2,
+      "scanned": 76625
+    },
+    {
+      "duplicates": 0,
+      "inserted": 73595,
+      "part": 3,
+      "scanned": 73595
+    }
+  ],
+  "pilot": false,
+  "seconds_elapsed": 107.64,
+  "source_compressed_parts_sha256": {
+    "clinical_trials.0.tar.gz": "d8a595f686f3014fc3a38a44a3e19ff65b856795bce931074ed96e190609173d",
+    "clinical_trials.1.tar.gz": "a44a594d2321321464f8f5c4839dbbd45ade725ee8c8fe60f1200c5729693a66",
+    "clinical_trials.2.tar.gz": "fa781118330634d90540a33bef7ca54614ad0703168ad4231a9b53934b8b4b17",
+    "clinical_trials.3.tar.gz": "a1fe15f2ad56d38a2ddde5f8d6b076e5aec24bdb334c76ab3f183c2b30ec4687"
+  },
+  "sqlite_bytes": 3310080000,
+  "sqlite_file": "official_2019_snapshot_full_fts.sqlite",
+  "version": "trec-pm2019-sqlite-fts5-dual-representation-v1"
+}

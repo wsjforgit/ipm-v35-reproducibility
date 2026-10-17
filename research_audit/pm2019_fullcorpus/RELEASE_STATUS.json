@@ -1,0 +1,175 @@
+{
+  "FTS_role_prefix_degenerate_top100_equal": true,
+  "FTS_role_prefix_degenerate_top10_equal": true,
+  "clean_checkout_reexecution": {
+    "160000_rank_and_float_scores_identical": true,
+    "38_evaluation_topic_rows_equal": true,
+    "author_original_private_corpus_never_redistributed": true,
+    "rank_score_fingerprint_sha256": "13e33b1a9befd9eb39a299ae70252d090b58d7ff2c358f7628a86d274a90ad77",
+    "raw_json_differs_only_in_nondeterministic_runtime_fields": true,
+    "receipt": "derived/CLEAN_CHECKOUT_REPRODUCIBILITY.json"
+  },
+  "corpus_and_official_judgements_uploaded": false,
+  "critical_open_gates": [
+    "Original Formal40 topic-dependence inferential calibration",
+    "Independent matched BCKB four-source external validation",
+    "Blind held-out topic/qrel assessment",
+    "Publisher anonymization and code permission"
+  ],
+  "dataset": "TREC Precision Medicine 2019 clinical-trials official May 2019 snapshot",
+  "freeze_date": "2026-10-18",
+  "independent_external_doc_judgments": "Official TREC 2019 topic-to-trial relevance qrels; professional credentials of the judges were not independently established here; historical labels previously accessed by project authors and unrelated to four-source clinical safety gold",
+  "independent_validator": {
+    "all_absolute_differences_below_0_00005001": true,
+    "comparisons": 456,
+    "independent_method": "NIST trec_eval (local compiled executable from usnistgov/trec_eval)",
+    "largest_abs_rounded_delta": 4.999999999999449e-05,
+    "no_new_ground_truth": true,
+    "official_trec_eval": {
+      "G00": {
+        "Python_ndcg10": 0.5494761814904439,
+        "run_sha256": "3cb61f3741cb8893576e8cf0cf9af1e6560b9df1cbdc0845a6b2454b9f315b84",
+        "trec_eval_ndcg_cut_10": 0.5495
+      },
+      "G01": {
+        "Python_ndcg10": 0.5570272525725751,
+        "run_sha256": "7e652d421ee3a9dbad38676d578601ab88ff933accc9603d41563a5264540ae9",
+        "trec_eval_ndcg_cut_10": 0.557
+      },
+      "G10": {
+        "Python_ndcg10": 0.5492887331725566,
+        "run_sha256": "4e0de77919a1ef8cac0e28994804a53da3e51495d3c89262cd8cd9ed97c7bd2b",
+        "trec_eval_ndcg_cut_10": 0.5493
+      },
+      "G11": {
+        "Python_ndcg10": 0.5492887331725566,
+        "run_sha256": "b847a854b2f78e05635f2c599d5979540d5444cdc37af208750b34989f685c70",
+        "trec_eval_ndcg_cut_10": 0.5493
+      }
+    },
+    "qrels_SHA256": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa",
+    "run_arms": 4,
+    "validated_topics": 38
+  },
+  "judged_topics": 38,
+  "module": "pm2019_fullcorpus",
+  "new_foursource_clinical_gold": false,
+  "new_full_corpus_retrieval": true,
+  "new_model_training": false,
+  "new_ranking_count": 160,
+  "new_results": {
+    "P10": {
+      "factorial_interaction": 0.0026315789473684292,
+      "leave_one_topic_out_interaction_range": [
+        -0.005405405405405408,
+        0.010810810810810808
+      ],
+      "method_means": {
+        "G00": 0.46578947368421053,
+        "G01": 0.4631578947368421,
+        "G10": 0.46578947368421053,
+        "G11": 0.46578947368421053
+      },
+      "negative_topic_deltas": 5,
+      "per_topic_interaction_min_max": [
+        -0.3,
+        0.30000000000000004
+      ],
+      "positive_topic_deltas": 6,
+      "zero_topic_deltas": 27
+    },
+    "Recall100": {
+      "factorial_interaction": -0.011025992080733626,
+      "leave_one_topic_out_interaction_range": [
+        -0.012594855206528317,
+        -0.006819487362194956
+      ],
+      "method_means": {
+        "G00": 0.5613684688710369,
+        "G01": 0.5723944609517705,
+        "G10": 0.5612053986599546,
+        "G11": 0.5612053986599546
+      },
+      "negative_topic_deltas": 11,
+      "per_topic_interaction_min_max": [
+        -0.16666666666666663,
+        0.04702194357366772
+      ],
+      "positive_topic_deltas": 7,
+      "zero_topic_deltas": 20
+    },
+    "Rprec": {
+      "factorial_interaction": -0.0016742513854482999,
+      "leave_one_topic_out_interaction_range": [
+        -0.0027361920947559224,
+        -0.00021799992139133622
+      ],
+      "method_means": {
+        "G00": 0.407829281663113,
+        "G01": 0.4095035330485613,
+        "G10": 0.40773915909642233,
+        "G11": 0.40773915909642233
+      },
+      "negative_topic_deltas": 9,
+      "per_topic_interaction_min_max": [
+        -0.05555555555555555,
+        0.037617554858934144
+      ],
+      "positive_topic_deltas": 9,
+      "zero_topic_deltas": 20
+    },
+    "nDCG10_exp2": {
+      "factorial_interaction": -0.009997156617034153,
+      "leave_one_topic_out_interaction_range": [
+        -0.01436712041991476,
+        -0.003107819159743435
+      ],
+      "method_means": {
+        "G00": 0.534805411795768,
+        "G01": 0.5448025684128022,
+        "G10": 0.5345706971499974,
+        "G11": 0.5345706971499974
+      },
+      "negative_topic_deltas": 14,
+      "per_topic_interaction_min_max": [
+        -0.26490264253679113,
+        0.1516915040895479
+      ],
+      "positive_topic_deltas": 12,
+      "zero_topic_deltas": 12
+    },
+    "nDCG10_linear": {
+      "factorial_interaction": -0.0075510710821312665,
+      "leave_one_topic_out_interaction_range": [
+        -0.01220432909892793,
+        -0.0005956232049782323
+      ],
+      "method_means": {
+        "G00": 0.5494761814904439,
+        "G01": 0.5570272525725751,
+        "G10": 0.5492887331725566,
+        "G11": 0.5492887331725566
+      },
+      "negative_topic_deltas": 14,
+      "per_topic_interaction_min_max": [
+        -0.26490264253679113,
+        0.1646194755393477
+      ],
+      "positive_topic_deltas": 12,
+      "zero_topic_deltas": 12
+    }
+  },
+  "no_unauthorized_payment": true,
+  "official_corpus_size": 306238,
+  "official_topics": 40,
+  "previous_research_branch_commit": "e0f8796a342637e8edeef590b8e4a7184b6abcb3",
+  "protocol_frozen_sha256": "e73fa224a9209a5fec0fa0fd46f7ee6f9e36ddfaa30f199aa5d3d335a667e352",
+  "public_code_licensing": "Root MIT for new author-created software; derived numeric output subject to existing DATA_LICENSE.md where permitted",
+  "publish_only_author_generated_files": true,
+  "ranked_per_topic": 1000,
+  "release_branch_planned": "cmpb-pm2019-fullcorpus-2026-10-18",
+  "script_and_fixture_unit_tests": {
+    "failed": 0,
+    "passed": 9
+  }
+}

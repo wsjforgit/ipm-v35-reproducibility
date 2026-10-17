@@ -1,0 +1,75 @@
+{
+  "authored_before_model_scoring": true,
+  "canonical_sources": {
+    "corpus_official": "https://www.trec-cds.org/2019.html",
+    "corpus_part_hashes": {
+      "0": "d8a595f686f3014fc3a38a44a3e19ff65b856795bce931074ed96e190609173d",
+      "1": "a44a594d2321321464f8f5c4839dbbd45ade725ee8c8fe60f1200c5729693a66",
+      "2": "fa781118330634d90540a33bef7ca54614ad0703168ad4231a9b53934b8b4b17",
+      "3": "a1fe15f2ad56d38a2ddde5f8d6b076e5aec24bdb334c76ab3f183c2b30ec4687"
+    },
+    "qrels_SHA256": "983e0ac9391c5acfb981a3b6c129857a21c83d7bb1c77ebc54d92dcea4e502fa",
+    "qrels_official": "https://trec.nist.gov/data/precmed/qrels-treceval-trials.38.txt",
+    "topics_SHA256": "6478a0e1798f944997df36e62e57ea4e98fc2a0e018e9892bfeaa98f4d4280b9",
+    "topics_official": "https://trec.nist.gov/data/precmed/topics2019.xml"
+  },
+  "comparability_limitations": [
+    "Entire 2019 TREC trial-only corpus differs from four-source BCKB and its labels/roles.",
+    "Qrels already exposed from historical evaluation; this is a new full-corpus retrieval stress test, not a pristine held-out evaluation.",
+    "Role-labeled query is a deterministic lexical serialization, not a new learned role inference model.",
+    "No clinician gold on four-source safety is created by these official TREC judgments.",
+    "Corpus raw XML and official qrels stay outside public GitHub; only authored code, hash references, derived metrics are candidates for release."
+  ],
+  "experiment_design": {
+    "FTS5_scoring": "bm25 (SQLite internal defaults k1=1.2,b=0.75), ascending score; no learned weights",
+    "Q0_flat": "Tokenize disease + gene + demographic values, lowercase ASCII-letter/digit regex, fixed English stopwords, deduplicate in order, OR tokens",
+    "Q1_role_labelled": "Tokenize fixed field label condition, disease, fixed field label eligibility, gene, demographic (labels before values), same token and OR rules",
+    "R0_raw": "Fields concatenated with spaces, no extra labels",
+    "R1_labelled": "Fixed literal field labels title, condition, summary, description, eligibility precede the corresponding original text",
+    "documents_expected": 306238,
+    "evaluated_judged_topics": 38,
+    "fixed_stopwords": [
+      "a",
+      "an",
+      "and",
+      "for",
+      "in",
+      "of",
+      "on",
+      "the",
+      "to",
+      "with"
+    ],
+    "full_corpus_retrieval_not_legacy_candidate_pool": true,
+    "index_all_original_documents": true,
+    "interaction_formula": "(R1,Q1)-(R1,Q0)-(R0,Q1)+(R0,Q0)",
+    "missing_query_terms": "No result if no token found; do not fallback to judged labels",
+    "pilot_rule": "Run 5 topic IDs 1–5 for pipeline/operational checks without qrels; do not tune tokenizer/weights from judged effectiveness; after pipeline QA score all 40 and evaluate 38 judged",
+    "primary_metric": "nDCG@10 linear qrel gain, per official historical convention, unjudged=0",
+    "query_topics_official": 40,
+    "rank_limit": 1000,
+    "rank_ties": "Sort FTS5 ascending bm25 score, then deterministic NCT ID ascending",
+    "same_document_collection_all_conditions": true,
+    "sampling_inference": "descriptive paired per-topic only; no new independent p values from already-exposed qrels",
+    "secondary_metrics": [
+      "nDCG@10 with gain 2**rel-1",
+      "P@10 grade>=1",
+      "Rprec grade>=1",
+      "Recall@100 with judged positive denominator"
+    ],
+    "sqlite_fts5_tokenizer": "porter unicode61",
+    "text_fields": [
+      "brief_title",
+      "condition",
+      "brief_summary.textblock",
+      "detailed_description.textblock",
+      "eligibility.criteria.textblock"
+    ]
+  },
+  "freeze_date": "2026-10-18",
+  "outcome_policy": "Report all positive, zero and negative outcomes. Preserve protocol and source SHAs. Any post-hoc variation must be explicitly labeled.",
+  "protocol_version": "pm2019-bm25-2x2-full-snapshot-v1",
+  "remote_push_policy": "New nonforce research branch only after complete reproducibility, no main changes",
+  "resource": "Mac CPU/SQLite only; no Kaggle GPUs or paid APIs",
+  "scope": "New CPU SQLite FTS5 BM25 (porter unicode61) full-corpus lexical 2x2 evaluation of original TREC Precision Medicine 2019 trial snapshot; NOT a matched BCKB four-source replication"
+}

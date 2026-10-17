@@ -1,0 +1,30 @@
+{
+  "compression": "gzip mtime=0 no filename",
+  "four_arm_trec_runs": {
+    "G00": {
+      "compressed_bytes": 358587,
+      "gzip_sha256": "fb5b08c3a7041f9dc53c3bd694ade4793f2cf634df3bf22747f816785b03dfe4",
+      "n_runs": 40000,
+      "source_sha256": "3cb61f3741cb8893576e8cf0cf9af1e6560b9df1cbdc0845a6b2454b9f315b84"
+    },
+    "G01": {
+      "compressed_bytes": 358679,
+      "gzip_sha256": "9dfa95ccb1b96df0a52ab280e1087900408e3f303dce79fee3dc199d609ba5e3",
+      "n_runs": 40000,
+      "source_sha256": "7e652d421ee3a9dbad38676d578601ab88ff933accc9603d41563a5264540ae9"
+    },
+    "G10": {
+      "compressed_bytes": 358559,
+      "gzip_sha256": "b1e9ce642bca870f1531b11c94a97f5c333acb42240c6d628b71f956c00dbe02",
+      "n_runs": 40000,
+      "source_sha256": "4e0de77919a1ef8cac0e28994804a53da3e51495d3c89262cd8cd9ed97c7bd2b"
+    },
+    "G11": {
+      "compressed_bytes": 358574,
+      "gzip_sha256": "15bc977684028711233d3d257fd18be33dddfef5eadc4876d8375cc7384327f1",
+      "n_runs": 40000,
+      "source_sha256": "b847a854b2f78e05635f2c599d5979540d5444cdc37af208750b34989f685c70"
+    }
+  },
+  "raw_corpus_or_qrels_uploaded": false
+}
