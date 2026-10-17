@@ -1,0 +1,148 @@
+{
+  "baseline": {
+    "average_factorial_interaction": 0.14438650633397876,
+    "kept_families": [
+      "case_report",
+      "clinical_trial",
+      "drug_label",
+      "guidance"
+    ],
+    "negative_topic_effects": 2,
+    "positive_topic_effects": 32,
+    "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+    "scoreable_topics": 40,
+    "total_topics": 40,
+    "zero_topic_effects": 6
+  },
+  "input_sha256": {
+    "qrels": "c8fc6490bb2060b0d8aff06d0dd7cdab07543314271669d337c2899765c60511",
+    "runs": "ebe0b44b52d3aabfeab64908b90b5a06fcf8338f4ba83456a026630f06151eaa"
+  },
+  "leave_one_family_out": {
+    "case_report": {
+      "average_factorial_interaction": 0.15028128992493364,
+      "kept_families": [
+        "clinical_trial",
+        "drug_label",
+        "guidance"
+      ],
+      "negative_topic_effects": 2,
+      "positive_topic_effects": 32,
+      "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+      "scoreable_topics": 40,
+      "total_topics": 40,
+      "zero_topic_effects": 6
+    },
+    "clinical_trial": {
+      "average_factorial_interaction": 0.10696451504033398,
+      "kept_families": [
+        "case_report",
+        "drug_label",
+        "guidance"
+      ],
+      "negative_topic_effects": 2,
+      "positive_topic_effects": 22,
+      "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+      "scoreable_topics": 40,
+      "total_topics": 40,
+      "zero_topic_effects": 16
+    },
+    "drug_label": {
+      "average_factorial_interaction": 0.15055423977164972,
+      "kept_families": [
+        "case_report",
+        "clinical_trial",
+        "guidance"
+      ],
+      "negative_topic_effects": 0,
+      "positive_topic_effects": 34,
+      "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+      "scoreable_topics": 40,
+      "total_topics": 40,
+      "zero_topic_effects": 6
+    },
+    "guidance": {
+      "average_factorial_interaction": 0.050521450194944396,
+      "kept_families": [
+        "case_report",
+        "clinical_trial",
+        "drug_label"
+      ],
+      "negative_topic_effects": 5,
+      "positive_topic_effects": 21,
+      "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+      "scoreable_topics": 40,
+      "total_topics": 40,
+      "zero_topic_effects": 14
+    }
+  },
+  "limitations": [
+    "Changing which source families count as relevant changes the evaluation target, not the retrieval system.",
+    "Source-role validity is not independently annotated; rule-derived silver reference labels remain coupled to fields.",
+    "If a topic has no positives in one family, it is excluded from that family's conditional average.",
+    "This result is descriptive exploratory sensitivity, not a hypothesis test or data-independent gold evaluation."
+  ],
+  "only_one_family": {
+    "case_report": {
+      "average_factorial_interaction": 0.0,
+      "kept_families": [
+        "case_report"
+      ],
+      "negative_topic_effects": 0,
+      "positive_topic_effects": 0,
+      "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+      "scoreable_topics": 24,
+      "total_topics": 40,
+      "zero_topic_effects": 24
+    },
+    "clinical_trial": {
+      "average_factorial_interaction": 0.05713198449742417,
+      "kept_families": [
+        "clinical_trial"
+      ],
+      "negative_topic_effects": 3,
+      "positive_topic_effects": 24,
+      "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+      "scoreable_topics": 40,
+      "total_topics": 40,
+      "zero_topic_effects": 13
+    },
+    "drug_label": {
+      "average_factorial_interaction": -0.0015307757702861591,
+      "kept_families": [
+        "drug_label"
+      ],
+      "negative_topic_effects": 3,
+      "positive_topic_effects": 3,
+      "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+      "scoreable_topics": 35,
+      "total_topics": 40,
+      "zero_topic_effects": 29
+    },
+    "guidance": {
+      "average_factorial_interaction": 0.2727959991581667,
+      "kept_families": [
+        "guidance"
+      ],
+      "negative_topic_effects": 0,
+      "positive_topic_effects": 21,
+      "scope": "post-outcome altered qrels; not independent relevance or causal inference",
+      "scoreable_topics": 28,
+      "total_topics": 40,
+      "zero_topic_effects": 7
+    }
+  },
+  "qrel_counts_by_family": {
+    "case_report": 75,
+    "clinical_trial": 934,
+    "drug_label": 743,
+    "guidance": 118
+  },
+  "scope": "source-family qrel perturbation, post-outcome only",
+  "unique_parent_ids_by_family": {
+    "case_report": 29,
+    "clinical_trial": 185,
+    "drug_label": 223,
+    "guidance": 49
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "NIST_trec_eval_validation": {
+    "NIST_cells_checked": 3786,
+    "empty_queries_by_arm": {
+      "G00": 15,
+      "G01": 0,
+      "G10": 15,
+      "G11": 0
+    },
+    "legitimate_empty_list_metric_cells": 90
+  },
+  "clinical_gold_for_breast_cancer": false,
+  "dataset": "nfcorpus",
+  "doc_count": 3633,
+  "nDCG10_linear_and_secondary_metrics": {
+    "ndcg10_exp2": {
+      "LOO_range": [
+        0.09452623300474022,
+        0.09694057398341945
+      ],
+      "factorial_interaction": 0.09610820988589958,
+      "means": {
+        "G00": 0.3238820880054224,
+        "G01": 0.2282724619827548,
+        "G10": 0.3239416222221031,
+        "G11": 0.3244402060853351
+      },
+      "query_negative_deltas": 5,
+      "query_positive_deltas": 189,
+      "query_zero_deltas": 129
+    },
+    "ndcg10_linear": {
+      "LOO_range": [
+        0.0951865754633403,
+        0.09760091644201953
+      ],
+      "factorial_interaction": 0.0967665079406031,
+      "means": {
+        "G00": 0.3223459209755115,
+        "G01": 0.22607799689814045,
+        "G10": 0.3224020033265836,
+        "G11": 0.3229005871898156
+      },
+      "query_negative_deltas": 5,
+      "query_positive_deltas": 189,
+      "query_zero_deltas": 129
+    },
+    "p10": {
+      "LOO_range": [
+        0.04565217391304342,
+        0.04813664596273286
+      ],
+      "factorial_interaction": 0.04736842105263159,
+      "means": {
+        "G00": 0.23095975232198143,
+        "G01": 0.18421052631578946,
+        "G10": 0.23095975232198143,
+        "G11": 0.23157894736842105
+      },
+      "query_negative_deltas": 5,
+      "query_positive_deltas": 93,
+      "query_zero_deltas": 225
+    },
+    "recall100": {
+      "LOO_range": [
+        0.008241311770289073,
+        0.010829303488715575
+      ],
+      "factorial_interaction": 0.009763784489266514,
+      "means": {
+        "G00": 0.24930646752724733,
+        "G01": 0.2472550580421139,
+        "G10": 0.24930646752724733,
+        "G11": 0.2570188425313804
+      },
+      "query_negative_deltas": 15,
+      "query_positive_deltas": 74,
+      "query_zero_deltas": 234
+    }
+  },
+  "per_query_scores_not_redistributed": true,
+  "positive_reference_overlap": {
+    "shared_query_pairs": 4262,
+    "total_pairs": 52003
+  },
+  "relevance_label_design_independent_of_Formal40": true,
+  "source": "BEIR original independent third-party test qrels; NOT four-source BCKB relevance judgment",
+  "source_sha256": {
+    "corpus": "10cc83ef1826b1425e6a87090b5140b39b27755d5a27e48215a88611c899991f",
+    "official_qrels": "f8fba6ef3d4dd9c3a242a8ba4ae38276fc3622fce7dcbae764766d564542fd2a",
+    "queries": "d024e6621b84925d485ae473d316a0c3af31c62c8068a59fb29d22f7613aef2a",
+    "saved_runs": "ee80f28c89c6ca50a173a86968fd86ffeaeda979bc57d93c516316ee896a0445"
+  },
+  "task_difference": "NFCorpus health and nutrition evidence retrieval",
+  "test_queries": 323
+}

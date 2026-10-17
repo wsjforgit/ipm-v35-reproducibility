@@ -1,0 +1,96 @@
+{
+  "NIST_trec_eval_validation": {
+    "NIST_cells_checked": 3600,
+    "empty_queries_by_arm": {
+      "G00": 0,
+      "G01": 0,
+      "G10": 0,
+      "G11": 0
+    },
+    "legitimate_empty_list_metric_cells": 0
+  },
+  "clinical_gold_for_breast_cancer": false,
+  "dataset": "scifact",
+  "doc_count": 5183,
+  "nDCG10_linear_and_secondary_metrics": {
+    "ndcg10_exp2": {
+      "LOO_range": [
+        0.008717899907189717,
+        0.010390140709865303
+      ],
+      "factorial_interaction": 0.01035550690749898,
+      "means": {
+        "G00": 0.6867707535032357,
+        "G01": 0.6764152465957367,
+        "G10": 0.6867308696054154,
+        "G11": 0.6867308696054154
+      },
+      "query_negative_deltas": 0,
+      "query_positive_deltas": 19,
+      "query_zero_deltas": 281
+    },
+    "ndcg10_linear": {
+      "LOO_range": [
+        0.008717899907189717,
+        0.010390140709865303
+      ],
+      "factorial_interaction": 0.01035550690749898,
+      "means": {
+        "G00": 0.6867707535032357,
+        "G01": 0.6764152465957367,
+        "G10": 0.6867308696054154,
+        "G11": 0.6867308696054154
+      },
+      "query_negative_deltas": 0,
+      "query_positive_deltas": 19,
+      "query_zero_deltas": 281
+    },
+    "p10": {
+      "LOO_range": [
+        0.0013377926421404684,
+        0.0016722408026755853
+      ],
+      "factorial_interaction": 0.0016666666666666774,
+      "means": {
+        "G00": 0.09100000000000001,
+        "G01": 0.08933333333333333,
+        "G10": 0.09100000000000001,
+        "G11": 0.09100000000000001
+      },
+      "query_negative_deltas": 0,
+      "query_positive_deltas": 5,
+      "query_zero_deltas": 295
+    },
+    "recall100": {
+      "LOO_range": [
+        0.0,
+        0.0033444816053511705
+      ],
+      "factorial_interaction": 0.0033333333333332993,
+      "means": {
+        "G00": 0.9253333333333333,
+        "G01": 0.922,
+        "G10": 0.9253333333333333,
+        "G11": 0.9253333333333333
+      },
+      "query_negative_deltas": 0,
+      "query_positive_deltas": 1,
+      "query_zero_deltas": 299
+    }
+  },
+  "per_query_scores_not_redistributed": true,
+  "positive_reference_overlap": {
+    "shared_query_pairs": 65,
+    "total_pairs": 44850
+  },
+  "relevance_label_design_independent_of_Formal40": true,
+  "source": "BEIR original independent third-party test qrels; NOT four-source BCKB relevance judgment",
+  "source_sha256": {
+    "corpus": "dec31c8182f3d744c7d2c09423756fd1d17cbef75808db13ba01cc0aab4d1ac6",
+    "official_qrels": "0864bb985e0ca2367ba217977e72004d549054b2b06666ed9d4825ac7c21284c",
+    "queries": "8ff84a7c903f722981cd8d595c022660140c51867b27608a6d4910db86080313",
+    "saved_runs": "363b17c3045db7a014eacf4c30b632e2b98e6e2e3b9605bed4dcebb3a70d3a33"
+  },
+  "task_difference": "SciFact scientific claim-to-document retrieval",
+  "test_queries": 300
+}

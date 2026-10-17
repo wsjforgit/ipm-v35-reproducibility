@@ -1,0 +1,13 @@
+# Optional prospective BCKB four-source reference adjudication — NOT EXECUTED
+
+This document describes a possible future remedy for the remaining construct-validity limitation. It is **not** a completed experiment and supplies **no independently judged clinical gold labels**.
+
+1. **Question creation:** Obtain genuine, prospective, evidence-seeking breast-cancer information needs from an independently authorized source, avoiding the previously exposed Formal40 prompts, alias dictionaries, and outcome annotations. Prevent identifiable patient information from entering the test corpus.
+2. **Candidate provenance:** Freeze the legally acquired, version-pinned trial, drug-label, guideline and case-report documents. Record source rights, revision dates, source IDs and the granularity of the evidence unit. Do not redistribute texts lacking permission.
+3. **Candidate pooling:** Before relevance judgments, produce a union of ranks from independent lexical and strong neural retrieval configurations, plus hard negatives. Document which source roles are accessible; prevent one method from silently receiving a larger pool.
+4. **Blind judgment:** Two evaluators independently assess actual source-text relevance without seeing run identifiers or the model's prediction. For ordinary documentary relevance, trained domain-information retrieval evaluators may be appropriate; any diagnosis, contraindication, treatment harm, or clinical safety correctness claim requires suitably qualified independent clinical expertise and appropriate ethics/authorization.
+5. **Disagreement handling:** Record duplicates, provenance overlap, source-role-specific adjudication and disagreement. Decide an ordinal rating scheme and inter-rater agreement metric before opening evaluation results; do not tune judgments to favor one method.
+6. **Evaluation contract:** Predeclare topics, candidate budget, nDCG@10 as primary ranking endpoint, Recall and documentary access as separate endpoints, per-topic scores, source-role coverage, and a valid uncertainty model based on the actually independent sampling units. Reports must include negative or null effects.
+7. **Stopping and disclosure:** If independent consent, annotator qualifications, source rights, or proper blind judgment are not available, stop and retain the current silver/third-party external label distinctions. Do not label post-hoc AI suggestions or author-reviewed annotations as external clinical gold.
+
+This protocol is offered as a future work package; no hospital, physician, ethics committee or patient has been recruited or approved by this GitHub release.

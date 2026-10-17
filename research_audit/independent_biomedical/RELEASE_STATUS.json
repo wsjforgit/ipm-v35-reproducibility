@@ -1,0 +1,43 @@
+{
+  "breast_cancer_four_source_independent_gold": false,
+  "clean_replay": {
+    "nfcorpus_ranks_and_metrics_sha_identical": true,
+    "scifact_ranks_and_metrics_sha_identical": true
+  },
+  "clinical_patient_safety_validation": false,
+  "corpus_docs": {
+    "nfcorpus": 3633,
+    "scifact": 5183
+  },
+  "external_validation": {
+    "NIST_scored_cells": 7386,
+    "legitimate_zero_result_cells": 90,
+    "total_metric_cells": 7476
+  },
+  "freeze_date": "2026-10-18",
+  "g00_vs_g11_retrieval_effectiveness": "Near-equal on both benchmarks, factorial interactions are not absolute gains",
+  "github_push_requires_successful_whitelist_security_qa": true,
+  "module": "research_audit/independent_biomedical",
+  "new_full_query_ranking_runs": 2492,
+  "new_neural_training": false,
+  "new_test_queries": {
+    "nfcorpus": 323,
+    "scifact": 300
+  },
+  "original_Formal40_source_family_dependency": {
+    "baseline_interaction": 0.14438650633397873,
+    "exclude_guidance_interaction": 0.050521450194944396,
+    "scope": "Retrospective redefinition of silver labels with ranking fixed, not independent adjudication"
+  },
+  "publisher_submission": false,
+  "scientific_evidence_status": "FINISHED_AND_CLEAN_REPRODUCED (scope-limited)",
+  "scope_open": [
+    "Independent, blinded four-source BCKB gold relevance and source-role correctness labels",
+    "Matched cross-task four-source evidence retrieval validation",
+    "Dependence-calibrated original topic bootstrap and confidence intervals",
+    "CMPB SCIE Q1 category, author declarations and publisher anonymous code-link policy"
+  ],
+  "source_qrels_independent_of_original_Formal40_silver": true,
+  "study": "Independent third-party judged source benchmarks plus BCKB post-outcome silver-reference sensitivity",
+  "upstream_dataset_rights": "SciFact/NFCorpus original qrels and text are NOT redistributed; source authors' dataset-specific license terms retain priority"
+}

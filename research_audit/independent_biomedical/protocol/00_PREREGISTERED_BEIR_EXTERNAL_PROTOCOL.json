@@ -1,0 +1,75 @@
+{
+  "benchmarks": {
+    "nfcorpus": {
+      "BEIR_MD5": "a89dba18a62ef92f7d323ec890a0d38d",
+      "corpus_approx": 3633,
+      "download": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/nfcorpus.zip",
+      "official_test_topics_expected": 323,
+      "purpose": "nutritional/health information retrieval benchmark judged by upstream authors"
+    },
+    "scifact": {
+      "BEIR_MD5": "5f7d1de60b170fc8027bb7898e2efca1",
+      "corpus_approx": 5183,
+      "download": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/scifact.zip",
+      "official_test_topics_expected": 300,
+      "purpose": "expert-annotated scientific claim-to-abstract evidence retrieval"
+    }
+  },
+  "date": "2026-10-18",
+  "evaluation": "BEIR test split only, no training. Original per-query judgments defined by original benchmark authors, not generated from our BM25 runs.",
+  "explicit_no_claims": [
+    "not four-source breast-cancer relevance ground truth",
+    "not matched BCKB role-query external replication",
+    "not clinician patient-treatment safety",
+    "not new ranking neural algorithm",
+    "not statistically independent query sampling by default"
+  ],
+  "four_conditions": {
+    "G00": "R0 original title+text concatenated, Q0 first 48 distinct tokenized query content tokens",
+    "G01": "R0, Q1 same tokens plus literal title and abstract marker tokens; all fixed",
+    "G10": "R1 adds fixed literal title and abstract strings to title+text fields, Q0",
+    "G11": "R1, Q1"
+  },
+  "independence": "Original qrel authorship independent of our study-created Formal40 silver labels, but benchmark queries/document positives may overlap and are not four-source breast-cancer clinical gold.",
+  "metrics": {
+    "primary": "mean per-query binary or graded linear nDCG@10 as declared in each benchmark qrels",
+    "report_criteria": "all results including null or negative effects; no mandatory positive sign",
+    "secondary": [
+      "exp2 nDCG@10",
+      "Recall@100",
+      "P@10",
+      "Rprec"
+    ],
+    "statistical_inference": "Descriptive per-query only; no p-values until query/label overlap dependencies are checked"
+  },
+  "name": "CMPB cross-benchmark independent-source relevance contrast, zero-trained lexical system",
+  "no_tuning_policy": "Do not change representation, query, tokenizer, BM25 weights, or inclusion after any qrel/test evaluation. If exception needed freeze NEW post-hoc label, do not quietly replace preregistered.",
+  "preregistered_before_downloading_or_opening_any_official_qrels_for_these_datasets": true,
+  "publication_boundary": "Keep BEIR-derived corpus text, queries and official qrels local; public source code, source URLs/hashes, numeric derived aggregate and synthetic tests only; original license info links and any noncommercial restrictions respected.",
+  "publication_target": "Non-default branch of existing wsjforgit/ipm-v35-reproducibility only after freeze/QA; no forced push, never main.",
+  "retrieval": {
+    "max_original_query_tokens": 48,
+    "no_neural_finetuning": true,
+    "role_marker_tokens": [
+      "title",
+      "abstract"
+    ],
+    "stoplist": [
+      "a",
+      "an",
+      "and",
+      "for",
+      "in",
+      "of",
+      "on",
+      "the",
+      "to",
+      "with"
+    ],
+    "system": "SQLite FTS5 porter unicode61 BM25 defaults",
+    "tie_break": "doc_id ascending",
+    "tokenization": "[a-z0-9]+ lowercase unicode language limitation noted",
+    "top_k": 1000
+  },
+  "version": "cmpb-beir-scifact-nfcorpus-preregistered-v1"
+}

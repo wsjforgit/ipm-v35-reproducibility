@@ -1,0 +1,11 @@
+{
+  "reason": "Real NFCorpus test queries with zero retrievable candidates are scored as 0 without modifying query or ranking settings.",
+  "stage": "Only implementation error handling changed; protocol parameters fixed.",
+  "before_and_after_code_sha256": [
+    "87f82696d6359933e461e1c1877da8f89897a3e795ff26b87a214f6f524c52b7",
+    "7f59158131e06359da4e6c9277fba80ab778edab0ed4abe11f927fca6e5201bd",
+    "2f665bbd78528d0417a517d8316890f7806572435bb4c05041c565beae45474c"
+  ],
+  "NIST_validator": "Only ranked queries are submitted to NIST; missing-run queries verified to be zero, no fake docs inserted.",
+  "all_candidate_ranking_file_outputs_preserved": true
+}

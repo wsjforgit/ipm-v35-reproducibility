@@ -1,0 +1,44 @@
+{
+  "clean_environment_source_replay": true,
+  "four_source_gold": false,
+  "no_fake_documents_in_trec_eval_rankings": true,
+  "no_parameter_tuning_on_test_effectiveness": true,
+  "separate_dataset_evidence": {
+    "nfcorpus": {
+      "G11_minus_G00_ndcg10": 0.0005546662143041114,
+      "NIST_independent_cell_count": 3786,
+      "byte_identical_clean_evaluation_sha256": "76a1c97785830a2edf5ae8e70e9cb6d5e3d73b00207e345ae9fe0ed9474a30a6",
+      "byte_identical_clean_ranking_sha256": "ee80f28c89c6ca50a173a86968fd86ffeaeda979bc57d93c516316ee896a0445",
+      "empty_rank_queries_by_arm": {
+        "G00": 15,
+        "G01": 0,
+        "G10": 15,
+        "G11": 0
+      },
+      "empty_rank_zero_cells": 90,
+      "full_corpus_doc_count": 3633,
+      "queries": 323
+    },
+    "scifact": {
+      "G11_minus_G00_ndcg10": -3.98838978202809e-05,
+      "NIST_independent_cell_count": 3600,
+      "byte_identical_clean_evaluation_sha256": "70b5aefdcae1c47933ac465ac8ceb09122ede55dc7181f1626beb2b53d775279",
+      "byte_identical_clean_ranking_sha256": "363b17c3045db7a014eacf4c30b632e2b98e6e2e3b9605bed4dcebb3a70d3a33",
+      "empty_rank_queries_by_arm": {
+        "G00": 0,
+        "G01": 0,
+        "G10": 0,
+        "G11": 0
+      },
+      "empty_rank_zero_cells": 0,
+      "full_corpus_doc_count": 5183,
+      "queries": 300
+    }
+  },
+  "source": "Independent NIST trec_eval; manual zero-hit checks against original preregistered evaluation definitions",
+  "validated": {
+    "NIST_compared_cells": 7386,
+    "all_scored_topic_method_metric_cells": 7476,
+    "empty_cells_verified_by_python": 90
+  }
+}
